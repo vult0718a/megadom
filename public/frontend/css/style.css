@@ -1,0 +1,363 @@
+@font-face{
+  font-family:WorkSans-Bold;
+  src: url('../fonts/WorkSans-Bold.ttf');
+}
+@font-face{
+  font-family:WorkSans-Medium;
+  src: url('../fonts/WorkSans-Medium.ttf');
+}
+
+/* ------------Header--------------- */
+/* Header */
+.header {
+  position: relative;
+  width: 1920px;
+  height: 210px;
+
+  background: #000000;
+}
+
+/* Logo - Megadom-23 1 */
+.header .header-logo img {
+  position: absolute;
+  width: 411px;
+  height: 58px;
+  left: 17px;
+  top: 36px;
+}
+
+/* Vector */
+.header .header-top .hotline img {
+  position: absolute;
+  left: 77.45%;
+  right: 21.41%;
+  top: 19.05%;
+  bottom: 70.48%;
+}
+
+/* Hotline */
+.header .header-top .hotline span {
+  position: absolute;
+  width: 85px;
+  height: 28px;
+  left: 1498px;
+  top: 37px;
+
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+
+  color: #FFFFFF;
+}
+
+/* 098 534 2323 */
+.header .header-top p {
+  position: absolute;
+  width: 160px;
+  height: 28px;
+  left: 1423px;
+  top: 66px;
+
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+
+  color: #FFFFFF;
+}
+
+/* Frame 244 */
+.header .header-top button {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 25px 31px;
+  gap: 10px;
+
+  position: absolute;
+  width: 236px;
+  height: 76px;
+  left: 1602px;
+  top: 28px;
+
+  background: #0429B7;
+  border-radius: 5px;
+}
+
+.header .header-top span {
+  /* ĐẶT LỊCH KHÁM */
+  /* width: 174px; */
+  height: 26px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Line 16 */
+.header .header-top hr {
+  position: absolute;
+  width: 1781px;
+  height: 0px;
+  left: 70px;
+  top: 125px;
+
+  border: 1px solid #929292;
+}
+
+/* Rectangle 66 */
+.header .header-bottom {
+  position: absolute;
+  width: 1920px;
+  height: 85px;
+  left: 0px;
+  top: 125px;
+
+  background: #111B27;
+}
+
+/* VỀ MEGADOM */
+.header .header-bottom .item-1 a{
+  position: fixed;
+  width: 125px;
+  height: 21px;
+  left: 199px;
+  top: 156px;
+
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+/* THẨM MỸ NAM KHOA */
+.header .header-bottom .item-2 a{
+  position: fixed;
+  width: 190px;
+  height: 21px;
+  left: 484px;
+  top: 156px;
+
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+/* BỆNH LÝ NAM KHOA */
+.header .header-bottom .item-3 a{
+  position: fixed;
+  width: 179px;
+  height: 21px;
+  left: 838px;
+  top: 156px;
+
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+/* THƯ VIỆN */
+.header .header-bottom .item-4 a{
+  position: fixed;
+  width: 86px;
+  height: 21px;
+  left: 1183px;
+  top: 156px;
+
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+/* TIN TỨC */
+.header .header-bottom .item-5 a{
+  position: fixed;
+  width: 73px;
+  height: 21px;
+  left: 1424px;
+  top: 156px;
+
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+
+/* LIÊN HỆ */
+.header .header-bottom .item-6 a{
+  position: fixed;
+  width: 72px;
+  height: 21px;
+  left: 1650px;
+  top: 156px;
+
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+
+/* ---------index----------- */
+.index {
+  position: relative;
+  width: 1920px;
+  height: 14384px;
+
+  background: #FFFFFF;
+}
+.for-megadom {
+  width: 1920px;
+  height: 900px;
+  left: 0px;
+  top: 210px;
+
+  background: url(/frontend/images/c1.png);
+}
+
+.for-megadom .info {
+  position: absolute;
+width: 790px;
+height: 321px;
+left: 199px;
+top: 203px;
+}
+
+.for-megadom .info .text-small{
+  width: 573px;
+  height: 33px;
+  left: 206px;
+  top: 413px;
+
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+.for-megadom .info .text-big .text-bold {
+  display: block;
+  width: 790px;
+  
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-size: 110px;
+  line-height: 129px;
+  
+  color: #FFFFFF;
+}
+
+.for-megadom .info .text-medium {
+  width: 790px;
+  height: 231px;
+  left: 199px;
+  top: 444px;
+  
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-size: 90px;
+  line-height: 129px;
+  
+  color: #FFFFFF;
+}
+
+.for-megadom .info .show-more{
+  width: 706px;
+  height: 38px;
+  left: 206px;
+  top: 696px;
+  
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.for-megadom  #image-1 {
+  position: absolute;
+  width: 221px;
+  height: 99px;
+  left: 206px;
+  top: 718px;
+}
+
+.for-megadom  #image-2 {
+  position: absolute;
+  width: 284px;
+  height: 62px;
+  left: 475px;
+  top: 737px;
+  
+}
+.for-megadom #image-3 {
+  position: absolute;
+  width: 189px;
+  height: 97px;
+  left: 807px;
+  top: 719px;
+}
+.for-megadom  #image-4 {
+  position: absolute;
+  width: 141px;
+  height: 124px;
+  left: 1044px;
+  top: 706px;
+}
+.for-megadom  #image-5 {
+  position: absolute;
+  width: 205px;
+  height: 69px;
+  left: 1233px;
+  top: 733px;
+}
+.for-megadom  #image-6 {
+  position: absolute;
+  width: 268px;
+  height: 54px;
+  left: 1467px;
+  top: 735px;
+}
