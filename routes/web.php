@@ -14,3 +14,7 @@
 use App\Http\Controllers\Controller;
 
 Route::get('/', 'ClientController@index');
+
+Route::get('/introduce', function () {
+  return view('frontend/introduce');
+});

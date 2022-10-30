@@ -59,7 +59,7 @@
     </div>
   </div>
   <div class="team">
-    <img src="/frontend/images/rectangle73.png">
+    <img id="background" src="/frontend/images/rectangle73.png">
     <div class="image-doctor">
       <img src="/frontend/images/channels4_profile.png">
     </div>
