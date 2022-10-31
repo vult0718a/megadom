@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="/frontend/owlcarousel/assets/owl.theme.default.min.css">
     <!-- link css -->
     <link rel="stylesheet" type="text/css" href="/frontend/css/style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css'>
 
 </head>
 <body>
@@ -40,6 +41,7 @@
 <script src="/frontend/owlcarousel/owl.carousel.min.js"></script>
 <!-- link javascrip -->
 <script type="text/javascript" src="/frontend/css/javascrip.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js'></script>
 
 
 

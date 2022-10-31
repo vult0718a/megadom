@@ -18,3 +18,7 @@ Route::get('/', 'ClientController@index');
 Route::get('/introduce', function () {
   return view('frontend/introduce');
 });
+
+Route::get('/doctors', function () {
+  return view('frontend/doctors');
+});

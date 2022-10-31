@@ -115,5 +115,8 @@
       <p class="difference-title-8">TRUNG THỰC VÀ TIN CẬY</p>
       <p class="difference-content-8">Sự trung thực và đáng tin cậy là 2 tính cách quan trọng của Megadom, cũng là triết lý hoạt động của chúng tôi để mang lại sự hài lòng cho khách hàng."</p>
     </div>
+    <div class="">
+      <p class="">XEM TẤT CẢ</p>
+    </div>
   </div>
 @endsection
