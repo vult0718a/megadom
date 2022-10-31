@@ -1934,7 +1934,7 @@ top: 203px;
   top: 1232px;
 }
 
-.booking {
+.introduce .booking {
   position: absolute;
   width: 1920px;
   height: 702px;
@@ -1943,7 +1943,7 @@ top: 203px;
   background: url(/frontend/images/image15.png);
 }
 
-.booking .booking-title {
+.introduce .booking .booking-title {
   position: absolute;
   width: 429px;
   height: 38px;
@@ -1957,7 +1957,7 @@ top: 203px;
   color: #FFFFFF;
 }
 
-.booking .block-booking {
+.introduce .booking .block-booking {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1972,7 +1972,7 @@ top: 203px;
   border-radius: 5px;
 }
 
-.booking .block-booking span {
+.introduce .booking .block-booking span {
   width: 238px;
   height: 38px;
   font-family: 'WorkSans-Bold';
@@ -2262,9 +2262,6 @@ top: 203px;
   text-align: justify;
   color: #FFFFFF;
 }
-
-
-
 
 .value .value-5 {
   position: absolute;
@@ -2782,4 +2779,653 @@ top: 203px;
   line-height: 170%;
   text-align: justify;
   color: #000000;
+}
+
+/* -----------------doctors-------------------- */
+.doctors {
+  position: relative;
+  width: 1920px;
+  height: 7060px;
+  background: #FFFFFF;
+}
+
+.doctors .banner {
+  position: absolute;
+  width: 1920px;
+  height: 696px;
+  background: url(/frontend/images/image13a.png);
+}
+
+.doctors .banner .text-banner {
+  position: absolute;
+  width: 542px;
+  height: 147px;  
+  left: 199px;
+  top: 244px;
+}
+
+.doctors .banner .text-banner .text-small {
+  position: absolute;
+  width: 608px;
+  height: 33px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.doctors .banner .text-banner .text-bold {
+  position: absolute;
+  width: 661px;
+  height: 113px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 113px;
+  color: #FFFFFF;
+  top: 34px;
+}
+
+.doctors .doctor-info .text-small {
+  position: absolute;
+  width: 690px;
+  height: 467px;
+  left: 198px;
+  top: 814px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.doctors .doctor-info .text-small span {
+  display: block;
+  margin-bottom: 64px;
+}
+
+.doctors #image-1 {
+  position: absolute;
+  width: 690px;
+  height: 467px;
+  left: 1030px;
+  top: 814px;
+}
+
+.doctors .learning {
+  position: absolute;
+  width: 696px;
+  height: 552px;
+  left: 198px;
+  top: 1431px;
+}
+
+.doctors .learning .text-bold {
+  position: absolute;
+  width: 696px;
+  height: 57px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.doctors .learning hr {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  top: 89px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.doctors .learning .text-small {
+  position: absolute;
+  width: 690px;
+  height: 393px;
+  top: 159px;
+  left: 0px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.doctors .learning .text-small li {
+  margin-bottom: 15px;
+}
+
+.doctors .qualification {
+  position: absolute;
+  width: 696px;
+  height: 552px;
+  left: 1042px;
+  top: 1431px;
+}
+
+.doctors .qualification .text-bold {
+  position: absolute;
+  width: 696px;
+  height: 57px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.doctors .qualification hr {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  top: 89px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.doctors .qualification .text-small {
+  position: absolute;
+  width: 690px;
+  height: 393px;
+  top: 159px;
+  left: 0px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.doctors .qualification .text-small li {
+  margin-bottom: 15px;
+}
+
+.doctors .degree {
+  position: absolute;
+  width: 1920px;
+  height: 552px;
+  top: 2133px;
+}
+
+.doctors .degree .title {
+  position: absolute;
+  width: 656px;
+  height: 76px;
+  left: 632px;
+}
+
+.doctors .degree .title .text-bold {
+  position: absolute;
+  width: 656px;
+  height: 45px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+
+.doctors .degree .title hr {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  top: 89px;
+  border: 2px solid #000000;
+  margin: 0;
+  left: 272px;
+}
+
+.doctors .degree .slider {
+  width: 1920px;
+  height: 310px;
+  top: 125px;
+  position: absolute;
+}
+
+.doctors .degree .slider img {
+  position: absolute;
+  width: 439px;
+  height: 310px;
+}
+
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 23%;
+  height: 350px !important;
+  margin-right: 10px;
+}
+.text-center{
+  text-align:center
+}
+
+.flickity-enabled.is-draggable {
+  background-color: white;
+}
+
+.flickity-page-dots {
+  display: none;
+}
+
+.doctors .booking {
+  position: absolute;
+  width: 1920px;
+  height: 702px;
+  left: 0px;
+  top: 2718px;
+  background: url(/frontend/images/image15.png);
+}
+
+.doctors .booking .booking-title {
+  position: absolute;
+  width: 429px;
+  height: 38px;
+  left: 327px;
+  top: 276px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.doctors .booking .block-booking {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 25px 31px;
+  gap: 10px;
+  position: absolute;
+  width: 300px;
+  height: 88px;
+  left: 327px;
+  top: 338px;
+  background: #0429B7;
+  border-radius: 5px;
+}
+
+.doctors .booking .block-booking span {
+  width: 238px;
+  height: 38px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.qa {
+  position: absolute;
+  width: 1920px;
+  height: 517px;
+  left: 0px;
+  top: 3570px;
+}
+
+.qa .qa-title {
+  position: absolute;
+  width: 403px;
+  height: 76px;
+}
+
+.qa .qa-title .text-bold {
+  position: absolute;
+  width: 403px;
+  height: 45px;
+  left: 198px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+
+.qa .qa-title hr {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  left: 198px;
+  top: 76px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.qa .block {
+  position: absolute;
+  width: 445px;
+  height: 392px;
+  left: 198px;
+  top: 125px;
+}
+
+.qa .block-1 {
+  left: 198px;
+}
+
+.qa .block-2 {
+  left: 737px;
+}
+
+.qa .block-3 {
+  left: 1276px;
+}
+
+.qa .block img {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 23.47%;
+}
+
+.qa .block .text-bold {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 81.12%;
+  bottom: 0%;
+  font-family: 'WorkSans-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.surgery-list {
+  position: absolute;
+  width: 1920px;
+  height: 517px;
+  left: 0px;
+  top: 4237px;
+}
+
+.surgery-list .surgery-title {
+  position: absolute;
+  width: 403px;
+  height: 76px;
+}
+
+.surgery-list .surgery-title .text-bold {
+  position: absolute;
+  width: 403px;
+  height: 45px;
+  left: 198px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+
+.surgery-list .surgery-title hr {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  left: 198px;
+  top: 76px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.surgery-list .text-small {
+  position: absolute;
+  width: 690px;
+  height: 400px;
+  left: 199px;
+  top: 167px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.surgery-list .text-small span {
+    display: block;
+    margin-bottom: 64px;
+}
+
+.surgery-list .text-medium {
+  position: absolute;
+  width: 336px;
+  height: 33px;
+  left: 1031px;
+  top: 64px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.surgery-list .text-ul {
+  position: absolute;
+  width: 696px;
+  height: 437px;
+  left: 1031px;
+  top: 130px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.surgery-list .text-ul a {
+  text-decoration: underline;
+}
+
+.surgery-list .text-ul li {
+  margin-bottom: 12px;
+}
+
+.doctors .library {
+  position: absolute;
+  width: 1920px;
+  height: 860px;
+  left: 0px;
+  top: 4954px;
+  background: url(/frontend/images/image6.png);
+}
+
+.doctors .library .text-bold {
+  position: absolute;
+  width: 539px;
+  height: 150px;
+  left: 671px;
+  top: 294px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 150px;
+  color: #FFFFFF;
+}
+
+.doctors .library .text-small {
+  position: absolute;
+  width: 156px;
+  height: 38px;
+  left: 1051px;
+  top: 464px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.doctors .library hr {
+  position: absolute;
+  width: 156px;
+  height: 0px;
+  left: 1051px;
+  top: 522px;
+  border: 5px solid #FFFFFF;
+}
+
+.feeling {
+  position: absolute;
+  width: 1920px;
+  height: 954px;
+  left: 0px;
+  top: 5964px;
+}
+
+.feeling .feeling-title {
+  position: absolute;
+  width: 472px;
+  height: 76px;
+  left: 197px;
+}
+
+.feeling .feeling-title .text-bold {
+  position: absolute;
+  width: 472px;
+  height: 45px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+
+.feeling .feeling-title hr {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  top: 76px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.feeling .block-feeling {
+  position: absolute;
+  width: 1522px;
+  height: 192px;
+  left: 197px;
+}
+
+.feeling .block-feeling .text-small {
+  position: absolute;
+  width: 1522px;
+  height: 74px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.feeling .block-feeling .text-medium {
+  position: absolute;
+  width: 113px;
+  height: 37px;
+  top: 118px;
+  font-family: 'WorkSans-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.feeling .block-feeling hr {
+  position: absolute;
+  width: 1522px;
+  height: 0px;
+  top: 192px;
+  border: 1px solid #BDBDBD;
+  margin: 0;
+}
+
+.feeling .feeling-1 {
+  top: 146px;
+}
+
+.feeling .feeling-2 {
+  top: 374px;
+}
+
+.feeling .feeling-3 {
+  top: 604px;
+}
+
+.feeling .see-all {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 25px 31px;
+  gap: 10px;
+  position: absolute;
+  width: 252px;
+  height: 88px;
+  left: 197px;
+  top: 866px;
+  background: #0429B7;
+  border-radius: 5px;
+}
+
+.feeling .see-all span {
+  width: 190px;
+  height: 38px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
