@@ -22,3 +22,7 @@ Route::get('/introduce', function () {
 Route::get('/doctors', function () {
   return view('frontend/doctors');
 });
+
+Route::get('/doctors', function () {
+  return view('frontend/library');
+});
