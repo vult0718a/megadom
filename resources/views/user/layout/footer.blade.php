@@ -15,10 +15,10 @@
   <div class="footer-bottom">
     <div class="text-left">
       <p class="text-1">VỀ MEGADOM</p>
-      <p class="text-2">ĐỘI NGŨ BÁC SĨ</p>
+      <a href="{{ route('doctor') }}"><p class="text-2">ĐỘI NGŨ BÁC SĨ</p></a>
       <p class="text-3">PHẪU THUẬT TĂNG KÍCH THƯỚC</p>
       <p class="text-4">PHẪU THUẬT KÉO DÀI</p>
-      <p class="text-5">THƯ VIỆN</p>
+      <a href="{{ route('library') }}"><p class="text-5">THƯ VIỆN</p></a>
     </div>
     <div class="text-right">
       <p class="text-1">LỜI CHỨNG THỰC</p>

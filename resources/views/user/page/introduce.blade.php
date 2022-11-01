@@ -1,4 +1,13 @@
-@extends('frontend.layout.main')
+@extends('user.layout.main')
+
+@section('title')
+<title>Giới thiệu</title>
+@endsection
+
+@section('style')
+<link rel="stylesheet" type="text/css" href="/user/page/introduce.css">
+@endsection
+
 @section('content')
   <div class="introduce">
     <div class="banner">

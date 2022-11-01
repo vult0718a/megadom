@@ -1,0 +1,126 @@
+.index {
+    position: relative;
+    width: 1920px;
+    height: 12415px;
+  
+    background: #FFFFFF;
+  }
+  .for-megadom {
+    width: 1920px;
+    height: 900px;
+    left: 0px;
+    top: 210px;
+  
+    background: url(/frontend/images/c1.png);
+  }
+  
+  .for-megadom .info {
+    position: absolute;
+  width: 790px;
+  height: 321px;
+  left: 199px;
+  top: 203px;
+  }
+  
+  .for-megadom .info .text-small{
+    width: 573px;
+    height: 33px;
+    left: 206px;
+    top: 413px;
+  
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+  
+  
+    color: #FFFFFF;
+  }
+  
+  .for-megadom .info .text-big .text-bold {
+    display: block;
+    width: 790px;
+    
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-size: 110px;
+    line-height: 129px;
+    
+    color: #FFFFFF;
+  }
+  
+  .for-megadom .info .text-medium {
+    width: 790px;
+    height: 231px;
+    left: 199px;
+    top: 444px;
+    
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-size: 90px;
+    line-height: 129px;
+    
+    color: #FFFFFF;
+  }
+  
+  .for-megadom .info .show-more{
+    width: 706px;
+    height: 38px;
+    left: 206px;
+    top: 696px;
+    
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    color: #FFFFFF;
+  }
+  
+  .for-megadom  #image-1 {
+    position: absolute;
+    width: 221px;
+    height: 99px;
+    left: 206px;
+    top: 718px;
+  }
+  
+  .for-megadom  #image-2 {
+    position: absolute;
+    width: 284px;
+    height: 62px;
+    left: 475px;
+    top: 737px;
+    
+  }
+  .for-megadom #image-3 {
+    position: absolute;
+    width: 189px;
+    height: 97px;
+    left: 807px;
+    top: 719px;
+  }
+  .for-megadom  #image-4 {
+    position: absolute;
+    width: 141px;
+    height: 124px;
+    left: 1044px;
+    top: 706px;
+  }
+  .for-megadom  #image-5 {
+    position: absolute;
+    width: 205px;
+    height: 69px;
+    left: 1233px;
+    top: 733px;
+  }
+  .for-megadom  #image-6 {
+    position: absolute;
+    width: 268px;
+    height: 54px;
+    left: 1467px;
+    top: 735px;
+  }

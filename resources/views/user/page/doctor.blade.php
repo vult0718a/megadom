@@ -1,4 +1,13 @@
-@extends('frontend.layout.main')
+@extends('user.layout.main')
+
+@section('title')
+<title>Đội ngũ bác sĩ</title>
+@endsection
+
+@section('style')
+<link rel="stylesheet" type="text/css" href="/user/page/doctor.css">
+@endsection
+
 @section('content')
   <div class="doctors">
     <div class="banner">
