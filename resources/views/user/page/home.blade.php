@@ -1,4 +1,13 @@
-@extends('frontend.layout.main')
+@extends('user.layout.main')
+
+@section('title')
+<title>Trang chủ</title>
+@endsection
+
+@section('style')
+<link rel="stylesheet" type="text/css" href="/user/page/home.css">
+@endsection
+
 @section('content')
 <div class="index">
   <div class="for-megadom">

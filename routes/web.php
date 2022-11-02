@@ -13,16 +13,18 @@
 
 use App\Http\Controllers\Controller;
 
-Route::get('/', 'ClientController@index');
+Route::get('/', function () {
+  return view('user/page/home');
+})->name('home');
 
 Route::get('/introduce', function () {
-  return view('frontend/introduce');
-});
+  return view('user/page/introduce');
+})->name('introduce');
 
 Route::get('/doctors', function () {
-  return view('frontend/doctors');
-});
+  return view('user/page/doctor');
+})->name('doctor');
 
-Route::get('/doctors', function () {
-  return view('frontend/library');
-});
+Route::get('/library', function () {
+  return view('user/page/library');
+})->name('library');

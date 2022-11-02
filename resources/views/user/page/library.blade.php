@@ -1,4 +1,13 @@
-@extends('frontend.layout.main')
+@extends('user.layout.main')
+
+@section('title')
+<title>Thư viện</title>
+@endsection
+
+@section('style')
+<link rel="stylesheet" type="text/css" href="/user/page/library.css">
+@endsection
+
 @section('content')
   <div class="library-screen">
     <div class="banner banner-1">
