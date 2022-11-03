@@ -28,3 +28,20 @@ Route::get('/doctors', function () {
 Route::get('/library', function () {
   return view('user/page/library');
 })->name('library');
+
+Route::get('/contact', function () {
+  return view('user/page/contact');
+})->name('contact');
+
+Route::get('/2-1', function () {
+  return view('user/page/2-1');
+})->name('2-1');
+
+
+Route::group(['prefix'=>'admin'],function (){
+  Route::get('/','AdminController@admin');
+  Route::post('/','AdminController@postAdmin');
+  Route::get('logout','AdminController@logout');
+
+  Route::resource('user', 'UserController');
+});

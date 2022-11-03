@@ -10,5 +10,5 @@
   <a id="item-3" href="#">BỆNH LÝ NAM KHOA</a>
   <a id="item-4" href="{{ route('library') }}">THƯ VIỆN</a>
   <a id="item-5" href="#">TIN TỨC</a>
-  <a id="item-6" href="#">LIÊN HỆ</a>
+  <a id="item-6" href="{{ route('contact') }}">LIÊN HỆ</a>
 </nav>
