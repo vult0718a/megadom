@@ -1,0 +1,312 @@
+.contact-screen {
+  position: relative;
+  width: 1920px;
+  height: 3816px;
+  background: #FFFFFF;
+  height: 1814px;
+}
+.contact-screen .banner {
+  position: absolute;
+  width: 1920px;
+  height: 696px;
+  background: url(/frontend/images/image13q.png);
+}
+
+.contact-screen .banner .text-banner {
+  position: absolute;
+  width: 542px;
+  height: 147px;  
+  left: 199px;
+  top: 244px;
+}
+
+.contact-screen .banner .text-banner .text-small {
+  position: absolute;
+  width: 344px;
+  height: 113px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.contact-screen .banner .text-banner .text-bold {
+  position: absolute;
+  width: 661px;
+  height: 113px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 113px;
+  color: #FFFFFF;
+  top: 34px;
+}
+
+.contact-screen .doctor-info .text-small {
+  position: absolute;
+  width: 690px;
+  height: 467px;
+  left: 198px;
+  top: 814px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.contact-screen .form-input {
+  position: absolute;
+  width: 1006px;
+  height: 1970px;
+  left: 456px;
+  top: 544px;
+  background: #333333;
+  z-index: 2;
+}
+
+.contact-screen .form-input .text-normal {
+  position: absolute;
+  width: 687px;
+  height: 57px;
+  left: 74px;
+  top: 91px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.contact-screen .form-input .contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 7px;
+  position: absolute;
+  width: 167px;
+  height: 40px;
+  left: 74px;
+}
+
+.contact-screen .form-input .contact-1 {
+  top: 177px;
+}
+
+.contact-screen .form-input .contact-2 {
+  top: 231px;
+}
+
+.contact-screen .form-input .contact-3 {
+  top: 285px;
+}
+
+.contact-screen .form-input .contact img {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+
+.contact-screen .form-input .contact span {
+  width: 720px;
+  height: 31px;
+  position: absolute;
+  left: 47px;
+  top: 4.5px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #F4F4F4;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.contact-screen .form-input .input-block {
+  position: absolute;
+  width: 858px;
+  height: 1460px;
+  left: 74px;
+  top: 393px;
+  background: #FFFFFF;
+  border-radius: 30px;
+}
+
+.contact-screen .form-input .input-block .block {
+  position: absolute;
+  width: 752px;
+  height: 123px;
+  left: 58px;
+}
+
+.contact-screen .form-input .input-block .block-1 {
+  top: 65px;
+}
+
+.contact-screen .form-input .input-block .block-2 {
+  top: 228px;
+}
+
+.contact-screen .form-input .input-block .block-3 {
+  top: 391px;
+}
+
+.contact-screen .form-input .input-block .block-4 {
+  top: 554px;
+}
+
+.contact-screen .form-input .input-block .block-5 {
+  top: 717px;
+}
+
+.contact-screen .form-input .input-block .block-6 {
+  top: 880px;
+}
+
+.form-input .input-block .block .text-small {
+  position: absolute;
+  top: 6px;
+  font-family: 'WorkSans-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.form-input .input-block .block .text-small span,
+.contact-screen .form-input .rule-title span {
+  color: red;
+}
+
+.form-input .input-block .block input,
+.form-input .input-block .block select {
+  box-sizing: border-box;
+  position: absolute;
+  top: 48px;
+  background: #F1F1F1;
+  border: 1px solid #D7D7D7;
+  border-radius: 5px;
+  width: 752px;
+  height: 75px;
+}
+
+.contact-screen .form-input .input-block .rule-title {
+  position: absolute;
+  width: 200px;
+  height: 34px;
+  left: 56px;
+  top: 1043px;
+  font-family: 'WorkSans-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.contact-screen .form-input .input-block .rules-content {
+  box-sizing: border-box;
+  position: absolute;
+  width: 752px;
+  height: 98px;
+  left: 54px;
+  top: 1111px;
+  background: #FFFFFF;
+  border: 1px solid #D7D7D7;
+  font-family: 'WorkSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+  padding: 20px 23px 10px 24px;
+  overflow-y: scroll;
+}
+
+.contact-screen .form-input .input-block .rules-content span {
+  color: #051BE2;
+}
+
+.contact-screen .form-input .accept {
+  top: 1225px;
+  height: 24px;
+  position: absolute;
+  left: 54px;
+}
+
+.contact-screen .form-input .accept span {
+  font-family: 'WorkSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+  margin-left: 32px;
+  width: 240px;
+  height: 24px;
+}
+
+.contact-screen .form-input .input-block .accept input {
+  box-sizing: border-box;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: #FCFCFC;
+  border: 1px solid #898989;
+  margin: 0;
+}
+
+.form-input .input-block .rules button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 25px 275px;
+  gap: 10px;
+  position: absolute;
+  width: 735px;
+  height: 75px;
+  left: 54px;
+  top: 1319px;
+  background: #0429B7;
+  border-radius: 5px;
+  border-color: #0429B7;
+}
+
+.form-input .input-block .rules .register {
+  width: 185px;
+  height: 26px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: none;
+}
+
+.block-hide {
+  position: absolute;
+  background: white;
+  height: 708px;
+  z-index: 1;
+  width: 1920px;
+}
