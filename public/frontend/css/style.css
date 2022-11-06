@@ -25,15 +25,15 @@
   width: 1920px;
   height: 210px;
 
-  background: #000000;
+  background: #0429B7;
 }
 
 .header #logo {
   position: absolute;
-  width: 411px;
-  height: 58px;
-  left: 17px;
-  top: 36px;
+  width: 472px;
+  height: 83px;
+  left: 6px;
+  top: 22px;
 }
 
 .header #icon {
@@ -1644,7 +1644,7 @@
   right: 0%;
   top: 87.01%;
   bottom: -0.16%;
-  background: url(/frontend/images/rectangle26.png);
+  background: #0429B7;
 }
 
 .footer .footer-bottom .footer-end p {
