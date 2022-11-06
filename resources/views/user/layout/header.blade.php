@@ -1,5 +1,5 @@
 <nav class="header">
-  <a href="{{ route('home') }}"><img id="logo" src="/frontend/images/logo-megadom.png"></a>
+  <a href="{{ route('home') }}"><img id="logo" src="/frontend/images/logo-megadom-1.png"></a>
   <img id="icon" src="/frontend/images/phone.png"><span class="hotline">Hotline</span>
   <p>098 534 2323</p>
   <div><span>ĐẶT LỊCH KHÁM</span></div>
