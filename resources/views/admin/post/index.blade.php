@@ -1,7 +1,7 @@
 @extends('admin.layouts.app')
 
 @section('title')
-<title>Quản lý admin</title>
+<title>Quản lý bài viết</title>
 @endsection
 
 @section('style')
@@ -14,8 +14,8 @@
         <div class="card my-4">
             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                 <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                    <h6 class="text-white ps-3" style="display: inline-block;">Danh sách admin</h6>
-                    <a href="{{ route('admin.create') }}" style="margin-left: 20px;"><span class="badge badge-sm bg-gradient-success">Thêm mới</span></a>
+                    <h6 class="text-white ps-3" style="display: inline-block;">Danh sách bài viết</h6>
+                    <a href="{{ route('admin.post.create') }}" style="margin-left: 20px;"><span class="badge badge-sm bg-gradient-success">Thêm mới</span></a>
                 </div>
             </div>
             <div class="card-body px-0 pb-2">
@@ -24,9 +24,8 @@
                         <thead>
                             <tr>
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Số thứ tự</th>
-                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Họ tên</th>
-                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Email</th>
-                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Trạng thái</th>
+                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Tiêu đề</th>
+                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Ngày tạo</th>
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Thao tác</th>
                             </tr>
                         </thead>
@@ -34,7 +33,7 @@
                             @php
                                 $i = 0;
                             @endphp
-                            @foreach ($admins as $admin)
+                            @foreach ($posts as $post)
                                 @php
                                     $i++;
                                 @endphp
@@ -43,17 +42,10 @@
                                         <span class="text-secondary font-weight-bold text-xs">{{ $i }}</span>
                                     </td>
                                     <td class="align-middle text-center">
-                                        <span class="text-secondary font-weight-bold text-xs">{{ $admin->name }}</span>
+                                        <span class="text-secondary font-weight-bold text-xs">{{ $post->title }}</span>
                                     </td>
                                     <td class="align-middle text-center">
-                                        <span class="text-secondary font-weight-bold text-xs">{{ $admin->email }}</span>
-                                    </td>
-                                    <td class="align-middle text-center text-sm">
-                                        @if($admin->status == 1)
-                                            <span class="badge badge-sm bg-gradient-success">Mở</span>
-                                        @else
-                                            <span class="badge badge-sm bg-gradient-secondary">Khóa</span>
-                                        @endif
+                                        <span class="text-secondary font-weight-bold text-xs">{{ date('Y-m-d H:i:s', strtotime($post->created_at)) }}</span>
                                     </td>
                                     <td class="text-center">
                                         <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">

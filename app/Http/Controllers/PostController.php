@@ -2,10 +2,14 @@
 
 namespace App\Http\Controllers;
 
-use App\User;
+use App\Category;
+use App\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Storage;
 
-class UserController extends Controller
+class PostController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +18,20 @@ class UserController extends Controller
      */
     public function index()
     {
-        $admins = User::all();
-        return view('admin.user.index', ['admins' => $admins]);
+        $posts = Post::all();
+        return view('admin.post.index', ['posts' => $posts]);
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function getPostForUser()
+    {
+        $posts = DB::table('posts')->paginate(5);
+        $categories = Category::all();
+        return view('user.page.post', ['posts' => $posts, 'categories' => $categories]);
     }
 
     /**
@@ -25,7 +41,8 @@ class UserController extends Controller
      */
     public function create()
     {
-        return view('admin.user.create');
+        $categories = Category::all();
+        return view('admin.post.create', ['categories' => $categories]);
     }
 
     /**
@@ -36,7 +53,13 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->all();
+        $data['user_id'] = Auth::user()->id;
+        $post = Post::create($data);
+        $image = $request->file('image');
+        $image->storeAs('images/post/'. $post->id .'/', 'image.png', 'public');
+
+        return redirect(route('admin.post'));
     }
 
     /**

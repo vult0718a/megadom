@@ -30,29 +30,30 @@
             <div class="card-body px-0 pb-2">
                 <div class="table-responsive p-0">
                     <div class="card-body" style="width: 50%">
-                        <form method="POST" action="{{ route('register') }}">
+                        <form method="POST" action="{{ route('admin.post.store') }}" enctype="multipart/form-data">
                             @csrf
                             <div class="form-group">
-                                <label for="name">Họ tên</label>
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Họ tên đầy đủ">
+                                <label for="name">Tiêu đề</label>
+                                <input type="text" class="form-control" id="title" name="title" placeholder="Tiêu đề">
                             </div><br>
                             <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                                <label for="short_content">Nội dung ngắn</label>
+                                <input type="text" class="form-control" id="short_content" name="short_content" placeholder="Nội dung ngắn">
                             </div><br>
                             <div class="form-group">
-                                <label for="password">Mật khẩu</label>
-                                <input type="password" class="form-control" id="password" name="password" placeholder="Mật khẩu">
+                                <label for="content">Nội dung</label>
+                                <input type="text" class="form-control" id="content" name="content" placeholder="Nội dung">
                             </div><br>
                             <div class="form-group">
-                                <label for="password_confirmation">Nhập lại mật khẩu</label>
-                                <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" placeholder="Mật khẩu">
+                                <label for="image">Nội dung</label>
+                                <input type="file" class="form-control" id="image" name="image">
                             </div><br>
                             <div class="form-group">
-                                <label for="status">Trạng thái</label>
-                                <select name="status" class="form-control" id="status">
-                                    <option value="1">Mở</option>
-                                    <option value="0">Khóa</option>
+                                <label for="category_id">Danh mục</label>
+                                <select name="category_id" class="form-control" id="category_id">
+                                    @foreach ($categories as $category)
+                                        <option value="{{ $category->id }}">{{ $category->title }}</option>
+                                    @endforeach
                                 </select>
                             </div><br>
                             @error('name')
@@ -70,12 +71,12 @@
                                     <strong>{{ $message }}</strong>
                                 </p>
                             @enderror
-                            @error('email')
+                            @error('content')
                                 <p class="mt-4 text-sm text-center" style="color:red">
                                     <strong>{{ $message }}</strong>
                                 </p>
                             @enderror
-                            @error('status')
+                            @error('category_id')
                                 <p class="mt-4 text-sm text-center" style="color:red">
                                     <strong>{{ $message }}</strong>
                                 </p>
