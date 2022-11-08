@@ -37,11 +37,19 @@ Route::get('/2-1', function () {
   return view('user/page/2-1');
 })->name('2-1');
 
+Route::get('/post', 'PostController@getPostForUser')->name('post');
+
 
 Route::group(['prefix'=>'admin'],function (){
-  Route::get('/','AdminController@admin');
-  Route::post('/','AdminController@postAdmin');
-  Route::get('logout','AdminController@logout');
-
-  Route::resource('user', 'UserController');
+  Auth::routes();
+  Route::group(['middleware' => 'auth'],function () {
+    Route::get('/', 'UserController@index')->name('admin');
+    Route::get('/create', 'UserController@create')->name('admin.create');
+    Route::group(['prefix'=>'post'],function (){
+      Route::get('/', 'PostController@index')->name('admin.post');
+      Route::get('/create', 'PostController@create')->name('admin.post.create');
+      Route::post('/store', 'PostController@store')->name('admin.post.store');
+    });
+  });
 });
+
