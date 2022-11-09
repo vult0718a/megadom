@@ -1,0 +1,1271 @@
+.screen2-3 {
+  position: relative;
+  width: 1920px;
+  min-height: 12299px;
+  background: #FFFFFF;
+
+  margin-bottom: 151px;
+}
+
+.screen2-3 .banner {
+  position: absolute;
+  width: 1920px;
+  height: 998px;
+  background: url(/frontend/images/image13c.png);
+}
+
+.screen2-3 .banner .text-bold {
+  position: absolute;
+  width: 609px;
+  height: 225px;
+  left: 199px;
+  top: 118px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #FFFFFF;
+}
+
+.screen2-3 .banner .text-bold span {
+    display: block;
+}
+
+.screen2-3 .banner .vertical {
+  position: absolute;
+  width: 10px;
+  height: 95px;
+  left: 199px;
+  top: 402px;
+  background: #0429B7;
+}
+
+.screen2-3 .banner .text-medium {
+  position: absolute;
+  width: 448px;
+  height: 95px;
+  left: 245px;
+  top: 402px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.screen2-3 .banner .text-small {
+  position: absolute;
+  width: 617px;
+  height: 196px;
+  left: 199px;
+  top: 546px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.screen2-3 .banner .block-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 25px 31px;
+  gap: 10px;
+  position: absolute;
+  width: 451px;
+  height: 76px;
+  left: 199px;
+  top: 793px;
+  background: #0429B7;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.screen2-3 .banner .block-contact .call {
+  width: 389px;
+  height: 26px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.screen2-3 .tag {
+  position: absolute;
+  width: 1920px;
+  height: 160px;
+  top: 996px;
+  background: #111B27;
+}
+
+.screen2-3 .tag .tag-block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+  position: absolute;
+  width: 286px;
+  height: 41px;
+  background: #0062FF;
+}
+
+.screen2-3 .tag .tag-block span {
+  font-family: 'WorkSans-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.screen2-3 .tag .block-1 {
+  left: 69px;
+  top: 29px;
+  width: 219px;
+  height: 41px;
+}
+
+.screen2-3 .tag .block-2 {
+  left: 317px;
+  top: 29px;
+  width: 286px;
+  height: 41px;
+}
+
+.screen2-3 .tag .block-3 {
+  left: 638px;
+  top: 29px;
+  width: 261px;
+  height: 41px;
+}
+
+.screen2-3 .tag .block-4 {
+  left: 936px;
+  top: 29px;
+  width: 286px;
+  height: 41px;
+}
+
+.screen2-3 .tag .block-5 {
+  left: 1254px;
+  top: 29px;
+  width: 281px;
+  height: 41px;
+}
+
+.screen2-3 .tag .block-6 {
+  left: 1570px;
+  top: 29px;
+  width: 261px;
+  height: 41px;
+}
+
+.screen2-3 .tag .block-7 {
+  left: 346px;
+  top: 89px;
+  width: 216px;
+  height: 41px;
+}
+
+.screen2-3 .tag .block-8 {
+  left: 594px;
+  top: 89px;
+  width: 70px;
+  height: 41px;
+}
+
+.screen2-3 .tag .block-9 {
+  left: 684px;
+  top: 89px;
+  width: 325px;
+  height: 41px;
+}
+
+.screen2-3 .tag .block-10 {
+  left: 1049px;
+  top: 89px;
+  width: 278px;
+  height: 41px;
+}
+
+.screen2-3 .tag .block-11 {
+  left: 1360px;
+  top: 89px;
+  width: 200px;
+  height: 41px;
+}
+
+.screen2-3 .concept {
+  position: absolute;
+  top: 1156px;
+  width: 1920px;
+  height: 2213px;
+}
+
+.screen2-3 .concept .concept-top {
+  position: absolute;
+  width: 1920px;
+  height: 750px;
+}
+
+.screen2-3 .concept .concept-top .text-bold {
+  position: absolute;
+  width: 690px;
+  height: 135px;
+  left: 199px;
+  top: 160px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.screen2-3 .concept .concept-top hr {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  left: 199px;
+  top: 282px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.screen2-3 .concept .concept-top .text-medium {
+  position: absolute;
+  width: 690px;
+  height: 186px;
+  left: 199px;
+  top: 352px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen2-3 .concept .concept-top #iframe-3 {
+  position: absolute;
+  left: 1025px;
+  top: 160px;
+  width: 690px;
+  height: 360px;
+}
+
+.screen2-3 .concept .concept-bottom {
+  height: 1467px;
+  position: absolute;
+  width: 1920px;
+  top: 750px;
+}
+
+.screen2-3 .concept .concept-bottom .concept-title {
+  position: absolute;
+  width: 335px;
+  height: 84px;
+  left: 792px;
+}
+
+.concept .concept-bottom .concept-title .text-bold {
+  position: absolute;
+  width: 335px;
+  height: 45px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.concept .concept-bottom .concept-title hr {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  left: 104px;
+  top: 80px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.concept .concept-bottom .concept-left {
+  height: 1596px;
+  position: absolute;
+  left: 199px;
+  width: 690px;
+  top: 151px;
+}
+
+.concept .concept-bottom .concept-left #concept-img-1 {
+  position: absolute;
+  width: 690px;
+  height: 600px;
+}
+
+.concept .concept-bottom .concept-left #concept-img-2 {
+  position: absolute;
+  width: 690px;
+  height: 412px;
+  top: 1060px;
+}
+
+.concept .concept-bottom .concept-right {
+  height: 1596px;
+  position: absolute;
+  left: 1027px;
+  width: 690px;
+  top: 151px;
+}
+
+.concept .concept-bottom .concept-left .text-title {
+  position: absolute;
+  width: 690px;
+  height: 42px;
+  top: 750px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.concept .concept-bottom .concept-left .text-small {
+  position: absolute;
+  width: 690px;
+  height: 185px;
+  top: 821px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.concept .concept-bottom .concept-left .text-small li {
+  margin-bottom: 20px;
+  margin-left: -12px;
+}
+
+.concept .concept-bottom .concept-right .text {
+  width: 690px;
+  height: 448px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.concept .concept-bottom .concept-right #concept-img-3 {
+  position: absolute;
+  width: 707px;
+  height: 412px;
+  top: 750px;
+}
+
+.concept .concept-bottom .concept-right .text-small-2 {
+  position: absolute;
+  width: 690px;
+  height: 186px;
+  top: 696px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen2-3 .booking-1 {
+  position: absolute;
+  top: 3369px;
+  width: 1920px;
+  height: 150px;
+  background: #1E3045;
+}
+
+.screen2-3 .booking .text-semibold {
+  position: absolute;
+  left: 70px;
+  right: 37.08%;
+  top: 54px;
+  bottom: 32%;
+  font-family: 'WorkSans-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 170%;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.screen2-3 .booking .booking-block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 25px 31px;
+  gap: 10px;
+  position: absolute;
+  left: 76.25%;
+  right: 10.78%;
+  top: 24.33%;
+  bottom: 25%;
+  background: #0429B7;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.screen2-3 .booking .booking-block span {
+  width: 187px;
+  height: 26px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: right;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.screen2-3 .booking-2 {
+  position: absolute;
+  top: 8281px;
+  width: 1920px;
+  height: 150px;
+  background: #1E3045;
+}
+
+.screen2-3 .result {
+  position: absolute;
+  top: 3519px;
+  width: 1920px;
+}
+
+.screen2-3 .result .result-title {
+  position: absolute;
+  width: 704px;
+  height: 80px;
+  left: 608px;
+  top: 150px;
+}
+
+.screen2-3 .result .result-title .text-bold {
+  position: absolute;
+  width: 704px;
+  height: 45px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+
+.screen2-3 .result .result-title hr {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  left: 294px;
+  top: 80px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.screen2-3 .result .text-medium {
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+  
+}
+
+.screen2-3 .result .text-medium-1 {
+  top: 300px;
+  left: 199px;
+  width: 690px;
+  height: 93px;
+  position: absolute;
+}
+
+.screen2-3 .result .text-medium-2 {
+  top: 1237px;
+  left: 536px;
+  width: 802px;
+  height: 31px;
+  position: absolute;
+}
+
+.screen2-3 .result .text-medium span {
+    color:  #0062FF;
+}
+
+.screen2-3 .result #image-1 {
+  position: absolute;
+  width: 690px;
+  height: 406px;
+  left: 199px;
+  top: 421px;
+}
+
+.screen2-3 .result .image-2 {
+  position: absolute;
+  width: 690px;
+  height: 480px;
+  left: 1031px;
+  top: 421px;
+  background: #000000;
+}
+
+.screen2-3 .result .image-2 .text-bold {
+  position: absolute;
+  width: 488px;
+  height: 48px;
+  left: 100px;
+  top: 157px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 170%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.screen2-3 .result .image-2 .text-medium {
+  position: absolute;
+  width: 247px;
+  height: 41px;
+  left: 221px;
+  top: 205px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 170%;
+  text-align: center;
+  color: #B5B5B5;
+}
+
+.screen2-3 .result .image-2 .confirm {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 25px 31px;
+  gap: 10px;
+  position: absolute;
+  width: 155px;
+  height: 71px;
+  left: 263px;
+  top: 266px;
+  background: #0429B7;
+  border-radius: 5px;
+
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.screen2-3 .result .library {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 25px 31px;
+  gap: 10px;
+  position: absolute;
+  width: 282px;
+  height: 76px;
+  left: 199px;
+  top: 901px;
+  background: #0429B7;
+  border-radius: 5px;
+
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.screen2-3 .result .evaluate-title {
+  position: absolute;
+  width: 1106px;
+  height: 80px;
+  left: 407px;
+  top: 1128px;
+}
+
+.screen2-3 .result .evaluate-title .text-bold {
+  position: absolute;
+  width: 1106px;
+  height: 45px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+
+.screen2-3 .result .evaluate-title hr {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  left: 494px;
+  top: 80px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.screen2-3 .result #iframe-1 {
+  position: absolute;
+  left: 199px;
+  top: 1317px;
+  width: 690px;
+  height: 360px;
+}
+
+.screen2-3 .result .text-medium-3 {
+  position: absolute;
+  left: 1026px;
+  top: 1317px;
+  width: 690px;
+  height: 279px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+  font-weight: 500;
+  font-family: 'WorkSans-Medium';
+}
+
+.screen2-3 .result .text-medium-3 span {
+  color: #000000;
+  font-weight: 700;
+  font-family: 'WorkSans-Bold';
+}
+
+.screen2-3 .result .effective-title {
+  position: absolute;
+  width: 690px;
+  height: 125px;
+  left: 199px;
+  top: 1917px;
+}
+
+.screen2-3 .result .effective-title .text-bold {
+  position: absolute;
+  width: 690px;
+  height: 45px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.screen2-3 .result .effective-title hr {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  top: 90px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.screen2-3 .result .effective-content {
+  position: absolute;
+  width: 690px;
+  height: 249px;
+  left: 199px;
+  top: 2049px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen2-3 .result .effective-content p {
+  margin-bottom: 19px;
+}
+
+.screen2-3 .result .effective-content a {
+  color: #0062FF;
+  text-decoration: underline;
+}
+
+.screen2-3 .result #iframe-2 {
+  position: absolute;
+  left: 1026px;
+  top: 1917px;
+  width: 690px;
+  height: 360px;
+}
+
+.screen2-3 .before-surgery {
+  position: absolute;
+  width: 1920px;
+  height: 1381px;
+  top: 5960px;
+  background: rgba(0, 98, 255, 0.2);
+}
+
+.screen2-3 .before-surgery .text-bold-1 {
+  position: absolute;
+  width: 409px;
+  height: 82px;
+  left: 199px;
+  top: 86px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen2-3 .before-surgery .step {
+  position: absolute;
+  width: 1522px;
+  height: 98px;
+  left: 199px;
+}
+
+.screen2-3 .before-surgery .step-1 {
+  top: 209px;
+}
+
+.screen2-3 .before-surgery .step-2 {
+  top: 337px;
+}
+
+.screen2-3 .before-surgery .step-3 {
+  top: 434px;
+}
+
+.screen2-3 .before-surgery .step .text-bold {
+  position: absolute;
+  width: 667px;
+  height: 31px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen2-3 .before-surgery .step .text-medium {
+  position: absolute;
+  width: 1522px;
+  height: 62px;
+  top: 36px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen2-3 .before-surgery .left {
+  position: absolute;
+  width: 681px;
+  height: 673px;
+  left: 199px;
+  top: 622px;
+}
+
+.screen2-3 .before-surgery .right {
+  position: absolute;
+  width: 681px;
+  height: 673px;
+  left: 1039px;
+  top: 622px;
+}
+
+.screen2-3 .before-surgery .left .text-bold-2,
+.screen2-3 .before-surgery .right .text-bold-3 {
+  position: absolute;
+  width: 204px;
+  height: 41px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen2-3 .before-surgery .left .text-medium,
+.screen2-3 .before-surgery .right .text-medium {
+  width: 681px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen2-3 .before-surgery .left .text-1 {
+  position: absolute;
+  height: 93px;
+  top: 58px;
+}
+
+.screen2-3 .before-surgery .left .text-2 {
+  position: absolute;
+  height: 93px;
+  top: 181px;
+}
+
+.screen2-3 .before-surgery .left .text-3 {
+  position: absolute;
+  height: 369px;
+  top: 304px;
+}
+
+.screen2-3 .before-surgery .left .left-step {
+  margin-bottom: 16px;
+}
+
+.screen2-3 .before-surgery .left .left-step span {
+  font-family: 'WorkSans-Bold';
+  font-weight: 700;
+}
+
+.screen2-3 .before-surgery .right .text-1 {
+  position: absolute;
+  height: 93px;
+  top: 58px;
+}
+
+.screen2-3 .before-surgery .right .text-2 {
+  position: absolute;
+  height: 93px;
+  top: 150px;
+}
+
+.screen2-3 .before-surgery .vertical {
+  position: absolute;
+  width: 0px;
+  height: 673px;
+  left: 961px;
+  top: 622px;
+  margin: 0;
+  border: 2px solid #0429B7;
+}
+
+.screen2-3 .note {
+  height: 901px;
+  position: absolute;
+  width: 1920px;
+  top: 7341px;
+}
+
+.screen2-3 .note .note-title {
+  position: absolute;
+  width: 1008px;
+  height: 120px;
+  left: 456px;
+  top: 150px;
+}
+
+.screen2-3 .note .note-title .text-bold {
+  position: absolute;
+  width: 1008px;
+  height: 90px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+
+.screen2-3 .note .note-title .text-bold span {
+  display: block;
+}
+
+.screen2-3 .note .note-title hr {
+  position: absolute;
+  width: 79.62px;
+  height: 0px;
+  left: 466px;
+  top: 120px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.screen2-3 .note .text {
+  position: absolute;
+  width: 690px;
+  height: 450px;
+  left: 199px;
+  top: 340px;
+}
+
+.screen2-3 .note .text .text-medium {
+  position: absolute;
+  width: 690px;
+  height: 31px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen2-3 .note .text .text-2 {
+  top: 61px;
+}
+
+.screen2-3 .note .text .text-3 {
+  top: 122px;
+}
+
+.screen2-3 .note #image-3 {
+  position: absolute;
+  width: 690px;
+  height: 450px;
+  left: 1031px;
+  top: 340px;
+}
+
+.screen2-3 .feasibility {
+  position: absolute;
+  width: 1920px;
+  height: 943px;
+  top: 8431px;
+  background: rgba(0, 98, 255, 0.2);
+}
+
+.screen2-3 .feasibility .feasibility-title {
+  position: absolute;
+  width: 716px;
+  height: 80px;
+  left: 602px;
+  top: 150px;
+}
+
+.screen2-3 .feasibility .feasibility-title .text-bold {
+  position: absolute;
+  width: 716px;
+  height: 90px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+
+.screen2-3 .feasibility .feasibility-title hr {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  left: 300px;
+  top: 80px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.screen2-3 .feasibility .text {
+  position: absolute;
+  width: 666px;
+  height: 493px;
+  left: 199px;
+  top: 300px;
+}
+
+.screen2-3 .feasibility .text .text-medium {
+  position: absolute;
+  width: 666px;
+  height: 31px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen2-3 .feasibility .text .text-2 {
+  top: 92px;
+}
+
+.screen2-3 .feasibility .text .text-3 {
+  top: 184px;
+}
+
+.screen2-3 .feasibility .text .text-4 {
+  top: 307px;
+}
+
+.screen2-3 .feasibility #image-3 {
+  position: absolute;
+  width: 666px;
+  height: 450px;
+  left: 1054px;
+  top: 300px;
+}
+
+.screen2-3 .feasibility .vertical {
+  position: absolute;
+  width: 0px;
+  height: 493px;
+  left: 961px;
+  top: 300px;
+  margin: 0;
+  border: 2px solid #0429B7;
+}
+
+.screen2-3 .feasibility .text-medium span {
+  font-family: 'WorkSans-Bold';
+  font-weight: 700;
+}
+
+.screen2-3 .when {
+  position: absolute;
+  width: 1920px;
+  height: 1179px;
+  top: 9374px;
+}
+
+.screen2-3 .when .when-title {
+  position: absolute;
+  width: 1008px;
+  height: 120px;
+  left: 457px;
+  top: 150px;
+}
+
+.screen2-3 .when .when-title .text-bold {
+  position: absolute;
+  width: 1008px;
+  height: 90px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+
+.screen2-3 .when .when-title .text-bold span {
+  display: block;
+}
+
+.screen2-3 .when .when-title hr {
+  position: absolute;
+  width: 80px;
+  height: 0px;
+  left: 462px;
+  top: 120px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.screen2-3 .when .note {
+  position: absolute;
+  width: 1514px;
+  height: 62px;
+  left: 199px;
+  top: 340px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen2-3 .when .text-small {
+  position: absolute;
+  width: 671px;
+  height: 401px;
+  left: 1050px;
+  top: 432px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen2-3 .when #image-3 {
+  position: absolute;
+  width: 666px;
+  height: 450px;
+  left: 199px;
+  top: 432px;
+}
+
+.screen2-3 .when .vertical {
+  position: absolute;
+  width: 0px;
+  height: 450px;
+  left: 961px;
+  top: 432px;
+  margin: 0;
+  border: 2px solid #0429B7;
+}
+
+.screen2-3 .when .text-small li {
+  margin-bottom: 16px;
+}
+
+.screen2-3 .when .contact-specialist {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 25px 31px;
+  gap: 10px;
+  position: absolute;
+  height: 76px;
+  left: 42.53%;
+  top: 967.5px;
+  background: #0429B7;
+  border-radius: 5px;
+  width: 291px;
+  height: 76px;
+
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: right;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.screen2-3 .qa {
+  position: absolute;
+  width: 1920px;
+  min-height: 1170px;
+  top: 10570px;
+  background: rgba(0, 98, 255, 0.2);
+}
+
+.screen2-3 .qa .qa-title {
+  position: absolute;
+  width: 421px;
+  height: 80px;
+  left: 752px;
+  top: 150px;
+}
+
+.screen2-3 .qa .qa-title .text-bold {
+  position: absolute;
+  width: 421px;
+  height: 45px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+
+.screen2-3 .qa .qa-title hr {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  left: 158px;
+  top: 80px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.screen2-3 .qa .qa-content {
+  margin-top: 300px;
+  margin-left: 325px;
+  padding-bottom: 150px;
+}
+
+.screen2-3 .block-white {
+  height: 151px;
+  background-color: white;
+}
+
+.screen2-3 .qa .footer2-1 {
+  display: block;
+  background-color: white;
+}
+
+.footer {
+  display: none;
+}
+
+.screen2-3 .qa .collapsible:last-child {
+  margin-bottom: 0;
+}
+
+.screen2-3 .qa .content:last-child {
+  margin-bottom: 0;
+}

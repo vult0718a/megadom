@@ -1,11 +1,11 @@
 @extends('user.layout.main')
 
 @section('title')
-<title>Làm to Megaderm</title>
+<title>Phẫu thuật kéo dài</title>
 @endsection
 
 @section('style')
-<link rel="stylesheet" type="text/css" href="/user/page/2-1.css">
+<link rel="stylesheet" type="text/css" href="/user/page/2-3.css">
 <style>
   .collapsible {
     background-color: #FFFFFF;
@@ -70,12 +70,12 @@
 @endsection
 
 @section('content')
-  <div class="screen2-1">
+  <div class="screen2-3">
     <div class="banner">
-      <p class="text-bold">Phẫu thuật Tăng kích cỡ Dương vật</p>
+      <p class="text-bold">Phẫu thuật<span> kéo dài</span> dương vật</p>
       <div class="vertical"></div>
       <p class="text-medium">Megadom sẽ giúp bạn đạt được những ước nguyện của một người đàn ông lý tưởng.</p>
-      <p class="text-small">Nhiều người đàn ông rất không hài lòng với kích thước dương vật của mình - đôi khi cảm thấy xấu hổ khi để lộ mình khỏa thân hoặc cảm thấy ngại ngùng khi tìm kiếm bạn tình hoặc bước vào một mối quan hệ tình cảm. Cho dù bạn mong muốn có một dương vật dài hơn, to hơn hay tổng thể lớn hơn, thì việc tăng kích thước dương vật đều có thể thực hiện được tại Megadom.</p>
+      <p class="text-small">Có nhiều yếu tố ảnh hưởng đến chất lượng đời sống tình dục của nam giới. Nếu bạn cho rằng dương vật của mình quá ngắn hoặc bạn không hài lòng với chiều dài dương vật của mình, Megadom có thể giúp bạn. Bác sĩ Đức là một trong những bác sĩ chuyên khoa Tiết niệu - Nam học hàng đầu tại Việt Nam và có thể giúp bạn trong hành trình lấy lại sự tự tin vào cơ thể của mình.</p>
       <div class="block-contact">
         <p class="call">LIÊN HỆ CHÚNG TÔI NGAY HÔM NAY</p>
       </div>
@@ -95,43 +95,33 @@
     </div>
     <div class="concept">
       <div class="concept-top">
-        <p class="text-bold">PHẪU THUẬT TĂNG KÍCH THƯỚC DƯƠNG VẬT BẰNG TẤM ĐỘN MEGADERM LÀ GÌ?</p>
-        <p class="text-medium concept-text-medium-1">Phẫu thuật tăng kích thước dương vật là một phẫu thuật điều trị ngoại trú nhằm mục đích tăng chiều dài hoặc chu vi của dương vật. Tấm độn sinh học Megaderm được chứng nhận theo tiêu chuẩn FDA (Mỹ), KFDA (Hàn Quốc) và đã được Bộ Y Tế Việt Nam cấp phép sử dụng. Tháng 2/2020, ThS.BS Nguyễn Văn Đức - Dr. Megadom đã quyết định quay trở lại Hàn Quốc để đưa kỹ thuật thẩm mỹ dương vật tiên tiến nhất về Việt Nam. Bác sĩ Đức là người đầu tiên đưa tấm độn sinh học Megaderm trong phẫu thuật dương vật và đã thay đổi cuộc sống của hàng ngàn nam giới. </p>
+        <p class="text-bold">PHẪU THUẬT KÉO DÀI DƯƠNG VẬT LÀ GÌ?</p>
+        <hr>
+        <p class="text-medium concept-text-medium-1">Phẫu thuật kéo dài dương vật là một phẫu thuật điều trị ngoại trú nhằm mục đích tăng chiều dài của dương vật. Phẫu thuật kéo dài dương vật bằng cắt dây chằng chéo không phải là việc kéo giãn dương vật mà là đem phần ẩn của dương vật - vốn bị chôn dưới da, ra bên ngoài bằng kỹ thuật cắt dây treo. Kết hợp với phương pháp loại bỏ lớp mỡ trên xương mu, chiều dài dương vật có thể tăng tối đa. Thời gian phẫu thuật kéo dài 60-90 phút, bệnh nhân có thể về trong ngày.</p>
         <iframe id="iframe-3" src=""></iframe>
       </div>
       <div class="concept-bottom">
         <div class="concept-title">
-          <p class="text-bold">TẤM ĐỘN SINH HỌC MEGADERM</p>
+          <p class="text-bold">DÂY CHẰNG CHÉO</p>
           <hr>
         </div>
         <div class="concept-left">
-          <img id="concept-img-1" src="/frontend/images/home-penile3.png">
-          <p class="text-title">ỨNG DỤNG CỦA TẤM ĐỘN SINH HỌC MEGADERM</p>
+          <img id="concept-img-1" src="/frontend/images/home-penile-3x.png">
+          <p class="text-title">LỚP MỠ TRÊN XƯƠNG MU</p>
           <ul class="text-small">
-            <li>Trong chuyên ngành phẫu thuật tạo hình: Nó có tác dụng trong những phẫu thuật phải ghép da, tạo mô nâng đỡ để cho da phát triển, phủ kín bề mặt tại vị trí thiếu da như: đầu mũi, da tại nơi bị bỏng hoặc tai nạn.</li>
-            <li>Trong Nam khoa: Đặt phía dưới da của dương vật để làm tăng kích thước của dương vật, làm giảm độ nhạy cảm của da dương vật và từ đó làm tăng thời gian quan hệ lên từ 30-40%.</li>
-            <li>Trong chuyên ngành Tai Mũi Họng: được sử dụng rất nhiều trong chuyên ngành này, nó được phủ lên bề mặt tổn thương để tăng quá trình tái tạo mô.</li>
+            <li>Lớp mỡ trên xương mu càng dày sẽ càng làm chiều dài dương vật ngắn lại, trong khi chiều dài dương vật không thay đổi.</li>
+            <li>Thông thường lớp mỡ này sẽ làm dương vật ngắn đi từ 1-2cm, tuỳ thuộc vào độ dày mỏng của lớp mỡ này.</li>
+            <li>Việc loại bỏ lớp mỡ này sẽ làm dương vật dài ra khoảng 1cm.</li>
           </ul>
-          <img id="concept-img-2" src="/frontend/images/home-penile4.png">
         </div>
         <div class="concept-right">
-          <p class="text-medium">Tấm độn sinh học là một chất liệu được chế tạo ra từ da của người hoặc của động vật. Sau khi được loại bỏ toàn bộ các tế bào, các loại kháng nguyên, được tập hợp lại để tạo nên như một tấm lưới. </p>
-          <p class="text-title title-1">ƯU ĐIỂM CỦA TẤM ĐỘN SINH HỌC MEGADERM</p>
-          <ul class="text-small text-small-1">
-            <li>Được cấu tạo từ mô cơ thể sống, không có ảnh hưởng gì đến cơ thể,nguy cơ thải ghép thấp, cực hiếm, tỉ lệ là 1/10.000. Tích hợp một cách tự nhiên vào cơ thể của người bệnh. </li>
-            <li>Có khả năng tích hợp tự nhiên, vĩnh viễn vào cơ thể người, trở thành một tổ chức mô sống dưới da giống như một bộ phần bình thường khác của cơ thể.</li>
-          </ul>
-          <img id="concept-img-3" src="/frontend/images/home-penile3.png">
-          <p class="text-title title-2">ƯU ĐIỂM CỦA TẤM ĐỘN SINH HỌC MEGADERM TRONG PHẪU THUẬT TĂNG KÍCH THƯỚC DƯƠNG VẬT</p>
-          <ul class="text-small text-small-2">
-            <li>Tấm độn sinh học được tạo ra từ mô của người nên không có nguy cơ thải ghép ra khỏi cơ thể.</li>
-            <li>Có khả năng tích hợp vĩnh viễn với cơ thể người bệnh.</li>
-            <li>Sờ, nhìn tự nhiên như da thật, không hề nhận ra đã can thiệp phẫu thuật</li>
-            <li>Được sản xuất trong môi trường vô trùng tuyệt đối nên không có nguy cơ nhiễm trùng cho người bệnh</li>
-            <li>Nhiều loại kích cỡ khác nhau, về cả chiều dài và độ dày của tấm độn nên có nhiều sự lựa chọn cho người bệnh</li>
-            <li>Được chứng nhận theo tiêu chuẩn FDA (của Mỹ), KFDA (của Hàn) và đã được Bộ Y Tế Việt Nam cấp phép sử dụng</li>
-            <li>Ngoài tăng kích thước, tấm động sinh học còn giúp hỗ trợ cải thiện tình trạng xuất tinh sớm, kéo dài thời gian quan hệ.</li>
-          </ul>
+          <div class="text">
+            <p class="text-medium">Dây chằng treo dương vật là dây chằng bám vào thân dương vật, giúp cho dương vật khi cương lên thì nó nằm ở góc 3h (hay thẳng đứng). Nếu dây chằng này có vấn đề thì sẽ dẫn đến một số hậu quả: </p>
+            <p class="text-medium">- Nếu dây chằng treo dương vật bám sâu về phía quy đầu của dương vật thì sẽ làm cho chiều dài dương vật ngắn lại. Giữa xương mu và dương vật tạo thành một cái gờ rất cao.</p>
+            <p class="text-medium">- Nếu dây chằng này bám không đúng chính giữa của thân dương vật thì làm dương vật lệch sang một bên trái hoặc phải. Điều này làm cho dương vật lệch gây mất thẩm mỹ, gây khó khăn trong quan hệ tình dục.</p>
+            <p class="text-medium">- Dây chằng này thực chất không phải là một “sợi dây” hay sợi gân, mà nó là một tấm phên hình tam giác. Việc kéo dài dương vật bằng cắt dây chằng treo dương vật không phải là cắt đứt hoàn toàn dây chằng này mà chỉ cắt một phần dây chằng.</p>
+          </div>
+          <img id="concept-img-3" src="/frontend/images/home-penile4.png">
         </div>
       </div>
     </div>
@@ -161,15 +151,13 @@
       <iframe id="iframe-1" src=""></iframe>
       <div class="text-medium text-medium-3"><span>Bệnh nhân 1:</span> Vốn là Việt Kiều tại Anh Quốc nhưng anh đã vượt qua rất nhiều khó khắn trong thời điểm Covid để trở về Việt Nam làm phẫu thuật tăng kích thước dương vật tại Megadom. Đây là trường hợp rất đặc biệt vì anh phải chi tới 200 triệu tiền vé máy bay một chiều từ Anh về Việt Nam. Khi mới về, anh tiếp tục mất tới 3 tuần để cách ly tập trung và thêm 1 tuần cách ly tại nhà. Chia sẻ về lý do phẫu thuật, anh nói rằng mình và người yêu không hòa hợp trong chuyện chăn gối. Mặc dù người yêu không nói ra nhưng anh nhận ra sự thất vọng và khó chịu từ cô. Đây cũng là nguyên nhân chính dẫn đến sự bất hòa trong mối quan hệ của hai người.</div>
       <div class="effective-title">
-        <p class="text-bold">HIỆU QUẢ TĂNG KÍCH THƯỚC CỦA TẤM ĐỘN SINH HỌC MEGADERM</p>
+        <p class="text-bold">HIỆU QUẢ CỦA PHƯƠNG PHÁP</p>
         <hr>
       </div>
-      <div class="text-medium text-medium-4">Tuỳ thuộc vào chiều dài và độ dày của Tấm độn sinh học mà chu vi dương vật sẽ tăng được nhiều hay ít. Có 2 loại kích cỡ của tấm độn sinh học này là 4×5cm và 5x6cm tuỳ thuộc vào chiều dài của dương vật. Mức độ cải thiện về chu vi dương vật sẽ phụ thuộc vào độ dày của tấm độn sinh học:
-        <ul class="text-small">
-          <li>Với độ dày 3-3,5mm thì chu vi của dương vật sẽ tăng lên 2-2,5cm.</li>
-          <li>Với độ dày 3,5-4mm thì chu vi của dương vật sẽ tăng lên 3-4cm. </li>
-          <li>Với độ dày 4-5mm thì chu vi dương vật sẽ tăng lên 4-5cm</li>
-        </ul>
+      <div class="effective-content">
+        <p class="text-medium text-1">Phẫu thuật kéo dài dương vật bằng cắt dây chằng treo dương vật kết hợp loại bỏ lớp xương mu sẽ làm dương vật dài ra từ 1-2cm. Sự gia tăng chiều dài trên dương vật sẽ phụ thuộc vào 3 yếu tố: các cấu trúc giải phẫu; thân dương vật và vị trí của dây chằng treo.</p>
+        <p class="text-medium text-2">Nếu sau phẫu thuật các bệnh nhân tăng cân lên 3-5kg thì lớp mỡ trên xương mu này sẽ lại phát triển và có thể làm chiều dài dương vật ngắn đi.</p>
+        <p class="text-medium text-3">Link Video: <a>https://www.youtube.com/watch?v=hwjvnqyhjSc&t=53s</a></p>
       </div>
       <iframe id="iframe-2" src=""></iframe>
     </div>
@@ -210,7 +198,7 @@
     </div>
     <div class="note">
       <div class="note-title">
-        <p class="text-bold">NHỮNG LƯU Ý HẬU PHẪU THUẬT TĂNG KÍCH THƯỚC DƯƠNG VẬT BẰNG TẤM ĐỘN SILICON</p>
+        <p class="text-bold">NHỮNG LƯU Ý HẬU PHẪU THUẬT <span>KÉO DÀI DƯƠNG VẬT</span></p>
         <hr>
       </div>
       <div class="text">
