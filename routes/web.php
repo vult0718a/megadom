@@ -39,6 +39,17 @@ Route::get('/2-1', function () {
 
 Route::get('/post', 'PostController@getPostForUser')->name('post');
 
+Route::get('/2-2', function () {
+  return view('user/page/2-2');
+})->name('2-2');
+
+Route::get('/2-3', function () {
+  return view('user/page/2-3');
+})->name('2-3');
+
+Route::get('/3-1', function () {
+  return view('user/page/3-1');
+})->name('3-1');
 
 Route::group(['prefix'=>'admin'],function (){
   Auth::routes();
