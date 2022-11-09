@@ -12,6 +12,8 @@
 */
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
   return view('user/page/home');
@@ -50,6 +52,22 @@ Route::get('/2-3', function () {
 Route::get('/3-1', function () {
   return view('user/page/3-1');
 })->name('3-1');
+
+Route::get('/erectile-dysfunction', function () {
+  return view('user/page/erectile_dysfunction');
+})->name('erectile-dysfunction');
+
+Route::get('/testicular-disease', function () {
+  return view('user/page/testicular_disease');
+})->name('testicular_disease');
+
+Route::get('/menopause', function () {
+  return view('user/page/menopause');
+})->name('menopause');
+
+Route::get('/sexually-transmitted-diseases', function () {
+  return view('user/page/sexually_transmitted_diseases');
+})->name('sexually_transmitted_diseases');
 
 Route::group(['prefix'=>'admin'],function (){
   Auth::routes();
