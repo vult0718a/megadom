@@ -19,73 +19,76 @@ Route::get('/', function () {
   return view('user/page/home');
 })->name('home');
 
-Route::get('/introduce', function () {
+Route::get('/gioi-thieu', function () {
   return view('user/page/introduce');
 })->name('introduce');
 
-Route::get('/doctors', function () {
+Route::get('/doi-ngu-bac-si', function () {
   return view('user/page/doctor');
 })->name('doctor');
 
-Route::get('/library', function () {
+Route::get('/thu-vien', function () {
   return view('user/page/library');
 })->name('library');
 
-Route::get('/contact', function () {
+Route::get('/lien-he', function () {
   return view('user/page/contact');
 })->name('contact');
 
-Route::get('/2-1', function () {
+Route::get('/lam-to-megaderm', function () {
   return view('user/page/2-1');
 })->name('2-1');
 
 Route::get('/post', 'PostController@getPostForUser')->name('post');
 
-Route::get('/2-2', function () {
+Route::get('/lam-to-silicone', function () {
   return view('user/page/2-2');
 })->name('2-2');
 
-Route::get('/2-3', function () {
+Route::get('/phau-thuat-keo-dai', function () {
   return view('user/page/2-3');
 })->name('2-3');
 
-Route::get('/3-1', function () {
-  return view('user/page/3-1');
-})->name('3-1');
-
-Route::get('/erectile-dysfunction', function () {
-  return view('user/page/erectile_dysfunction');
-})->name('erectile-dysfunction');
-
-Route::get('/testicular-disease', function () {
-  return view('user/page/testicular_disease');
-})->name('testicular_disease');
-
-Route::get('/menopause', function () {
-  return view('user/page/menopause');
-})->name('menopause');
-
-Route::get('/sexually-transmitted-diseases', function () {
-  return view('user/page/sexually_transmitted_diseases');
-})->name('sexually_transmitted_diseases');
-Route::get('/3-2', function () {
-  return view('user/page/3-2');
-})->name('3-2');
-Route::get('/2-5', function () {
+Route::get('/phau-thuat-lam-to-vien-quy-dau', function () {
   return view('user/page/2-5');
 })->name('2-5');
 
-Route::get('/2-6', function () {
+Route::get('/phau-thuat-lam-to-megafill', function () {
   return view('user/page/2-6');
 })->name('2-6');
 
-Route::get('/2-7', function () {
+Route::get('/phau-thuat-dieu-tri-xuat-tinh-som', function () {
   return view('user/page/2-7');
 })->name('2-7');
 
-Route::get('/2-8', function () {
+Route::get('/dich-vu-khac', function () {
   return view('user/page/2-8');
 })->name('2-8');
+
+
+Route::get('/roi-loan-cuong-duong', function () {
+  return view('user/page/3-1');
+})->name('3-1');
+
+Route::get('/roi-loan-xuat-tinh', function () {
+  return view('user/page/3-2');
+})->name('3-2');
+
+Route::get('/benh-ly-tinh-hoan', function () {
+  return view('user/page/testicular_disease');
+})->name('testicular_disease');
+
+Route::get('/vo-sinh-hiem-muon', function () {
+  return view('user/page/erectile_dysfunction');
+})->name('erectile-dysfunction');
+
+Route::get('/man-duc-nam-gioi', function () {
+  return view('user/page/menopause');
+})->name('menopause');
+
+Route::get('/benh-lay-qua-duong-tinh-duc', function () {
+  return view('user/page/sexually_transmitted_diseases');
+})->name('sexually_transmitted_diseases');
 
 Route::group(['prefix'=>'admin'],function (){
   Auth::routes();
