@@ -71,6 +71,21 @@ Route::get('/sexually-transmitted-diseases', function () {
 Route::get('/3-2', function () {
   return view('user/page/3-2');
 })->name('3-2');
+Route::get('/2-5', function () {
+  return view('user/page/2-5');
+})->name('2-5');
+
+Route::get('/2-6', function () {
+  return view('user/page/2-6');
+})->name('2-6');
+
+Route::get('/2-7', function () {
+  return view('user/page/2-7');
+})->name('2-7');
+
+Route::get('/2-8', function () {
+  return view('user/page/2-8');
+})->name('2-8');
 
 Route::group(['prefix'=>'admin'],function (){
   Auth::routes();

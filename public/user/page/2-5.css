@@ -1,0 +1,536 @@
+body{
+    position: relative;
+    width: 1920px;
+    height: 9854px;
+    background: #FFFFFF;
+}
+.screen2-5{
+    width: 1920px;
+    height: 7885px;
+    background: #FFFFFF;
+}
+
+/* --------------------------Seccion 1------------------------------- */
+.screen2-5 .banner{
+    position: absolute;
+    width: 1920px;
+    height: 696px;
+    left: 0px;
+    top: 210px;
+    background: url(/frontend/images/image-13.png)
+}
+
+.text-medium{
+    position: absolute;
+    left: 10.36%;
+    right: 51.88%;
+    top: 35.78%;
+    bottom: 60.2%;
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.text-bold{
+    position: absolute;
+    left: 10.36%;
+    right: 51.88%;
+    top: 42.53%;
+    bottom: 35.92%;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+
+/* --------------------------Seccion 1------------------------------- */
+.screen2-5 .ss1 .text-1{
+    position: absolute;
+    width: 677px;
+    height: 57px;
+    left: 622px;
+    top: 1024px;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 150%;
+    /* identical to box height, or 57px */
+    text-align: center; 
+    color: #000000;
+}
+
+.screen2-5 .line{
+    position: absolute;
+    width: 109px;
+    height: 0px;
+    left: 905px;
+    top: 1111px;
+    border: 2px solid #000000
+}
+
+.screen2-5 .ss1 .text-2{
+    position: absolute;
+    width: 1008px;
+    height: 111px;
+    left: 457px;
+    top: 1162px;
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 170%;
+    /* or 37px */
+    text-align: justify;
+    color: #000000;
+}
+
+.screen2-5 .ss1 .ss1-1 .text-left .text-1{
+    position: absolute;
+    width: 690px;
+    height: 57px;
+    left: 199px;
+    top: 1412px;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 150%;
+    /* identical to box height, or 57px */
+    color: #000000;
+}
+
+.screen2-5 .ss1 .ss1-1 .text-left .line{
+    position: absolute;
+    width: 109px;
+    height: 0px;
+    left: 201px;
+    top: 1500px;
+    border: 2px solid #000000;
+}
+
+.screen2-5 .ss1 .ss1-1 .text-left .text-2{
+    position: absolute;
+    width: 690px;
+    height: 185px;
+    left: 199px;
+    top: 1551px;
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 170%;
+    /* or 37px */
+    text-align: justify;
+    color: #000000;
+}
+
+.screen2-5 .ss1 .ss1-1 .text-right{
+    position: absolute;
+    width: 690px;
+    height: 381px;
+    left: 1027px;
+    top: 1412px;
+    background: url(/frontend/images/home-penile-11.png);
+}
+
+/* --------------------------SS2---------------------------------------------- */
+.screen2-5 .ss2{
+    position: absolute;
+    height: 702px;
+    width: 1920px;
+    left: 0px;
+    top: 1900px;
+    border-radius: 0px;
+    background: url(/frontend/images/image-15.png);
+}
+
+.screen2-5 .ss2 .text-1{
+    position: absolute;
+    left: 17.03%;
+    right: 60.62%;
+    top: 39.32%;
+    bottom: 55.27%;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.screen2-5 .ss2 .btn-tu-van{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 25px 31px;
+    gap: 10px;
+    position: absolute;
+    left: 17.03%;
+    right: 67.34%;
+    top: 48.15%;
+    bottom: 39.32%;
+    background: #0429B7;
+    border-radius: 5px;
+}
+
+.screen2-5 .ss2 .btn-tu-van .text-1{
+    height: 38px;
+    width: 238px;
+    left: 31px;
+    top: 25px;
+    width: 238px;
+    height: 38px;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32x;
+    line-height: 38px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* -----------------SS3------------------------------- */
+.screen2-5 .ss3 .text-left{
+    position: absolute;
+    width: 690px;
+    height: 678px;
+    left: 199px;
+    top: 2794px;
+    background: url(/frontend/images/home-penile-1.png);
+}
+
+.screen2-5 .ss3 .text-right .text-1{
+    position: absolute;
+    width: 282px;
+    height: 57px;
+    left: 1031px;
+    top: 2794px;
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 150%;
+    /* identical to box height, or 57px */
+    color: #000000;
+}
+
+.screen2-5 .ss3 .text-right .line{
+    position: absolute;
+    width: 109px;
+    height: 0px;
+    left: 1031px;
+    top: 2881px;
+    border: 2px solid #000000;
+}
+
+.screen2-5 .ss3 .text-right .text-2{
+    position: absolute;
+    width: 690px;
+    height: 400px;
+    left: 1031px;
+    top: 2951px;
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 170%;
+    /* or 37px */
+    text-align: justify;
+    color: #000000;
+}
+
+/* --------------------SS4---------------------------- */
+.screen2-5 .ss4{
+    position: absolute;
+    width: 1920px;
+    height: 674px;
+    left: 0px;
+    top: 3622px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.screen2-5 .ss4 .img{
+    width: 1920px;
+    height: 674px;
+    left: 0px;
+    top: 3622px;
+    z-index: 100;
+    background: url(/frontend/images/Rectangle-72.png)
+}
+
+.screen2-5 .ss4 .img .text-left .text-1{
+    position: absolute;
+    width: 469px;
+    height: 129px;
+    left: 302px;
+    top: 272px;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 150%;
+    /* or 57px */
+    color: #FFFFFF;
+}
+.screen2-5 .ss4 .img .text-right .text-2{
+    position: absolute;
+    width: 690px;
+    height: 370px;
+    left: 1031px;
+    top: 152px;
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 170%;
+    z-index: 10;
+    /* or 37px */
+    text-align: justify;
+    color: #FFFFFF;
+}
+/* ------------------------SS5-------------------------- */
+.screen2-5 .ss5 .text-left .text-1{
+    position: absolute;
+    width: 690px;
+    height: 112px;
+    left: 199px;
+    top: 4446px;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 150%;
+    /* or 57px */
+    color: #000000;
+}
+.screen2-5 .ss5 .text-left .line{
+    position: absolute;
+    width: 109px;
+    height: 0px;
+    left: 199px;
+    top: 4588px;
+    border: 2px solid #000000;
+}
+
+.screen2-5 .ss5 .text-left .text-2{
+    position: absolute;
+    width: 690px;
+    height: 430px;
+    left: 199px;
+    top: 4658px;
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 170%;
+    /* or 37px */
+    text-align: justify;
+    color: #000000;
+
+}
+
+.screen2-5 .ss5 .text-right{
+    position: absolute;
+    width: 690px;
+    height: 762px;
+    left: 1031px;
+    top: 4446px;
+    background: url(/frontend/images/Rectangle-105.png);
+}
+/* ---------------------SS6----------------------- */
+
+.screen2-5 .ss6 .text-left{
+    position: absolute;
+    width: 690px;
+    height: 762px;
+    left: 199px;
+    top: 5358px;
+    background: url(/frontend/images/Rectangle-106.png);
+}
+.screen2-5 .ss6 .text-right .text-1{
+    position: absolute;
+    width: 462px;
+    height: 57px;
+    left: 984px;
+    top: 5355px;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 150%;
+    /* identical to box height, or 57px */
+    text-align: center;
+    color: #000000;
+}
+
+.screen2-5 .ss6 .text-right .line{
+    position: absolute;
+    width: 109px;
+    height: 0px;
+    left: 1025px;
+    top: 5442px;
+    border: 2px solid #000000;
+}
+
+.screen2-5 .ss6 .text-right .text-2{
+    position: absolute;
+    width: 696px;
+    height: 608px;
+    left: 1025px;
+    top: 5512px;
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 170%;
+    /* or 37px */
+    text-align: justify;
+    color: #000000;
+}
+/* --------------------------ss7------------------------- */
+.screen2-5 .ss7{
+    position: absolute;
+    height: 860px;
+    width: 1920px;
+    left: 0px;
+    top: 6270px;
+    border-radius: 0px;
+}
+.screen2-5 .ss7 .img{
+    position: absolute;
+    height: 860px;
+    width: 1920px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: url(/frontend/images/image6.png);
+}
+.screen2-5 .ss7 .text-1{
+    position: absolute;
+    height: 150px;
+    width: 539px;
+    left: 671px;
+    top: 294px;
+    border-radius: nullpx;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 150px;
+    color: #FFFFFF;
+}
+.screen2-5 .ss7 .text-2{
+    position: absolute;
+    left: 54.74%;
+    right: 37.14%;
+    top: 53.95%;
+    bottom: 41.63%;
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    /* #0062FF */
+    color: #0062FF;
+}
+.screen2-5 .ss7 .line{
+    position: absolute;
+    left: 54.74%;
+    right: 37.14%;
+    top: 60.7%;
+    bottom: 39.3%;
+    /* #0062FF */
+    border: 5px solid #0062FF
+}
+/* -------------------------------SS8------------------------------ */
+.screen2-5 .ss8 .text-left .text-1{
+    position: absolute;
+    width: 690px;
+    height: 112px;
+    left: 199px;
+    top: 7280px;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 150%;
+    /* or 57px */
+    color: #000000;
+}
+.screen2-5 .ss8 .text-left .line{
+    position: absolute;
+    width: 109px;
+    height: 0px;
+    left: 199px;
+    top: 7422px;
+    border: 2px solid #000000;
+}
+.screen2-5 .ss8 .text-left .text-2{
+    position: absolute;
+    width: 690px;
+    height: 333px;
+    left: 199px;
+    top: 7492px;
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 170%;
+    /* or 37px */
+    text-align: justify;
+    color: #000000;
+}
+.screen2-5 .ss8 .text-left .btn-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 25px 31px;
+    gap: 10px;
+    position: absolute;
+    height: 76px;
+    width: 291px;
+    left: 202px;
+    top: 7882px;
+    border-radius: 5px;
+    padding: 25px 31px 25px 31px;
+    background: #0429B7;
+    border-radius: 5px;
+}
+.screen2-5 .ss8 .text-left .text-3{
+    width: 229px;
+    height: 26px;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    text-align: right;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.screen2-5 .ss8 .text-right{
+    position: absolute;
+    width: 696px;
+    height: 678px;
+    left: 1025px;
+    top: 7280px;
+    background: url(/frontend/images/Rectangle-140.png);
+}
+
