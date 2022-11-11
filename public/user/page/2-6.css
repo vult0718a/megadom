@@ -197,6 +197,7 @@ body{
     bottom: 39.32%;
     background: #0429B7;
     border-radius: 5px;
+    border-color: #0429B7;
 }
 
 .screen2-5 .ss2 .btn-tu-van .text-1{
@@ -286,7 +287,8 @@ body{
     left: 0px;
     top: 4009px;
     z-index: 100;
-    background: url(/frontend/images/Rectangle-72.png)
+    background: rgba(0, 0, 0, 0.4) url(/frontend/images/Rectangle-72.png);
+    background-blend-mode: darken;
 }
 
 .screen2-5 .ss4 .img .text-left .text-1{
@@ -501,9 +503,9 @@ body{
 }
 .screen2-5 .ss8 .text-left .text-2{
     position: absolute;
-    width: 690px;
+    width: 692px;
     height: 222px;
-    left: 199px;
+    left: 192px;
     top: 7882px;
     font-family: 'WorkSans-Medium';
     font-style: normal;

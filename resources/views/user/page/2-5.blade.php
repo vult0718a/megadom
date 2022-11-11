@@ -71,15 +71,13 @@
         <div class="text-left">
             <p class="text-1">ƯU ĐIỂM CỦA PHƯƠNG PHÁP LÀM TO VIỀN QUY ĐẦU BẰNG FILLER</p>
             <span class="line"></span>
-            <p class="text-2">Tiêm Filler vào viền quy đầu được đánh giá là một phương pháp tốt nhất hiện nay để làm to
-                 phần viền của quy đầu: </br></br></br>
-                
-                 &#8226; Không gây kích ứng da,</br>
-                 &#8226; Hiệu quả trong thời gian dài, từ 12 - 18 tháng </br>
-                 &#8226; Tính thẩm mỹ cao</br></br></br>
-
-                Khi tiêm Filler vào viền quy đầu thì chỉ với một lượng nhỏ Filler, phần viền quy đầu sẽ to lên,
-                 các bác sĩ sẽ điều chỉnh để cho phần viền này to đều, căng và nhìn rất mịn.</p>
+            <p class="text-2">Tiêm Filler vào viền quy đầu được đánh giá là một phương pháp tốt nhất hiện nay để làm to phần viền của quy đầu: </p>
+            <ul class="text-3">
+                <li>Không gây kích ứng da,</li>
+                <li>Hiệu quả trong thời gian dài, từ 12 - 18 tháng</li>
+                <li>Tính thẩm mỹ cao</li>
+            </ul>
+            <p class="text-4">Khi tiêm Filler vào viền quy đầu thì chỉ với một lượng nhỏ Filler, phần viền quy đầu sẽ to lên, các bác sĩ sẽ điều chỉnh để cho phần viền này to đều, căng và nhìn rất mịn.</p> 
         </div>
         <div class="text-right"></div>
     </div>
@@ -88,16 +86,14 @@
         <div class="text-right">
             <p class="text-1">QUY TRÌNH PHẪU THUẬT</p>
             <span class="line"></span>
-            <p class="text-2">Thời gian phẫu thuật khá nhanh, thường kéo dài trong 10-15 phút</br></br>
-                    <b>Bước 1: Gây tê</b></br>
-                    Người bệnh sẽ được gây tê ở gốc dương vật, đảm bảo gây tê toàn bộ dương vật.</br></br>
-                    <b>Bước 2: Tiêm Filler vào viền quy đầu</b></br>
-                    Bác sĩ sẽ dùng những loại kim nhỏ để đưa Filler vào viền quy đầu. Kim càng nhỏ thì nguy cơ chảy
-                     máu càng ít. Lượng Filler sẽ được đưa đều vào phần viền của quy đầu, tạo cho viền quy đầu to đều,
-                      không bị gồ ghề.</br></br>
-                    <b>Bước 3: Băng gạc và sát trùng</b></br>
-                    Tiêm Filler xong thì bác sĩ sẽ bịt chặt chỗ tiêm để bịt kín lỗ kim khi chọc vào viền quy đầu. Sau đó
-                     bạn sẽ được băng bằng gạc và sát trùng bằng Betadin.</p>
+            <p class="text-2">
+                <span>Thời gian phẫu thuật khá nhanh, thường kéo dài trong 10-15 phút</br></span>
+                <span><b>Bước 1: Gây tê</b></br></span>
+                <span>Người bệnh sẽ được gây tê ở gốc dương vật, đảm bảo gây tê toàn bộ dương vật.</br></span>
+                <span><b>Bước 2: Tiêm Filler vào viền quy đầu</b></br></span>
+                <span>Bác sĩ sẽ dùng những loại kim nhỏ để đưa Filler vào viền quy đầu. Kim càng nhỏ thì nguy cơ chảy máu càng ít. Lượng Filler sẽ được đưa đều vào phần viền của quy đầu, tạo cho viền quy đầu to đều, không bị gồ ghề.</br></span>
+                <span><b>Bước 3: Băng gạc và sát trùng</b></br></span>
+                <span>Tiêm Filler xong thì bác sĩ sẽ bịt chặt chỗ tiêm để bịt kín lỗ kim khi chọc vào viền quy đầu. Sau đó bạn sẽ được băng bằng gạc và sát trùng bằng Betadin.</p></span>
         </div>
     </div>
     <div class="ss7">

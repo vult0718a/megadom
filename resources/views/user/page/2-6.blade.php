@@ -12,7 +12,7 @@
 <div class="screen2-5">
     <div class="banner">
             <p class="text-medium">TRANG CHỦ. PHẪU THUẬT NAM KHOA. PHẪU THUẬT QUY ĐẦU</p>
-            <p class="text-bold">Phẫu thuật </br>làm to viền quy đầu</p>
+            <p class="text-bold">Phẫu thuật </br>làm to quy đầu</p>
     </div> 
     <div class="ss1">
         <p class="text-1">PHẪU THUẬT LÀM TO QUY ĐẦU</p>
@@ -77,12 +77,12 @@
     </div>
     <div class="ss5">
         <div class="text-left">
-            <p class="text-1">ƯU ĐIỂM CỦA PHƯƠNG PHÁP LÀM TO VIỀN QUY ĐẦU BẰNG FILLER</p>
+            <p class="text-1">ƯU ĐIỂM CỦA PHƯƠNG PHÁP LÀM TO QUY ĐẦU BẰNG MEGAFILL</p>
             <span class="line"></span>
-            <p class="text-2">&#8226; Megafill là một dạng vi mô để cấy ghép vào mô của cơ thể con người.
-                Các hạt vi mô siêu nhỏ của Megafill sẽ làm giảm kích thước các nốt sần, cải thiện độ đồng nhất
-                và tính đối xứng, từ đó hạn chế các biến chứng như u cục, sưng, tê cứng ở vị trí ghép.<br>
-                &#8226; Phẫu thuật làm to quy đầu bằng Megafill sẽ không ảnh hưởng đến cảm giác của vùng quy đầu.</p>
+            <ul class="text-2">
+                <li>Megafill là một dạng vi mô để cấy ghép vào mô của cơ thể con người. Các hạt vi mô siêu nhỏ của Megafill sẽ làm giảm kích thước các nốt sần, cải thiện độ đồng nhất và tính đối xứng, từ đó hạn chế các biến chứng như u cục, sưng, tê cứng ở vị trí ghép.</li>
+                <li>Phẫu thuật làm to quy đầu bằng Megafill sẽ không ảnh hưởng đến cảm giác của vùng quy đầu.</li>
+            </ul>
         </div>
         <div class="text-right"></div>
     </div>
@@ -91,16 +91,7 @@
         <div class="text-right">
             <p class="text-1">QUY TRÌNH PHẪU THUẬT</p>
             <span class="line"></span>
-            <p class="text-2">Thời gian phẫu thuật khá nhanh, thường kéo dài trong 10-15 phút</br></br>
-                    <b>Bước 1: Gây tê</b></br>
-                    Người bệnh sẽ được gây tê ở gốc dương vật, đảm bảo gây tê toàn bộ dương vật.</br></br>
-                    <b>Bước 2: Tiêm Filler vào viền quy đầu</b></br>
-                    Bác sĩ sẽ dùng những loại kim nhỏ để đưa Filler vào viền quy đầu. Kim càng nhỏ thì nguy cơ chảy
-                     máu càng ít. Lượng Filler sẽ được đưa đều vào phần viền của quy đầu, tạo cho viền quy đầu to đều,
-                      không bị gồ ghề.</br></br>
-                    <b>Bước 3: Băng gạc và sát trùng</b></br>
-                    Tiêm Filler xong thì bác sĩ sẽ bịt chặt chỗ tiêm để bịt kín lỗ kim khi chọc vào viền quy đầu. Sau đó
-                     bạn sẽ được băng bằng gạc và sát trùng bằng Betadin.</p>
+            <p class="text-2">Chờ nội dung</p>
         </div>
     </div>
     <div class="ss7">
@@ -112,12 +103,12 @@
     </div>
     <div class="ss8">
         <div class="text-left">
-            <p class="text-1">KHI NÀO BẠN NÊN THỰC HIỆN PHẪU THUẬT LÀM TO VIỀN QUY ĐẦU</p>
+            <p class="text-1">KHI NÀO BẠN NÊN THỰC HIỆN PHẪU THUẬT LÀM TO QUY ĐẦU</p>
             <span class="line"></span>
-            <p class="text-2">&#8226; Những bệnh nhân làm phẫu thuật tăng kích thước dương vật bằng tấm độn sinh học Megaderm.
-                    Vì phẫu thuật làm to quy đầu bằng Megafill sẽ làm tương xứng kích thước giữa thân dương vật và vùng quy
-                    đầu.<br>
-                    &#8226; Những nam giới có kích thước quy đầu quá nhỏ so với thân dương vật.</p>
+            <ul class="text-2">
+                <li>Những bệnh nhân làm phẫu thuật tăng kích thước dương vật bằng tấm độn sinh học Megaderm. Vì phẫu thuật làm to quy đầu bằng Megafill sẽ làm tương xứng kích thước giữa thân dương vật và vùng quy đầu.</li>
+                <li>Những nam giới có kích thước quy đầu quá nhỏ so với thân dương vật.</li>
+            </ul>
             <button class="btn-contact"><p class="text-3">LIÊN HỆ CHUYÊN GIA</p></button>
 
         </div>

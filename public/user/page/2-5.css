@@ -179,6 +179,7 @@ body{
     bottom: 39.32%;
     background: #0429B7;
     border-radius: 5px;
+    border-color: #0429B7;
 }
 
 .screen2-5 .ss2 .btn-tu-van .text-1{
@@ -267,7 +268,8 @@ body{
     left: 0px;
     top: 3622px;
     z-index: 100;
-    background: url(/frontend/images/Rectangle-72.png)
+    background: rgba(0, 0, 0, 0.4) url(/frontend/images/Rectangle-72.png);
+    background-blend-mode: darken;
 }
 
 .screen2-5 .ss4 .img .text-left .text-1{
@@ -341,6 +343,34 @@ body{
 
 }
 
+.screen2-5 .ss5 .text-left .text-3 {
+    position: absolute;
+    width: 690px;
+    left: 192px;
+    top: 4792px;
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 170%;
+    text-align: justify;
+    color: #000000;
+}
+
+.screen2-5 .ss5 .text-left .text-4 {
+    position: absolute;
+    width: 690px;
+    left: 199px;
+    top: 4976px;
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 170%;
+    text-align: justify;
+    color: #000000;
+}
+
 .screen2-5 .ss5 .text-right{
     position: absolute;
     width: 690px;
@@ -384,7 +414,7 @@ body{
     border: 2px solid #000000;
 }
 
-.screen2-5 .ss6 .text-right .text-2{
+.screen2-5 .ss6 .text-right .text-2 {
     position: absolute;
     width: 696px;
     height: 608px;
@@ -398,6 +428,11 @@ body{
     /* or 37px */
     text-align: justify;
     color: #000000;
+}
+
+.screen2-5 .ss6 .text-right .text-2 span {
+    margin-bottom: 15px;
+    display: block;
 }
 /* --------------------------ss7------------------------- */
 .screen2-5 .ss7{
