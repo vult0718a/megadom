@@ -11,27 +11,18 @@
 @section('content')
 <div class="screen2-5">
     <div class="banner">
-            <p class="text-medium">TRANG CHỦ. PHẪU THUẬT NAM KHOA. PHẪU THUẬT QUY ĐẦU</p>
-            <p class="text-bold">Phẫu thuật </br>làm to viền quy đầu</p>
+            <p class="text-medium">TRANG CHỦ. PHẪU THUẬT NAM KHOA. PHẪU THUẬT ĐIỀU TRỊ XUẤT TINH SỚM</p>
+            <p class="text-bold">Phẫu thuật </br>làm to quy đầu</p>
     </div> 
     <div class="ss1">
         <p class="text-1">CẮT LƯNG DƯƠNG VẬT ĐỂ ĐIỀU TRỊ XUẤT TINH SỚM</p>
         <span class="line"></span>
-        <p class="text-2">Đây là phương pháp điều trị xuất tinh sớm hiện đại, hiệu quả an toàn.
-             Theo các chuyên gia đa phần người bị xuất tinh sớm sẽ có nhiều dây thần kinh dương
-              vật hơn người bình thường. Do vậy, dương vật của họ trở nên nhạy cảm hơn khi quan hệ
-               và dẫn đến việc xuất tinh sớm. Dựa vào nguyên lý này, phương pháp chặn dây thần kinh
-                ở lưng dương vật ra đời. Kĩ thuật này sẽ cắt bớt số lượng vừa đủ dây thần kinh mẫn cảm
-                 ở dương vật. </p>
+        <p class="text-2">Đây là phương pháp điều trị xuất tinh sớm hiện đại, hiệu quả an toàn. Theo các chuyên gia đa phần người bị xuất tinh sớm sẽ có nhiều dây thần kinh dương vật hơn người bình thường. Do vậy, dương vật của họ trở nên nhạy cảm hơn khi quan hệ và dẫn đến việc xuất tinh sớm. Dựa vào nguyên lý này, phương pháp chặn dây thần kinh ở lưng dương vật ra đời. Kĩ thuật này sẽ cắt bớt số lượng vừa đủ dây thần kinh mẫn cảm ở dương vật.</p>
         <div class="ss1-1">
             <div class="text-left">
-                <p class="text-1">MEGAFILL</p>
+                <p class="text-1" style="text-align: left;">ĐIỀU TRỊ XUẤT TINH SỚM BẰNG TẤM ĐỘN SINH HỌC MEGADERM</p>
                 <span class="line"></span>
-                <p class="text-2">Megafill là một vật liệu sinh học được chế tạo ra từ da của người hiến tặng.
-                    Sau khi được loại bỏ toàn bộ các tế bào, các loại kháng nguyên, được tập hợp lại để tạo nên
-                    như một tấm lưới. Megafill thực chất là vật liệu MegaDerm nhưng được nghiền nhỏ ra thành bột.
-                    Ngoài ra, Megafill bao gồm các thành phần ngoại bào gồm có collagen, Elastin, protein và
-                    proteoglycans.</p>
+                <p class="text-2">Sau khi phẫu thuật tăng kích thước dương vật bằng tấm độn sinh học Megaderm, bệnh nhân sẽ giảm cảm giác tiếp xúc da, qua đó giảm độ nhạy cảm của da dương vật. Điều này không phải là nhược điểm mà là lợi thế giúp các nam giới kéo dài thời gian quan hệ, giảm tỷ lệ mắc xuất tinh sớm.</p>
             </div>
             <div class="text-right"></div>
         </div>
