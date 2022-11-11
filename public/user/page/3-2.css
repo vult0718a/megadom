@@ -1,0 +1,637 @@
+.screen3-2 {
+  position: relative;
+  width: 1920px;
+  min-height: 7783px;
+  background: #FFFFFF;
+}
+
+.screen3-2 .banner {
+  position: absolute;
+  width: 1920px;
+  height: 696px;
+  background: url(/frontend/images/image13b.png);
+}
+
+.screen3-2 .banner .text-bold {
+  position: absolute;
+  left: 199px;
+  top: 296px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  color: #FFFFFF;
+
+}
+
+.screen3-2 .banner .text-small {
+  position: absolute;
+  left: 199px;
+  top: 249px;
+  width: 760px;
+  height: 28px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.screen3-2 .define {
+  top: 696px;
+  position: absolute; 
+}
+
+.screen3-2 .define .define-title {
+  position: absolute;
+  width: 477px;
+  height: 87px;
+  left: 722px;
+  top: 118px;
+}
+
+.screen3-2 .define .define-title .text-1 {
+  position: absolute;
+  width: 477px;
+  height: 57px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+
+.screen3-2 .define .text-medium-1 {
+  position: absolute;
+  width: 1008px;
+  height: 148px;
+  left: 457px;
+  top: 256px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen3-2 .define .define-title .hr-1 {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  top: 87px;
+  margin: 0;
+  border: 2px solid #000000;
+  left: 184px;
+}
+
+.screen3-2 .define #image-1 {
+  position: absolute;
+  width: 690px;
+  height: 381px;
+  left: 1027px;
+  top: 554px;
+}
+
+.screen3-2 .define .text-2 {
+  position: absolute;
+  width: 690px;
+  height: 57px;
+  left: 199px;
+  top: 554px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.screen3-2 .define .text-medium-2 {
+  position: absolute;
+  width: 690px;
+  height: 222px;
+  left: 199px;
+  top: 693px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000; 
+}
+
+.screen3-2 .define .hr-2 {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  left: 199px;
+  top: 643px;
+  border: 2px solid #000000;
+  margin: 0;
+}
+
+.screen3-2 .booking {
+  position: absolute;
+  width: 1920px;
+  height: 702px;
+  left: 0px;
+  top: 1781px;
+  background: url(/frontend/images/image15a.png);
+}
+
+.screen3-2 .booking .booking-title {
+  position: absolute;
+  width: 429px;
+  height: 38px;
+  left: 327px;
+  top: 276px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.screen3-2 .booking .block-booking {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 25px 31px;
+  gap: 10px;
+  position: absolute;
+  width: 300px;
+  height: 88px;
+  left: 327px;
+  top: 338px;
+  background: #0429B7;
+  border-radius: 5px;
+}
+
+.screen3-2 .booking .block-booking span {
+  width: 238px;
+  height: 38px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.screen3-2 .reason {
+  position: absolute;
+  width: 1920px;
+  top: 2483px;
+}
+
+.screen3-2 .reason .reason-title {
+  position: absolute;
+  width: 413px;
+  height: 87px;
+  left: 754px;
+  top: 150px;
+}
+
+.screen3-2 .reason .reason-title .text-1 {
+  position: absolute;
+  width: 413px;
+  height: 57px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+
+.screen3-2 .reason .reason-title .hr-2 {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  top: 87px;
+  border: 2px solid #000000;
+  margin: 0;
+  left: 152px;
+}
+
+.screen3-2 .reason .text-medium-1 {
+  position: absolute;
+  width: 690px;
+  height: 348px;
+  left: 199px;
+  top: 307px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen3-2 .reason .text-medium-2 {
+  position: absolute;
+  width: 690px;
+  height: 348px;
+  left: 1024px;
+  top: 307px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen3-2 .reason .text-medium-1 span,
+.screen3-2 .reason .text-medium-2 span {
+  font-family: 'WorkSans-Bold';
+  font-weight: 700;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.screen3-2 .chose {
+  position: absolute;
+  top: 3325px;
+  background: url(/frontend/images/rectangle72a.png);
+  height: 674px;
+  width: 1920px;
+}
+
+.screen3-2 .chose #background {
+  position: absolute;
+  width: 1920px;
+  height: 674px;
+}
+
+.screen3-2 .chose .chose-title {
+  position: absolute;
+  left: 15.73%;
+  right: 59.84%;
+  top: 40.36%;
+  bottom: 40.5%;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.screen3-2 .chose .chose-content {
+  position: absolute;
+  left: 53.7%;
+  right: 10.36%;
+  top: 22.55%;
+  bottom: 22.55%;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #FFFFFF;
+  width: 690px;
+  height: 370px;
+}
+
+.screen3-2 .expression {
+  position: absolute;
+  top: 3999px;
+  width: 1920px;
+}
+
+.screen3-2 .expression .expression-title-1 {
+  position: absolute;
+  width: 690px;
+  height: 112px;
+  left: 199px;
+  top: 150px;
+}
+
+.screen3-2 .expression .expression-title-1 .text-1 {
+  position: absolute;
+  width: 690px;
+  height: 112px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.screen3-2 .expression .expression-title-1 .hr-3 {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  top: 86px;
+  margin: 0;
+  border: 2px solid #000000;
+}
+
+.screen3-2 .expression .expression-content-1 {
+  position: absolute;
+  width: 690px;
+  height: 697px;
+  left: 199px;
+  top: 286px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen3-2 .expression .expression-content-1 .text-bold-1 {
+  font-family: 'WorkSans-Bold';
+  font-weight: 700;
+}
+
+.screen3-2 .expression .expression-content-1 .text-bold-2 {
+  font-family: 'WorkSans-Bold';
+  font-weight: 700;
+  position: absolute;
+  top: 498px;
+}
+
+.screen3-2 .expression .expression-content-1 .text-medium-2 {
+  position: absolute;
+  top: 548px;
+}
+
+.screen3-2 .expression .expression-content-1 .text-medium-1 {
+  position: absolute;
+  top: 50px;
+}
+
+.screen3-2 .expression .text-small-1 {
+  position: absolute;
+  top: 172px;
+}
+
+.screen3-2 .expression .text-small-2 {
+  position: absolute;
+  top: 262px;
+}
+
+.screen3-2 .expression .text-small-3 {
+  position: absolute;
+  top: 353px;
+}
+
+.screen3-2 .expression #expression-image-1 {
+  position: absolute;
+  width: 690px;
+  height: 833px;
+  left: 1031px;
+  top: 150px;
+}
+
+.screen3-2 .expression #expression-image-2 {
+  position: absolute;
+  width: 696px;
+  height: 678px;
+  left: 201px;
+  top: 1133px;
+}
+
+.screen3-2 .expression .expression-title-2 {
+  position: absolute;
+  width: 690px;
+  height: 142px;
+  left: 1031px;
+  top: 1133px;
+}
+
+.screen3-2 .expression .expression-title-2 .text-2 {
+  position: absolute;
+  width: 690px;
+  height: 112px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.screen3-2 .expression .expression-title-2 .hr-4 {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  top: 142px;
+  margin: 0;
+  border: 2px solid #000000;
+}
+
+.screen3-2 .expression .text-medium-3 {
+  position: absolute;
+  width: 690px;
+  height: 148px;
+  left: 1031px;
+  top: 1345px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.screen3-2 .block-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 25px 31px;
+  gap: 10px;
+  position: absolute;
+  width: 451px;
+  height: 76px;
+  left: 1031px;
+  top: 1458px;
+  background: #0429B7;
+  border-radius: 5px;
+}
+
+.screen3-2 .block-contact .call {
+  width: 389px;
+  height: 26px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: right;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.library {
+  position: absolute;
+  width: 1920px;
+  height: 860px;
+  left: 0px;
+  top: 5960px;
+  background: url(/frontend/images/image6.png);
+}
+
+.library .text-bold {
+  position: absolute;
+  width: 539px;
+  height: 150px;
+  left: 671px;
+  top: 294px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 150px;
+  color: #FFFFFF;
+}
+
+.library .text-small {
+  position: absolute;
+  width: 156px;
+  height: 38px;
+  left: 1051px;
+  top: 464px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.library hr {
+  position: absolute;
+  width: 156px;
+  height: 0px;
+  left: 1051px;
+  top: 522px;
+  border: 5px solid #FFFFFF;
+}
+
+.qa {
+  position: absolute;
+  width: 1920px;
+  top: 6820px;
+}
+
+.qa .qa-title-1 {
+  position: absolute;
+  width: 690px;
+  height: 142px;
+  left: 199px;
+  top: 150px;
+}
+
+.qa .qa-title-1 .text-1 {
+  position: absolute;
+  width: 690px;
+  height: 112px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.qa .qa-title-1 .hr-4 {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  top: 142px;
+  margin: 0;
+  border: 2px solid #000000;
+}
+
+.qa .text-medium-1 {
+  position: absolute;
+  width: 690px;
+  height: 185px;
+  left: 199px;
+  top: 362px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.qa .text-medium-1 span {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.qa .qa-title-2 {
+  position: absolute;
+  width: 690px;
+  height: 142px;
+  left: 1031px;
+  top: 150px;
+}
+
+.qa .qa-title-2 .text-2 {
+  position: absolute;
+  width: 690px;
+  height: 112px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.qa .qa-title-2 .hr-5 {
+  position: absolute;
+  width: 109px;
+  height: 0px;
+  top: 142px;
+  margin: 0;
+  border: 2px solid #000000;
+}
+
+.qa .text-medium-2 {
+  position: absolute;
+  width: 690px;
+  height: 511px;
+  left: 1031px;
+  top: 362px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.qa .qa-title-2 .text-2 span {
+  display: block;
+}

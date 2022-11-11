@@ -68,6 +68,9 @@ Route::get('/menopause', function () {
 Route::get('/sexually-transmitted-diseases', function () {
   return view('user/page/sexually_transmitted_diseases');
 })->name('sexually_transmitted_diseases');
+Route::get('/3-2', function () {
+  return view('user/page/3-2');
+})->name('3-2');
 
 Route::group(['prefix'=>'admin'],function (){
   Auth::routes();
