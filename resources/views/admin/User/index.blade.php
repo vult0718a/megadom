@@ -26,8 +26,11 @@
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Số thứ tự</th>
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Họ tên</th>
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Email</th>
+                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Quyền</th>
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Trạng thái</th>
-                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Thao tác</th>
+                                @if(Auth::user()->is_super_admin == 1)
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Thao tác</th>
+                                @endif
                             </tr>
                         </thead>
                         <tbody>
@@ -48,6 +51,15 @@
                                     <td class="align-middle text-center">
                                         <span class="text-secondary font-weight-bold text-xs">{{ $admin->email }}</span>
                                     </td>
+                                    <td class="align-middle text-center">
+                                        <span class="text-secondary font-weight-bold text-xs">
+                                            @if($admin->is_super_admin == 1)
+                                                Super Admin
+                                            @else
+                                                Admin
+                                            @endif
+                                        </span>
+                                    </td>
                                     <td class="align-middle text-center text-sm">
                                         @if($admin->status == 1)
                                             <span class="badge badge-sm bg-gradient-success">Mở</span>
@@ -56,9 +68,11 @@
                                         @endif
                                     </td>
                                     <td class="text-center">
-                                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                                            Edit
-                                        </a>
+                                        @if(Auth::user()->is_super_admin == 1)
+                                            <a href="{{ route('admin.show', $admin->id) }}" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                                                Edit
+                                            </a>
+                                        @endif
                                     </td>
                                 </tr>
                             @endforeach

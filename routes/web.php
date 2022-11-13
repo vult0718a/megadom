@@ -92,9 +92,12 @@ Route::get('/benh-lay-qua-duong-tinh-duc', function () {
 
 Route::group(['prefix'=>'admin'],function (){
   Auth::routes();
-  Route::group(['middleware' => 'auth'],function () {
+  Route::group(['middleware' => ['auth', 'checkstatus']],function () {
     Route::get('/', 'UserController@index')->name('admin');
     Route::get('/create', 'UserController@create')->name('admin.create');
+    Route::post('/store', 'UserController@store')->name('admin.store');
+    Route::get('/show/{id}', 'UserController@show')->name('admin.show');
+    Route::post('/update/{id}', 'UserController@update')->name('admin.update');
     Route::group(['prefix'=>'post'],function (){
       Route::get('/', 'PostController@index')->name('admin.post');
       Route::get('/create', 'PostController@create')->name('admin.post.create');

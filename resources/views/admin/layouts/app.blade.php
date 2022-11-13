@@ -28,7 +28,7 @@
     <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link text-white active bg-gradient-primary" href="{{ route('admin') }}">
+          <a class="nav-link text-white @if(Route::is('admin') || Route::is('admin.create') || Route::is('admin.show')) active bg-gradient-primary @endif" href="{{ route('admin') }}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">table_view</i>
             </div>
@@ -36,7 +36,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="{{ route('admin.post') }}">
+          <a class="nav-link text-white @if(Route::is('admin.post') || Route::is('admin.post.create')) active bg-gradient-primary @endif" href="{{ route('admin.post') }}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">receipt_long</i>
             </div>

@@ -52,6 +52,11 @@
                             <strong>{{ $message }}</strong>
                         </p>
                     @enderror
+                    @if(session('erro_login'))
+                        <p class="mt-4 text-sm text-center" style="color:red">
+                            <strong>{{ session('erro_login') }}</strong>
+                        </p>
+                    @endif
                   <div class="text-center">
                     <button type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2">Login</button>
                   </div>

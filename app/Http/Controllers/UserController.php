@@ -36,7 +36,35 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate(
+            [
+                'name' => ['required', 'string', 'max:255'],
+                'email' => ['required', 'email', 'max:255'],
+                'password' => ['required', 'confirmed', 'min:8'],
+                'status' => ['required', 'in:2,1'],
+                'is_super_admin' => ['required', 'in:2,1']
+            ],
+            [
+                'name.required' => 'Cần nhập họ tên admin!',
+                'name.max' => 'Họ tên tối đa 255 ký tự!',
+                'email.required' => 'Cần nhập email admin!',
+                'email.email' => 'Email không đúng định dạng!',
+                'email.max' => 'Email tối đa 255 ký tự!',
+                'password.required' => 'Cần nhập mật khẩu!',
+                'password.min' => 'Mật khẩu tối thiểu là 8 ký tự!',
+                'password.confirmed' => 'Mật khẩu nhập lại không chính xác!',
+                'status.in' => 'Dữ liệu trạng thái không hợp lệ!',
+                'status.required' => 'Trạng thái không được trống!',
+                'is_super_admin.in' => 'Dữ liệu quyền không hợp lệ!',
+                'is_super_admin.required' => 'Quyền không được trống!',
+            ]
+        );
+
+        $data = $request->all();
+        $data['password'] = bcrypt($data['password']);
+        User::create($data);
+
+        return redirect(route('admin'));
     }
 
     /**
@@ -47,7 +75,11 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        //
+        $admin = User::find($id);
+        if (!$admin) {
+            abort(404);
+        }
+        return view('admin.user.update', ['admin' => $admin]);
     }
 
     /**
@@ -70,7 +102,34 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $admin = User::find($id);
+        if (!$admin) {
+            abort(404);
+        }
+        $request->validate(
+            [
+                'name' => ['required', 'string', 'max:255'],
+                'email' => ['required', 'email', 'max:255'],
+                'status' => ['required', 'in:2,1'],
+                'is_super_admin' => ['required', 'in:2,1']
+            ],
+            [
+                'name.required' => 'Cần nhập họ tên admin!',
+                'name.max' => 'Họ tên tối đa 255 ký tự!',
+                'email.required' => 'Cần nhập email admin!',
+                'email.email' => 'Email không đúng định dạng!',
+                'email.max' => 'Email tối đa 255 ký tự!',
+                'status.in' => 'Dữ liệu trạng thái không hợp lệ!',
+                'status.required' => 'Trạng thái không được trống!',
+                'is_super_admin.in' => 'Dữ liệu quyền không hợp lệ!',
+                'is_super_admin.required' => 'Quyền không được trống!',
+            ]
+        );
+
+        $data = $request->all();
+        $admin->update($data);
+
+        return redirect(route('admin'));
     }
 
     /**
