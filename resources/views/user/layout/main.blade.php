@@ -24,6 +24,7 @@
     <!-- link css -->
     <link rel="stylesheet" type="text/css" href="/frontend/css/style.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css'>
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
 
     <!-- Import style -->
     @yield('style')

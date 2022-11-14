@@ -1,7 +1,7 @@
 @extends('admin.layouts.app')
 
 @section('title')
-<title>Quản lý liên hệ</title>
+<title>Danh sách tư vấn</title>
 @endsection
 
 @section('style')

@@ -36,7 +36,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white @if(Route::is('admin.post') || Route::is('admin.post.create')) active bg-gradient-primary @endif" href="{{ route('admin.post') }}">
+          <a class="nav-link text-white @if(Route::is('admin.post') || Route::is('admin.post.create') || Route::is('admin.post.show')) active bg-gradient-primary @endif" href="{{ route('admin.post') }}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">receipt_long</i>
             </div>
@@ -44,7 +44,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white @if(Route::is('admin.contact') || Route::is('admin.contact')) active bg-gradient-primary @endif" href="{{ route('admin.contact') }}">
+          <a class="nav-link text-white @if(Route::is('admin.contact') || Route::is('admin.contact.show')) active bg-gradient-primary @endif" href="{{ route('admin.contact') }}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">receipt_long</i>
             </div>
@@ -144,6 +144,12 @@
           </div>
         </div>
         <hr class="horizontal dark my-sm-4">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#changeEmail">
+          Đổi email
+        </button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#changePass">
+          Đổi mật khẩu
+        </button>
         <div class="mt-2 d-flex">
             <form action="{{ route('logout') }}" method="POST">
                 @csrf
@@ -153,6 +159,62 @@
       </div>
     </div>
   </div>
+
+  <!-- Thay đổi email -->
+  <div class="modal fade" id="changeEmail" tabindex="-1" aria-labelledby="changeEmailLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="changeEmailLabel">Thay đổi email</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="{{ route('admin.change-email') }}" method="POST">
+              @csrf
+              <input style="border: 1px solid #d2d6da;" type="email" class="form-control" id="email" name="email" placeholder="Nhập email mới">
+              @error('email')
+                  <span class="mt-4 text-sm text-center" style="color:red">
+                      <strong>{{ $message }}</strong>
+                  </span><br>
+              @enderror
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
+                <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+              </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Thay đổi mật khẩu -->
+  <div class="modal fade" id="changePass" tabindex="-1" aria-labelledby="changePassLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="changePasslLabel">Thay đổi mật khẩu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="{{ route('admin.change-password') }}" method="POST">
+              @csrf
+              <input style="border: 1px solid #d2d6da;" type="password" class="form-control" id="password" name="password" placeholder="Nhập password mới">
+              @error('password')
+                  <span class="mt-4 text-sm text-center" style="color:red">
+                      <strong>{{ $message }}</strong>
+                  </span><br>
+              @enderror
+              <br><input style="border: 1px solid #d2d6da;" type="password" class="form-control" id="password_confirmation" name="password_confirmation" placeholder="Nhập lại password mới">
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
+                <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+              </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!--   Core JS Files   -->
   <script src="{{ asset('admins/assets/js/core/popper.min.js') }}"></script>
   <script src="{{ asset('admins/assets/js/core/bootstrap.min.js') }}"></script>

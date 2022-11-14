@@ -53,6 +53,29 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate(
+            [
+                'title' => ['required', 'max:255'],
+                'short_content' => ['required', 'max:255'],
+                'content' => ['required'],
+                'category_id' => ['required', 'exists:categories,id'],
+                'image' => ['required', 'image', 'mimes:jpeg,png,jpg,gif,svg', 'max:10240']
+            ],
+            [
+                'title.required' => 'Cần nhập tiêu đề!',
+                'title.max' => 'Tiêu đề tối đa 255 ký tự!',
+                'short_content.required' => 'Cần nhập nội dung thu gọn!',
+                'short_content.max' => 'Nội dung thu gọn tối đa 255 ký tự!',
+                'content.required' => 'Cần nhập nội dung!',
+                'category_id.required' => 'Danh mục không được trống!',
+                'category_id.exists' => 'Danh mục không hợp lệ!',
+                'image.required' => 'Ảnh không được để trống!',
+                'image.image' => 'Ảnh không hợp lệ!',
+                'image.mimes' => 'Ảnh không hợp lệ!',
+                'image.max' => 'Ảnh không hợp lệ!',
+            ]
+        );
+
         $data = $request->all();
         $data['user_id'] = Auth::user()->id;
         $post = Post::create($data);
@@ -70,7 +93,12 @@ class PostController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = Post::find($id);
+        if (!$post) {
+            abort(404);
+        }
+        $categories = Category::all();
+        return view('admin.post.show', ['post' => $post, 'categories' => $categories]);
     }
 
     /**
@@ -93,7 +121,42 @@ class PostController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->validate(
+            [
+                'title' => ['required', 'max:255'],
+                'short_content' => ['required', 'max:255'],
+                'content' => ['required'],
+                'category_id' => ['required', 'exists:categories,id'],
+                'image' => ['image', 'mimes:jpeg,png,jpg,gif,svg', 'max:10240']
+            ],
+            [
+                'title.required' => 'Cần nhập tiêu đề!',
+                'title.max' => 'Tiêu đề tối đa 255 ký tự!',
+                'short_content.required' => 'Cần nhập nội dung thu gọn!',
+                'short_content.max' => 'Nội dung thu gọn tối đa 255 ký tự!',
+                'content.required' => 'Cần nhập nội dung!',
+                'category_id.required' => 'Danh mục không được trống!',
+                'category_id.exists' => 'Danh mục không hợp lệ!',
+                'image.image' => 'Ảnh không hợp lệ!',
+                'image.mimes' => 'Ảnh không hợp lệ!',
+                'image.max' => 'Ảnh không hợp lệ!',
+            ]
+        );
+
+        $post = Post::find($id);
+        if (!$post) {
+            abort(404);
+        }
+
+        $data = $request->all();
+        $data['user_id'] = Auth::user()->id;
+        $post->update($data);
+        if (isset($data['image'])) {
+            $image = $request->file('image');
+            $image->storeAs('images/post/'. $post->id .'/', 'image.png', 'public');
+        }
+
+        return redirect(route('admin.post'));
     }
 
     /**

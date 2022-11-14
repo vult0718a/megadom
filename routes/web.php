@@ -100,10 +100,14 @@ Route::group(['prefix'=>'admin'],function (){
     Route::post('/store', 'UserController@store')->name('admin.store');
     Route::get('/show/{id}', 'UserController@show')->name('admin.show');
     Route::post('/update/{id}', 'UserController@update')->name('admin.update');
+    Route::post('/change-email', 'UserController@changeEmail')->name('admin.change-email');
+    Route::post('/change-password', 'UserController@changePassword')->name('admin.change-password');
     Route::group(['prefix'=>'post'],function (){
       Route::get('/', 'PostController@index')->name('admin.post');
       Route::get('/create', 'PostController@create')->name('admin.post.create');
       Route::post('/store', 'PostController@store')->name('admin.post.store');
+      Route::get('/show/{id}', 'PostController@show')->name('admin.post.show');
+      Route::post('/update/{id}', 'PostController@update')->name('admin.post.update');
     });
     Route::group(['prefix'=>'contact'],function (){
       Route::get('/', 'ContactController@index')->name('admin.contact');

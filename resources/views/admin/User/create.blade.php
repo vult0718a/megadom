@@ -35,18 +35,38 @@
                             <div class="form-group">
                                 <label for="name">Họ tên</label>
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Họ tên đầy đủ" value="{{ old('name') }}">
+                                @error('name')
+                                    <span class="mt-4 text-sm text-center" style="color:red">
+                                        <strong>{{ $message }}</strong>
+                                    </span><br>
+                                @enderror
                             </div><br>
                             <div class="form-group">
                                 <label for="email">Email</label>
                                 <input type="email" class="form-control" id="email" name="email" placeholder="Email" value="{{ old('email') }}">
+                                @error('email')
+                                    <span class="mt-4 text-sm text-center" style="color:red">
+                                        <strong>{{ $message }}</strong>
+                                    </span><br>
+                                @enderror
                             </div><br>
                             <div class="form-group">
                                 <label for="password">Mật khẩu</label>
                                 <input type="password" class="form-control" id="password" name="password" placeholder="Mật khẩu">
+                                @error('password')
+                                    <span class="mt-4 text-sm text-center" style="color:red">
+                                        <strong>{{ $message }}</strong>
+                                    </span><br>
+                                @enderror
                             </div><br>
                             <div class="form-group">
                                 <label for="password_confirmation">Nhập lại mật khẩu</label>
                                 <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" placeholder="Mật khẩu">
+                                @error('password_confirmation')
+                                    <span class="mt-4 text-sm text-center" style="color:red">
+                                        <strong>{{ $message }}</strong>
+                                    </span><br>
+                                @enderror
                             </div><br>
                             <div class="form-group">
                                 <label for="status">Trạng thái</label>
@@ -54,6 +74,11 @@
                                     <option value="1">Mở</option>
                                     <option value="2">Khóa</option>
                                 </select>
+                                @error('status')
+                                    <span class="mt-4 text-sm text-center" style="color:red">
+                                        <strong>{{ $message }}</strong>
+                                    </span><br>
+                                @enderror
                             </div><br>
                             <div class="form-group">
                                 <label for="is_super_admin">Quyền</label>
@@ -61,37 +86,13 @@
                                     <option value="2">Admin</option>
                                     <option value="1">Super Admin</option>
                                 </select>
+                                @error('is_super_admin')
+                                    <span class="mt-4 text-sm text-center" style="color:red">
+                                        <strong>{{ $message }}</strong>
+                                    </span><br>
+                                @enderror
                             </div><br>
-                            @error('name')
-                                <span class="mt-4 text-sm text-center" style="color:red">
-                                    <strong>{{ $message }}</strong>
-                                </span><br>
-                            @enderror
-                            @error('password')
-                                <span class="mt-4 text-sm text-center" style="color:red">
-                                    <strong>{{ $message }}</strong>
-                                </span><br>
-                            @enderror
-                            @error('password_confirmation')
-                                <span class="mt-4 text-sm text-center" style="color:red">
-                                    <strong>{{ $message }}</strong>
-                                </span><br>
-                            @enderror
-                            @error('email')
-                                <span class="mt-4 text-sm text-center" style="color:red">
-                                    <strong>{{ $message }}</strong>
-                                </span><br>
-                            @enderror
-                            @error('status')
-                                <span class="mt-4 text-sm text-center" style="color:red">
-                                    <strong>{{ $message }}</strong>
-                                </span><br>
-                            @enderror
-                            @error('is_super_admin')
-                                <span class="mt-4 text-sm text-center" style="color:red">
-                                    <strong>{{ $message }}</strong>
-                                </span><br>
-                            @enderror
+                            <a href="{{ route('admin') }}" class="btn btn-primary">Quay lại</a>
                             <button type="submit" class="btn btn-primary">Đăng ký</button>
                         </form>
                     </div>

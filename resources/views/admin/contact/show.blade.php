@@ -30,8 +30,6 @@
             <div class="card-body px-0 pb-2">
                 <div class="table-responsive p-0">
                     <div class="card-body" style="width: 50%">
-                        <form method="POST" action="{{ route('admin.contact.show', $contact->id) }}">
-                            @csrf
                             <div class="form-group">
                               <label for="name">Họ tên</label>
                               <input type="text" class="form-control" id="name" name="name" value="{{ $contact->name }}" disabled>
@@ -56,8 +54,7 @@
                               <label for="know">Biết qua</label>
                               <input type="know" class="form-control" id="know" name="know" value="{{ $contact->know }}" disabled>
                             </div><br>
-                            <button type="" class="btn btn-primary">Quay lại</button>
-                        </form>
+                            <a href="{{ route('admin.contact') }}"><button class="btn btn-primary">Quay lại</button></a>
                     </div>
                 </div>
             </div>

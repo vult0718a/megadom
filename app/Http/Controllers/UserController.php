@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
@@ -39,7 +40,7 @@ class UserController extends Controller
         $request->validate(
             [
                 'name' => ['required', 'string', 'max:255'],
-                'email' => ['required', 'email', 'max:255'],
+                'email' => ['required', 'email', 'max:255', 'unique:users,email'],
                 'password' => ['required', 'confirmed', 'min:8'],
                 'status' => ['required', 'in:2,1'],
                 'is_super_admin' => ['required', 'in:2,1']
@@ -50,6 +51,7 @@ class UserController extends Controller
                 'email.required' => 'Cần nhập email admin!',
                 'email.email' => 'Email không đúng định dạng!',
                 'email.max' => 'Email tối đa 255 ký tự!',
+                'email.unique' => 'Email đã tồn tại!',
                 'password.required' => 'Cần nhập mật khẩu!',
                 'password.min' => 'Mật khẩu tối thiểu là 8 ký tự!',
                 'password.confirmed' => 'Mật khẩu nhập lại không chính xác!',
@@ -109,7 +111,7 @@ class UserController extends Controller
         $request->validate(
             [
                 'name' => ['required', 'string', 'max:255'],
-                'email' => ['required', 'email', 'max:255'],
+                'email' => ['required', 'email', 'max:255', 'unique:users,email'],
                 'status' => ['required', 'in:2,1'],
                 'is_super_admin' => ['required', 'in:2,1']
             ],
@@ -119,6 +121,7 @@ class UserController extends Controller
                 'email.required' => 'Cần nhập email admin!',
                 'email.email' => 'Email không đúng định dạng!',
                 'email.max' => 'Email tối đa 255 ký tự!',
+                'email.unique' => 'Email đã tồn tại!',
                 'status.in' => 'Dữ liệu trạng thái không hợp lệ!',
                 'status.required' => 'Trạng thái không được trống!',
                 'is_super_admin.in' => 'Dữ liệu quyền không hợp lệ!',
@@ -141,5 +144,40 @@ class UserController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function changeEmail(Request $request)
+    {
+        $request->validate(
+            [
+                'email' => ['required', 'email', 'max:255', 'unique:users,email'],
+            ],
+            [
+                'email.required' => 'Cần nhập email admin!',
+                'email.email' => 'Email không đúng định dạng!',
+                'email.max' => 'Email tối đa 255 ký tự!',
+            ]
+        );
+
+        Auth::user()->update($request->all());
+        return redirect(route('admin'));
+    }
+
+    public function changePassword(Request $request)
+    {
+        $request->validate(
+            [
+                'password' => ['required', 'confirmed', 'min:8'],
+            ],
+            [
+                'password.required' => 'Cần nhập mật khẩu!',
+                'password.min' => 'Mật khẩu tối thiểu là 8 ký tự!',
+                'password.confirmed' => 'Mật khẩu nhập lại không chính xác!',
+            ]
+        );
+        $data = $request->all();
+        $data['password'] = bcrypt($data['password']);
+        Auth::user()->update($data);
+        return redirect(route('admin'));
     }
 }

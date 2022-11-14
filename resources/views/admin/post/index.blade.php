@@ -48,7 +48,7 @@
                                         <span class="text-secondary font-weight-bold text-xs">{{ date('Y-m-d H:i:s', strtotime($post->created_at)) }}</span>
                                     </td>
                                     <td class="text-center">
-                                        <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                                        <a href="{{ route('admin.post.show', $post->id) }}" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
                                             Edit
                                         </a>
                                     </td>
