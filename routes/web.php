@@ -33,7 +33,9 @@ Route::get('/thu-vien', function () {
 
 Route::get('/lien-he', function () {
   return view('user/page/contact');
-})->name('contact');
+})->name('lien_he');
+
+Route::post('/lien-he', 'ContactController@store')->name('admin.contact.store');
 
 Route::get('/lam-to-megaderm', function () {
   return view('user/page/2-1');
@@ -102,6 +104,10 @@ Route::group(['prefix'=>'admin'],function (){
       Route::get('/', 'PostController@index')->name('admin.post');
       Route::get('/create', 'PostController@create')->name('admin.post.create');
       Route::post('/store', 'PostController@store')->name('admin.post.store');
+    });
+    Route::group(['prefix'=>'contact'],function (){
+      Route::get('/', 'ContactController@index')->name('admin.contact');
+      Route::get('/show/{id}', 'ContactController@show')->name('admin.contact.show');
     });
   });
 });

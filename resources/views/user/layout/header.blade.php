@@ -10,5 +10,5 @@
   <a id="item-3" href="{{ route('erectile-dysfunction') }}">BỆNH LÝ NAM KHOA</a>
   <a id="item-4" href="{{ route('library') }}">THƯ VIỆN</a>
   <a id="item-5" href="{{ route('post') }}">TIN TỨC</a>
-  <a id="item-6" href="{{ route('contact') }}">LIÊN HỆ</a>
+  <a id="item-6" href="{{ route('lien_he') }}">LIÊN HỆ</a>
 </nav>

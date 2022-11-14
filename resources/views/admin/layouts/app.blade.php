@@ -43,6 +43,14 @@
             <span class="nav-link-text ms-1">Bài viết</span>
           </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link text-white @if(Route::is('admin.contact') || Route::is('admin.contact')) active bg-gradient-primary @endif" href="{{ route('admin.contact') }}">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">receipt_long</i>
+            </div>
+            <span class="nav-link-text ms-1">Đặt lịch tư vấn</span>
+          </a>
+        </li>
       </ul>
     </div>
   </aside>
