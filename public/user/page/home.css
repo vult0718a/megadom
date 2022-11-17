@@ -124,3 +124,107 @@
     left: 1467px;
     top: 735px;
   }
+
+.navbar-default {
+    background-color: #111B27;
+    border: none;
+}
+.navbar-default .navbar-nav>li>a {
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #FFFFFF;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 31px 40px;
+}
+
+.topbar-logo {
+  background-color: #0429B7;
+  height: 125px;
+}
+
+.navbar-right {
+  padding-right: 113px;
+}
+
+.text-topbar {
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+  /* Smartphone */
+  @media only screen and (max-width:767px) and (min-width:320px){
+    header .navbar .navbar-nav {width: 100%;}
+    header .navbar-default .navbar-nav>li {border-right: 0;}
+    header .navbar-default .navbar-nav>li>a {padding: 20px 0;font-size: 14px;}
+    header .navbar-default .topbar ul {padding: 0;}
+    header .navbar-default .topbar ul li {display: block;text-align: center;padding: 5px 0;}
+    header .navbar-default .topbar ul li:after{ content: " "}
+    header .navbar-default .topbar .pull-right{margin-top: -24px;}
+    header .navbar-default .topbar {padding: 10px 0;}
+    header .second_menu{display: inline-block;}
+    header .navbar-fixed-bottom .navbar-collapse, header .navbar-fixed-top .navbar-collapse {max-height: none;padding: 0;}
+    header .navbar-header {text-align: center;}
+    header .navbar-toggle {float: none;border: 0;}
+    header .toggle-products{font-size:16px;color:#FFF;text-transform:uppercase;line-height:0;}
+    header .navbar-default .navbar-toggle:focus, header .navbar-default .navbar-toggle:hover {background: transparent;}
+    header .mobile_search .form-control {border-radius: 0;border: 0;height: 50px;}
+    header .mobile_search button.btn-primary{background-color:#58585A;border-color:#58585A;border:0;text-transform:uppercase;border-radius:0;padding:15px;}
+  }
+  /* Tablet */
+  @media only screen and (min-width:768px) and (max-width:959px){
+    header .navbar-default .topbar a {font-size: 12px;}
+    header .navbar-default .navbar-nav>li>a{font-size:14px;color:#FFF;text-transform:uppercase;line-height:0;padding: 20px 20.6px;}
+    header .collapse.in{display:block!important;}
+    header .navbar .navbar-nav{display:block;float:none;vertical-align:top;}
+    header .navbar .navbar-collapse{text-align:center;}
+    header .navbar-header{text-align: center;}
+    header .navbar-right button{padding:5px 20px;margin:0;font-size:20px;float: right;}
+    header .navbar-brand>img {height: 45px;}
+    header .navbar-toggle{float: none; border: 0;}
+    header .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background: transparent;}
+    header .navbar-default .navbar-toggle .icon-bar {background-color: #FFF;}
+    header .input-group-btn button{padding: 13px 20px;}
+    header .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {max-height: none;padding: 0;}
+  }
+  /* Tablet Landscape */
+  @media only screen and (min-width:960px) and (max-width:1199px){
+    header .navbar-default .topbar a {font-size: 12px;}
+    header .navbar-default .navbar-nav>li>a{font-size:14px;color:#FFF;text-transform:uppercase;line-height:0;padding:20px 34px;}
+    header .collapse.in{display:block!important;}
+    header .navbar .navbar-nav{display:block;float:none;vertical-align:top;}
+    header .navbar .navbar-collapse{text-align:center;}
+    header .navbar-header{text-align: center;}
+    header .navbar-right button{padding:5px 20px;margin:0;font-size:20px;float: right;}
+    header .navbar-brand>img {height: 45px;}
+    header .navbar-toggle{float: none; border: 0;}
+    header .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background: transparent;}
+    header .navbar-default .navbar-toggle .icon-bar {background-color: #FFF;}
+    header .input-group-btn button{padding: 13px 20px;}
+    header .navbar-fixed-bottom .navbar-collapse, header .navbar-fixed-top .navbar-collapse {max-height: none;padding: 0;}
+  }
+  /* Laptop 13' - 1366x768 No-Retina */
+  @media only screen and (min-width:1200px) and (max-width:1366px){
+    header .navbar-default .navbar-nav>li>a {padding: 30px 41.6px;}
+  }
