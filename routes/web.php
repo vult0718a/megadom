@@ -113,6 +113,10 @@ Route::group(['prefix'=>'admin'],function (){
       Route::get('/', 'ContactController@index')->name('admin.contact');
       Route::get('/show/{id}', 'ContactController@show')->name('admin.contact.show');
     });
+    Route::group(['prefix'=>'info'],function (){
+      Route::get('/', 'InfoController@index')->name('admin.info');
+      Route::post('/store', 'InfoController@store')->name('admin.info.store');
+    });
   });
 });
 

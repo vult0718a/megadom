@@ -46,9 +46,17 @@
         <li class="nav-item">
           <a class="nav-link text-white @if(Route::is('admin.contact') || Route::is('admin.contact.show')) active bg-gradient-primary @endif" href="{{ route('admin.contact') }}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">receipt_long</i>
+              <i class="material-icons opacity-10">article</i>
             </div>
             <span class="nav-link-text ms-1">Đặt lịch tư vấn</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white @if(Route::is('admin.info') || Route::is('admin.info.show')) active bg-gradient-primary @endif" href="{{ route('admin.info') }}">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">store</i>
+            </div>
+            <span class="nav-link-text ms-1">Thông tin</span>
           </a>
         </li>
       </ul>
