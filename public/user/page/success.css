@@ -1,0 +1,33 @@
+.success {
+width: 60%;
+height: 472px;
+margin: 178px auto;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+border-radius: 30px;
+text-align: center;
+}
+
+.success img {
+  margin-top: 53px;
+}
+
+.success .text {
+  margin-top: 63px;
+  max-width: 980px;
+  height: 111px;
+
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+
+}
+
+.success .text span {
+  display: block;
+}

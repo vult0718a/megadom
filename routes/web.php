@@ -92,6 +92,14 @@ Route::get('/benh-lay-qua-duong-tinh-duc', function () {
   return view('user/page/sexually_transmitted_diseases');
 })->name('sexually_transmitted_diseases');
 
+Route::get('/dang-ky-tu-van-thanh-cong', function () {
+  return view('user/page/success');
+})->name('success');
+
+Route::get('/hinh-anh-video-cam-nhan-chi-tiet', function () {
+  return view('user/page/picture_video');
+})->name('picture_video');
+
 Route::group(['prefix'=>'admin'],function (){
   Auth::routes();
   Route::group(['middleware' => ['auth', 'checkstatus']],function () {
@@ -116,6 +124,14 @@ Route::group(['prefix'=>'admin'],function (){
     Route::group(['prefix'=>'info'],function (){
       Route::get('/', 'InfoController@index')->name('admin.info');
       Route::post('/store', 'InfoController@store')->name('admin.info.store');
+    });
+    Route::group(['prefix'=>'category'],function (){
+      Route::get('/', 'CategoryController@index')->name('admin.category');
+      Route::get('/create', 'CategoryController@create')->name('admin.category.create');
+      Route::post('/store', 'CategoryController@store')->name('admin.category.store');
+      Route::get('/edit/{id}', 'CategoryController@edit')->name('admin.category.edit');
+      Route::post('/update/{id}', 'CategoryController@update')->name('admin.category.update');
+      Route::get('/delete/{id}', 'CategoryController@destroy')->name('admin.category.delete');
     });
   });
 });

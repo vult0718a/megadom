@@ -1,0 +1,83 @@
+.picture-video-title {
+  width: 380px;
+  height: 87px;
+  margin: 142px auto 0;
+}
+
+.picture-video-title .text-bold {
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+
+.picture-video-title hr {
+  width: 109px;
+  border: 2px solid #000000;
+}
+
+.picture-video .text-medium {
+  margin-top: 51px;
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: center;
+  color: #000000;
+}
+
+.picture-video .back {
+  margin-top: 142px;
+  font-family: 'RobotoFlex';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.picture-video .image {
+  margin-top: 39px;
+}
+.picture-video .image img {
+  width: 24%;
+}
+
+.title-1 .text-bold,
+.title-2 .text-bold,
+.title-3 .text-bold {
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  color: #000000;
+  margin-top: 150px;
+}
+
+.title-1 hr,
+.title-2 hr,
+.title-3 hr {
+  width: 109px;
+  border: 2px solid #000000;
+  margin: 0px;
+}
+
+.content-1,
+.content-2,
+.content-3 {
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+  margin-top: 51px;
+}
+
