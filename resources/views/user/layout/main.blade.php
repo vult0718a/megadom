@@ -20,7 +20,6 @@
     <!-- link slider -->
     <link rel="stylesheet" href="/frontend/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="/frontend/owlcarousel/assets/owl.theme.default.min.css">
-
     <!-- link css -->
     <link rel="stylesheet" type="text/css" href="/frontend/css/style.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css'>
@@ -34,10 +33,10 @@
     @include('user.layout.header')
 
     <!-- Content -->
-    <!-- @yield('content') -->
+    @yield('content')
 
     <!-- footer -->
-    <!-- @include('user.layout.footer') -->
+    @include('user.layout.footer')
 
     <!-- js jquery bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
