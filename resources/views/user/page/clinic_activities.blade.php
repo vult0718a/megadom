@@ -20,8 +20,8 @@
         <div class="body-content-1 col">
             <div class="col-xl-6 col-lg-6 col-sm-12 col-12">
                 <h3 class="title-body-content-1">TVC GIỚI THIỆU VỀ MEGADOM</h3>
-                <hr class="line-header-content" style="margin-left:0">
-                <div style="margin-top:50px; text-align: justify;">
+                <hr class="line-header-content-1">
+                <div style="margin-top:50px; text-align: justify; padding-left: 30px; padding-right: 30px">
                     <span class="text-body-content-1">Phòng khám Megadom đang giúp Nam giới tại Việt Nam tự tin đạt được tiềm năng của họ trong các cuộc yêu thông qua việc gia tăng kích thước của “cậu nhỏ”, với phương pháp tối ưu nhất hiện nay thông qua việc sử dụng tấm độn sinh học Megaderm độc quyền tại Việt Nam được KFDA (Hàn Quốc), FDA (Hoa Kỳ) chứng nhận và Bộ Y tế Việt Nam cấp phép sử dụng.</span>
                 </div>
             </div>
@@ -29,7 +29,7 @@
         </div>
 
         <div class="body-content-2">
-            <div class="col-xl-6 col-lg-6 col-sm-12 col-12">
+            <div class="col-xl-6 col-lg-6 col-sm-12 col-12" style="padding-left: 30px; padding-right: 30px">
                 <img src="/frontend/images/rectangle5-5-2.png" alt="home-penile" width="100%" height="530px">
                 <div class="bottom-left-1">LOREM IPSUM</div>
             </div>

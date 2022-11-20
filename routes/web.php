@@ -42,6 +42,7 @@ Route::get('/lam-to-megaderm', function () {
 })->name('2-1');
 
 Route::get('/tin-tuc', 'PostController@getPostForUser')->name('post');
+Route::get('/tin-tuc/{id}', 'PostController@getPostDetailForUser')->name('post.detail');
 
 Route::get('/bao-chi-noi-ve-megadom', 'NewspaperController@getNewspaperForUser')->name('newspaper');
 

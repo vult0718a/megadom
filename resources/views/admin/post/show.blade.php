@@ -57,17 +57,12 @@
                                     @endforeach
                                 </select>
                             </div><br>
-                            @error('name')
+                            @error('title')
                                 <p class="mt-4 text-sm text-center" style="color:red">
                                     <strong>{{ $message }}</strong>
                                 </p>
                             @enderror
-                            @error('password')
-                                <p class="mt-4 text-sm text-center" style="color:red">
-                                    <strong>{{ $message }}</strong>
-                                </p>
-                            @enderror
-                            @error('password_confirmation')
+                            @error('short_content')
                                 <p class="mt-4 text-sm text-center" style="color:red">
                                     <strong>{{ $message }}</strong>
                                 </p>
@@ -78,6 +73,11 @@
                                 </p>
                             @enderror
                             @error('category_id')
+                                <p class="mt-4 text-sm text-center" style="color:red">
+                                    <strong>{{ $message }}</strong>
+                                </p>
+                            @enderror
+                            @error('image')
                                 <p class="mt-4 text-sm text-center" style="color:red">
                                     <strong>{{ $message }}</strong>
                                 </p>
@@ -95,6 +95,7 @@
 
 @section('script')
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="{{ asset('/admins/assets/js/ckeditor.js') }}"></script>
 <script>
     
     function readURL(input) {
@@ -112,5 +113,11 @@
     $("#image").change(function() {
         readURL(this);
     });
+
+    ClassicEditor
+    .create( document.querySelector('#content'))
+    .catch( error => {
+        console.error( error );
+    } );
 </script>
 @endsection

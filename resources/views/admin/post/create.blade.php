@@ -52,7 +52,7 @@
                             </div><br>
                             <div class="form-group">
                                 <label for="content">Nội dung</label>
-                                <textarea name="content" id="content" class="form-control" style="height: 150px;" placeholder="Nội dung"></textarea>
+                                <textarea name="content" id="content" class="form-control" style="height: 450px;" placeholder="Nội dung"></textarea>
                                 @error('content')
                                     <span class="mt-4 text-sm" style="color:red">
                                         <strong>{{ $message }}</strong>
@@ -95,6 +95,7 @@
 
 @section('script')
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="{{ asset('/admins/assets/js/ckeditor.js') }}"></script>
 <script>
     
     function readURL(input) {
@@ -114,5 +115,11 @@
     $("#image").change(function() {
         readURL(this);
     });
+
+    ClassicEditor
+    .create( document.querySelector('#content'))
+    .catch( error => {
+        console.error( error );
+    } );
 </script>
 @endsection

@@ -44,11 +44,10 @@
                             <div style="height: 144px; margin-top: 28px">
                                 <span class="content_post">{{ $post->short_content }}</span><br>
                             </div>
-                            <button href="#" class="button-QA">
+                            <a href="{{ route('post.detail', $post->id) }}" class="button-QA">
                                 <span>ĐỌC THÊM</span>
-                            </button>
+                            </a>
                         </div>
-                        
                     </div>
                 @endforeach
                 <center>{{ $posts->links('pagination.default') }}</center>

@@ -34,7 +34,7 @@
                             @csrf
                             <div class="form-group">
                                 <label for="name">Số điện thoại</label>
-                                <input type="text" class="form-control" id="phone" name="phone" placeholder="Số điện thoai" value="{{ old('phone', $info->phone) }}">
+                                <input type="text" class="form-control" id="phone" name="phone" placeholder="Số điện thoai" value="{{ old('phone', $info['phone']) }}">
                                 @error('phone')
                                     <span class="mt-4 text-sm text-center" style="color:red">
                                         <strong>{{ $message }}</strong>
@@ -43,7 +43,7 @@
                             </div><br>
                             <div class="form-group">
                                 <label for="address">Địa chỉ</label>
-                                <input type="text" class="form-control" id="address" name="address" placeholder="Địa chỉ" value="{{ old('address', $info->address) }}">
+                                <input type="text" class="form-control" id="address" name="address" placeholder="Địa chỉ" value="{{ old('address', $info['address']) }}">
                                 @error('address')
                                     <span class="mt-4 text-sm text-center" style="color:red">
                                         <strong>{{ $message }}</strong>

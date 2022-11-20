@@ -35,6 +35,18 @@ class PostController extends Controller
     }
 
     /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function getPostDetailForUser($id)
+    {
+        $post = Post::find($id);
+        $categories = Category::all();
+        return view('user.page.post_detail', ['post' => $post, 'categories' => $categories]);
+    }
+
+    /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
@@ -124,7 +136,7 @@ class PostController extends Controller
         $request->validate(
             [
                 'title' => ['required', 'max:255'],
-                'short_content' => ['required', 'max:255'],
+                'short_content' => ['required'],
                 'content' => ['required'],
                 'category_id' => ['required', 'exists:categories,id'],
                 'image' => ['image', 'mimes:jpeg,png,jpg,gif,svg', 'max:10240']
@@ -133,7 +145,6 @@ class PostController extends Controller
                 'title.required' => 'Cần nhập tiêu đề!',
                 'title.max' => 'Tiêu đề tối đa 255 ký tự!',
                 'short_content.required' => 'Cần nhập nội dung thu gọn!',
-                'short_content.max' => 'Nội dung thu gọn tối đa 255 ký tự!',
                 'content.required' => 'Cần nhập nội dung!',
                 'category_id.required' => 'Danh mục không được trống!',
                 'category_id.exists' => 'Danh mục không hợp lệ!',
