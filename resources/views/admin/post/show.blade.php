@@ -42,7 +42,7 @@
                             </div><br>
                             <div class="form-group">
                                 <label for="content">Nội dung</label>
-                                <textarea name="content" id="content" class="form-control" style="height: 150px;" placeholder="Nội dung">{{ old('content', $post->content) }}</textarea>
+                                <textarea name="content" id="editor1" class="form-control" style="height: 150px;" placeholder="Nội dung">{{ old('content', $post->content) }}</textarea>
                             </div><br>
                             <div class="form-group">
                                 <label for="image">Hình ảnh</label>
@@ -120,4 +120,5 @@
         console.error( error );
     } );
 </script>
+<script>CKEDITOR.replace('editor1');</script>
 @endsection

@@ -199,6 +199,10 @@
   height: 144px;
 }
 
+.content_post img{
+  width: 100%;
+}
+
 .left-content {
   background-color: rgba(0, 98, 255, 0.2);
   text-align: center;

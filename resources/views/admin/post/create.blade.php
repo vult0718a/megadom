@@ -52,7 +52,7 @@
                             </div><br>
                             <div class="form-group">
                                 <label for="content">Nội dung</label>
-                                <textarea name="content" id="content" class="form-control" style="height: 450px;" placeholder="Nội dung"></textarea>
+                                <textarea name="content" id="editor1" class="form-control" style="height: 450px;" placeholder="Nội dung"></textarea>
                                 @error('content')
                                     <span class="mt-4 text-sm" style="color:red">
                                         <strong>{{ $message }}</strong>
@@ -115,11 +115,6 @@
     $("#image").change(function() {
         readURL(this);
     });
-
-    ClassicEditor
-    .create( document.querySelector('#content'))
-    .catch( error => {
-        console.error( error );
-    } );
 </script>
+<script>CKEDITOR.replace('editor1');</script>
 @endsection
