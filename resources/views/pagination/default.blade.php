@@ -1,7 +1,7 @@
 @if ($paginator->hasPages())
     <ul class="pager">
         @if ($paginator->onFirstPage())
-            <li class="disabled"><span><< Previous</span></li>
+            <li class="disabled previous"><span><< Previous</span></li>
         @else
             <li><a href="{{ $paginator->previousPageUrl() }}" rel="prev"><< Previous</a></li>
         @endif
@@ -13,9 +13,11 @@
             @if (is_array($element))
                 @foreach ($element as $page => $url)
                     @if ($page == $paginator->currentPage())
-                        <li class="active my-active"><span>{{ $page }}</span></li>
+                        <li class="active my-active number-page" data-page="{{ $page }}"><span>{{ $page }}</span></li>
                     @else
-                        <li><a href="{{ $url }}">{{ $page }}</a></li>
+                        @if($page != $paginator->lastPage())
+                            <li class="number-page" data-page="{{ $page }}"><a href="{{ $url }}">{{ $page }}</a></li>
+                        @endif
                     @endif
                 @endforeach
             @endif
@@ -23,8 +25,7 @@
         
         @if ($paginator->hasMorePages())
             <li><a href="{{ $paginator->nextPageUrl() }}" rel="next">Next >></a></li>
-        @else
-            <li class="disabled"><span>Next >></span></li>
+            <li><a href="{{ \Request::url().'?page='.$paginator->lastPage() }}">{{ $paginator->lastPage() }}</a></li>
         @endif
     </ul>
-@endif 
+@endif

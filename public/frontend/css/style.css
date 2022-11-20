@@ -1660,3 +1660,34 @@
   text-align: center;
   color: #FFFFFF;
 }
+
+
+.pagination_custom {
+  margin-top: 0px;
+  margin-bottom: 136px;
+}
+
+.pager li>a, .pager li>span {
+  display: inline-block;
+  padding: 17px 25px 17px 25px;
+  background-color: #fff;
+  border: 2px solid #0062FF;
+  color: #0062FF;
+  font-family: 'WorkSans-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 0%;
+}
+
+.pager .active span{
+  background-color: rgb(219 219 219);
+}
+
+.pager .disabled>a, .pager .disabled>a:focus, .pager .disabled>a:hover, .pager .disabled>span {
+  color: #0062FF;
+  cursor: not-allowed;
+  background-color: #fff;
+}

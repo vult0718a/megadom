@@ -41,7 +41,13 @@ Route::get('/lam-to-megaderm', function () {
   return view('user/page/2-1');
 })->name('2-1');
 
-Route::get('/post', 'PostController@getPostForUser')->name('post');
+Route::get('/tin-tuc', 'PostController@getPostForUser')->name('post');
+
+Route::get('/bao-chi-noi-ve-megadom', 'NewspaperController@getNewspaperForUser')->name('newspaper');
+
+Route::get('/hoat-dong-phong-kham', function () {
+  return view('user/page/clinic_activities');
+})->name('clinic_activities');
 
 Route::get('/lam-to-silicone', function () {
   return view('user/page/2-2');
@@ -66,7 +72,6 @@ Route::get('/phau-thuat-dieu-tri-xuat-tinh-som', function () {
 Route::get('/dich-vu-khac', function () {
   return view('user/page/2-8');
 })->name('2-8');
-
 
 Route::get('/roi-loan-cuong-duong', function () {
   return view('user/page/3-1');
@@ -116,6 +121,13 @@ Route::group(['prefix'=>'admin'],function (){
       Route::post('/store', 'PostController@store')->name('admin.post.store');
       Route::get('/show/{id}', 'PostController@show')->name('admin.post.show');
       Route::post('/update/{id}', 'PostController@update')->name('admin.post.update');
+    });
+    Route::group(['prefix'=>'newspaper'],function (){
+      Route::get('/', 'NewspaperController@index')->name('admin.newspaper');
+      Route::get('/create', 'NewspaperController@create')->name('admin.newspaper.create');
+      Route::post('/store', 'NewspaperController@store')->name('admin.newspaper.store');
+      Route::get('/show/{id}', 'NewspaperController@show')->name('admin.newspaper.show');
+      Route::post('/update/{id}', 'NewspaperController@update')->name('admin.newspaper.update');
     });
     Route::group(['prefix'=>'contact'],function (){
       Route::get('/', 'ContactController@index')->name('admin.contact');

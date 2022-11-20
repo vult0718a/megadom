@@ -1,0 +1,90 @@
+.banner {
+    height: 696px;
+    width: 100%;
+    background: url(/frontend/images/image5-4-1.png);
+}
+  
+.text-banner {
+    padding-top: 242px;
+    margin-left: 199px;
+}
+  
+.banner .text-banner .text-small {
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+  
+.banner .text-banner .text-bold {
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 113px;
+    color: #FFFFFF;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+}
+
+.body-content {
+    margin-top: 150px;
+}
+
+.title-body-content-1 {
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 150%;
+    color: #000000;
+    margin-top: 0px;
+    text-align: justify;
+}
+
+.line-header-content {
+    width: 109px;
+    border: 2px solid #000000;
+}
+
+.text-body-content-1 {
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 170%;
+    text-align: justify;
+    color: #000000;
+}
+
+.button-QA {
+    margin-top: 27px;
+    background: #0429B7;
+    border-radius: 5px;
+    padding: 25px 31px 25px 31px;
+    border: #0429B7;
+  }
+  
+  .button-QA:hover {
+    text-decoration: none;
+  }
+  
+  .button-QA > span {
+    width: 265px;
+    height: 21px;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
