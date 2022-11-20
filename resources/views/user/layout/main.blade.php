@@ -33,7 +33,7 @@
     @include('user.layout.header')
 
     <!-- Content -->
-    @yield('content')
+    {{-- @yield('content') --}}
 
     <!-- footer -->
     @include('user.layout.footer')

@@ -13,7 +13,7 @@
   <a id="item-6" href="{{ route('lien_he') }}">LIÊN HỆ</a>
 </nav> -->
 
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+{{-- <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="topbar-logo">
         <div>
             <div class="row" style="padding-top: 22px;">
@@ -55,4 +55,4 @@
             </div>
         </div>
     </div>
-</nav>
+</nav> --}}

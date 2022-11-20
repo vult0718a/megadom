@@ -5,28 +5,33 @@
 @endsection
 
 @section('style')
-<link rel="stylesheet" type="text/css" href="/user/page/home.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="/user/page/home-rp.css">
 @endsection
 
 @section('content')
 <div class="index">
   <div class="for-megadom">
-    <div class="info">
-      <p class="text-small">Bạn đang tìm giải pháp làm to dương vật?</p>
-      <p class="text-big"><span class="text-bold">MEGADOM</span><span class="text-medium">CÓ THỂ GIÚP BẠN</span></p>
-      <p class="show-more">TÌM HIỂU THÊM VỀ QUÁ TRÌNH PHẪU THUẬT</p>
-      <img src="/frontend/images/vector.png">
-    </div>
-    <div class="logo">
-      <img id="image-1" src="/frontend/images/logotienphong.png">
-      <img id="image-2" src="/frontend/images/baodanviet.png">
-      <img id="image-3" src="/frontend/images/baoeva.png">
-      <img id="image-4" src="/frontend/images/logobao24h.png">
-      <img id="image-5" src="/frontend/images/logobaogiadinh.png">
-      <img id="image-6" src="/frontend/images/logovtvcab.png">
+    <div class="container main-container for-megadom-container">
+      <div class="info">
+        <p class="text-small">Bạn đang tìm giải pháp làm to dương vật?</p>
+        <p class="text-big"><span class="fw-bold">MEGADOM</span><br>CÓ THỂ GIÚP BẠN</p>
+        <div class="show-more">
+          <p>TÌM HIỂU THÊM VỀ QUÁ TRÌNH PHẪU THUẬT</p>
+          <img src="/frontend/images/vector.png">
+        </div>
+      </div>
+      <div class="logo">
+        <img id="image-1" src="/frontend/images/logotienphong.png">
+        <img id="image-2" src="/frontend/images/baodanviet.png">
+        <img id="image-3" src="/frontend/images/baoeva.png">
+        <img id="image-4" src="/frontend/images/logobao24h.png">
+        <img id="image-5" src="/frontend/images/logobaogiadinh.png">
+        <img id="image-6" src="/frontend/images/logovtvcab.png">
+      </div>
     </div>
   </div>
-  <div class="answers">
+  {{-- <div class="answers">
     <img src="/frontend/images/rectangle68.png">
     <div class="text">
       <p class="text-small">MEGADOM</p>
@@ -210,7 +215,7 @@
         <p class="text-small">Phẫu thuật tăng kích thước dương vật bằng tấm độn sinh học Megaderm và miếng độn Silicon có tỷ lệ thành công là 100%, có một số trường hợp người bệnh bị kích ứng nhẹ tại chỗ và chỉ cần dùng thuốc là khỏi. Nếu xảy ra tình trạng đào thải hoặc những biến chứng khác sau phẫu thuật, Megadom cam kết sẽ trả lại bệnh nhân chi phí phẫu thuật, đồng thời tiến hành phẫu thuật tháo tấm độn miễn phí. Nếu có bất kỳ chi phí nào phát sinh thêm sau phẫu thuật thì Megadom sẽ chịu trách nhiệm chi trả toàn bộ</p>
       </div>
     </div>
-  </div>
+  </div> --}}
 
 </div>
 @endsection
