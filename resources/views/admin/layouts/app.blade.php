@@ -255,6 +255,7 @@
   </script>
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <script src="{{ asset('admins/assets/js/material-dashboard.min.js?v=3.0.4') }}"></script>
+  <script src="/ckeditor/ckeditor.js"></script>
   @yield('script')
 </body>
 
