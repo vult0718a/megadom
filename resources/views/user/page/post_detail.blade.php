@@ -21,7 +21,7 @@
         <div class="header-content col">
             <div class="col-xl-3 col-lg-3 col-sm-12 col-12 text-center">
                 <button href="#" class="button-QA">
-                    <span>ĐẶT CÂU HỎI  CHO MEGADOM</span>
+                    <span>ĐẶT CÂU HỎI CHO MEGADOM</span>
                 </button>
             </div>
             <div class="col-xl-6 col-lg-6 col-sm-12 col-12"></div>

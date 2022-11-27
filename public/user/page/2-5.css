@@ -1,31 +1,28 @@
-body{
-    position: relative;
-    width: 1920px;
+/* body{
+    width: 100%;
     height: 9854px;
     background: #FFFFFF;
-}
+} */
 .screen2-5{
-    width: 1920px;
+    width: 100%;
     height: 7885px;
     background: #FFFFFF;
 }
 
 /* --------------------------Seccion 1------------------------------- */
 .screen2-5 .banner{
-    position: absolute;
-    width: 1920px;
+    width: 100%;
     height: 696px;
-    left: 0px;
-    top: 210px;
+    object-fit: cover;
     background: url(/frontend/images/image-13.png)
 }
 
-.text-medium{
-    position: absolute;
-    left: 10.36%;
-    right: 51.88%;
-    top: 35.78%;
-    bottom: 60.2%;
+.text-banner {
+    padding-top: 249px;
+    margin-left: 199px;
+}
+  
+.screen2-5 .banner .text-banner .text-medium{
     font-family: 'WorkSans-Medium';
     font-style: normal;
     font-weight: 700;
@@ -35,11 +32,6 @@ body{
 }
 
 .text-bold{
-    position: absolute;
-    left: 10.36%;
-    right: 51.88%;
-    top: 42.53%;
-    bottom: 35.92%;
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
@@ -50,37 +42,30 @@ body{
 
 
 /* --------------------------Seccion 1------------------------------- */
+.screen2-5 .ss1{
+    padding-top: 118px;
+    text-align: center;
+}
 .screen2-5 .ss1 .text-1{
-    position: absolute;
-    width: 677px;
-    height: 57px;
-    left: 622px;
-    top: 1024px;
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
     line-height: 150%;
     /* identical to box height, or 57px */
-    text-align: center; 
     color: #000000;
 }
 
-.screen2-5 .line{
-    position: absolute;
+.screen2-5 .ss1 .line{
     width: 109px;
-    height: 0px;
-    left: 905px;
-    top: 1111px;
+    margin-top: 30px;
     border: 2px solid #000000
 }
 
 .screen2-5 .ss1 .text-2{
-    position: absolute;
+    margin-top: 51px;
     width: 1008px;
-    height: 111px;
-    left: 457px;
-    top: 1162px;
+    margin-left: 490px;
     font-family: 'WorkSans-Medium';
     font-style: normal;
     font-weight: 500;
@@ -90,13 +75,17 @@ body{
     text-align: justify;
     color: #000000;
 }
-
-.screen2-5 .ss1 .ss1-1 .text-left .text-1{
-    position: absolute;
+.screen2-5 .ss1 .ss1-1{
+    width: 100%;
+    margin: auto;
+    margin-top: 139px;
+    text-align: center;
+}
+.screen2-5 .ss1 .ss1-1 .text-left{
+    margin-left: 199px;
     width: 690px;
-    height: 57px;
-    left: 113px;
-    top: 1412px;
+}
+.screen2-5 .ss1 .ss1-1 .text-left .text-1-1{
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
@@ -104,23 +93,18 @@ body{
     line-height: 150%;
     /* identical to box height, or 57px */
     color: #000000;
+    text-align: justify;
 }
 
 .screen2-5 .ss1 .ss1-1 .text-left .line{
-    position: absolute;
+    margin-top: 31px;
     width: 109px;
-    height: 0px;
-    left: 201px;
-    top: 1500px;
+    margin-left: 0px;
     border: 2px solid #000000;
 }
 
-.screen2-5 .ss1 .ss1-1 .text-left .text-2{
-    position: absolute;
-    width: 690px;
-    height: 185px;
-    left: 199px;
-    top: 1551px;
+.screen2-5 .ss1 .ss1-1 .text-left .text-2-2{
+    margin-top: 51px;
     font-family: 'WorkSans-Medium';
     font-style: normal;
     font-weight: 500;
@@ -132,31 +116,27 @@ body{
 }
 
 .screen2-5 .ss1 .ss1-1 .text-right{
-    position: absolute;
     width: 690px;
     height: 381px;
-    left: 1027px;
-    top: 1412px;
+    margin-left: 300px;
     background: url(/frontend/images/home-penile11c.png);
 }
 
 /* --------------------------SS2---------------------------------------------- */
 .screen2-5 .ss2{
-    position: absolute;
+    padding-top: 150px;
+    margin-left: 0;
+}
+
+.screen2-5 .ss2 .banner2{
     height: 702px;
-    width: 1920px;
-    left: 0px;
-    top: 1900px;
-    border-radius: 0px;
+    width: 100%;
     background: url(/frontend/images/image-15.png);
 }
 
-.screen2-5 .ss2 .text-1{
-    position: absolute;
-    left: 17.03%;
-    right: 60.62%;
-    top: 39.32%;
-    bottom: 55.27%;
+.screen2-5 .ss2 .banner2 .text-1{
+    padding-top: 276px;
+    margin-left: 327px;
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
@@ -166,29 +146,27 @@ body{
     color: #FFFFFF;
 }
 
-.screen2-5 .ss2 .btn-tu-van{
+.screen2-5 .ss2 .banner2 .btn-tu-van{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 25px 31px;
     gap: 10px;
     position: absolute;
-    left: 17.03%;
-    right: 67.34%;
-    top: 48.15%;
-    bottom: 39.32%;
+    width: 300px;
+    height: 88px;
+    margin-top: 24px;
+    margin-left: 327px;
     background: #0429B7;
     border-radius: 5px;
     border-color: #0429B7;
 }
 
-.screen2-5 .ss2 .btn-tu-van .text-1{
-    height: 38px;
-    width: 238px;
-    left: 31px;
-    top: 25px;
+.screen2-5 .ss2 .banner2 .btn-tu-van .text-1{
     width: 238px;
     height: 38px;
+    padding-top: 0px;
+    margin-left: 0px;
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
@@ -204,21 +182,22 @@ body{
 }
 
 /* -----------------SS3------------------------------- */
+.screen2-5 .ss3{
+    margin-top: 150px;
+}
 .screen2-5 .ss3 .text-left{
-    position: absolute;
-    width: 690px;
+    margin-left: 199px;
+    margin-top: 150px;
     height: 678px;
-    left: 199px;
-    top: 2794px;
     background: url(/frontend/images/home-penile-1.png);
 }
 
+
 .screen2-5 .ss3 .text-right .text-1{
-    position: absolute;
+    margin-top: 150px;
+    margin-left: 192px;
     width: 282px;
     height: 57px;
-    left: 930px;
-    top: 2794px;
     font-family: 'WorkSans-Medium';
     font-style: normal;
     font-weight: 700;
@@ -229,20 +208,16 @@ body{
 }
 
 .screen2-5 .ss3 .text-right .line{
-    position: absolute;
+    margin-top: 31px;
     width: 109px;
-    height: 0px;
-    left: 1031px;
-    top: 2881px;
+    margin-left: 292px;
     border: 2px solid #000000;
 }
 
 .screen2-5 .ss3 .text-right .text-2{
-    position: absolute;
+    margin-left: 292px;
     width: 690px;
     height: 400px;
-    left: 1031px;
-    top: 2951px;
     font-family: 'WorkSans-Medium';
     font-style: normal;
     font-weight: 500;
@@ -255,29 +230,22 @@ body{
 
 /* --------------------SS4---------------------------- */
 .screen2-5 .ss4{
-    position: absolute;
-    width: 1920px;
-    height: 674px;
-    left: 0px;
-    top: 3622px;
+    margin-top: 150px;
     background: rgba(0, 0, 0, 0.4);
 }
 .screen2-5 .ss4 .img{
-    width: 1920px;
+    width: 100%;
     height: 674px;
     left: 0px;
-    top: 3622px;
-    z-index: 100;
     background: rgba(0, 0, 0, 0.4) url(/frontend/images/Rectangle-72.png);
     background-blend-mode: darken;
 }
 
 .screen2-5 .ss4 .img .text-left .text-1{
-    position: absolute;
     width: 469px;
     height: 129px;
-    left: 302px;
-    top: 272px;
+    padding-top: 272px;
+    margin-left: 372px;
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
@@ -287,11 +255,10 @@ body{
     color: #FFFFFF;
 }
 .screen2-5 .ss4 .img .text-right .text-2{
-    position: absolute;
     width: 690px;
     height: 370px;
-    left: 1031px;
-    top: 152px;
+    padding-top: 152px;
+    margin-left: 450px;
     font-family: 'WorkSans-Medium';
     font-style: normal;
     font-weight: 500;
@@ -303,12 +270,17 @@ body{
     color: #FFFFFF;
 }
 /* ------------------------SS5-------------------------- */
+.screen2-5 .ss5{
+    margin-top: 150px;
+    margin-left: 199px;
+}
+.screen2-5 .ss5 .text-left{
+    margin-top: 150px;
+}
+
 .screen2-5 .ss5 .text-left .text-1{
-    position: absolute;
     width: 690px;
     height: 112px;
-    left: 199px;
-    top: 4446px;
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
@@ -318,20 +290,15 @@ body{
     color: #000000;
 }
 .screen2-5 .ss5 .text-left .line{
-    position: absolute;
+    margin-top: 31px;
     width: 109px;
-    height: 0px;
-    left: 199px;
-    top: 4588px;
+    margin-left: 0;
     border: 2px solid #000000;
 }
 
 .screen2-5 .ss5 .text-left .text-2{
-    position: absolute;
     width: 690px;
-    height: 430px;
-    left: 199px;
-    top: 4658px;
+    height: 130px;
     font-family: 'WorkSans-Medium';
     font-style: normal;
     font-weight: 500;
@@ -344,10 +311,8 @@ body{
 }
 
 .screen2-5 .ss5 .text-left .text-3 {
-    position: absolute;
     width: 690px;
-    left: 192px;
-    top: 4792px;
+    height: 180px;
     font-family: 'WorkSans-Medium';
     font-style: normal;
     font-weight: 500;
@@ -358,10 +323,7 @@ body{
 }
 
 .screen2-5 .ss5 .text-left .text-4 {
-    position: absolute;
     width: 690px;
-    left: 199px;
-    top: 4976px;
     font-family: 'WorkSans-Medium';
     font-style: normal;
     font-weight: 500;
@@ -372,29 +334,32 @@ body{
 }
 
 .screen2-5 .ss5 .text-right{
-    position: absolute;
+    margin-top: 150px;
     width: 690px;
     height: 762px;
-    left: 1031px;
-    top: 4446px;
     background: url(/frontend/images/Rectangle-105.png);
 }
 /* ---------------------SS6----------------------- */
 
+.screen2-5 .ss6{
+    margin-left: 199px;
+}
+
 .screen2-5 .ss6 .text-left{
-    position: absolute;
     width: 690px;
+    margin-top:150px;
     height: 762px;
-    left: 199px;
-    top: 5358px;
     background: url(/frontend/images/Rectangle-106.png);
 }
+
+.screen2-5 .ss6 .text-right{
+    margin-left: 200px;
+    margin-top:150px;
+}
+
 .screen2-5 .ss6 .text-right .text-1{
-    position: absolute;
     width: 462px;
     height: 57px;
-    left: 984px;
-    top: 5355px;
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
@@ -406,20 +371,16 @@ body{
 }
 
 .screen2-5 .ss6 .text-right .line{
-    position: absolute;
+    margin-top: 31px;
     width: 109px;
-    height: 0px;
-    left: 1025px;
-    top: 5442px;
+    margin-left: 0;
     border: 2px solid #000000;
 }
 
 .screen2-5 .ss6 .text-right .text-2 {
-    position: absolute;
+
     width: 696px;
     height: 608px;
-    left: 1025px;
-    top: 5512px;
     font-family: 'WorkSans-Medium';
     font-style: normal;
     font-weight: 500;
@@ -430,35 +391,22 @@ body{
     color: #000000;
 }
 
-.screen2-5 .ss6 .text-right .text-2 span {
-    margin-bottom: 15px;
-    display: block;
-}
 /* --------------------------ss7------------------------- */
 .screen2-5 .ss7{
-    position: absolute;
+    width: 100%;
+    margin-top: 150px;
     height: 860px;
-    width: 1920px;
-    left: 0px;
-    top: 6270px;
-    border-radius: 0px;
 }
 .screen2-5 .ss7 .img{
-    position: absolute;
     height: 860px;
-    width: 1920px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
+    width: 100%;
     background: url(/frontend/images/image6.png);
 }
 .screen2-5 .ss7 .text-1{
-    position: absolute;
     height: 150px;
     width: 539px;
-    left: 671px;
-    top: 294px;
-    border-radius: nullpx;
+    margin-left: 671px;
+    padding-top: 294px;
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
@@ -467,11 +415,8 @@ body{
     color: #FFFFFF;
 }
 .screen2-5 .ss7 .text-2{
-    position: absolute;
-    left: 54.74%;
-    right: 37.14%;
-    top: 53.95%;
-    bottom: 41.63%;
+    margin-left: 1051px;
+    margin-top: 160px;
     font-family: 'WorkSans-Medium';
     font-style: normal;
     font-weight: 700;
@@ -482,21 +427,24 @@ body{
     color: #0062FF;
 }
 .screen2-5 .ss7 .line{
-    position: absolute;
-    left: 54.74%;
-    right: 37.14%;
-    top: 60.7%;
-    bottom: 39.3%;
+    margin-left: 1051px;
+    margin-top: 20px;
+    width: 156px;
     /* #0062FF */
     border: 5px solid #0062FF
 }
 /* -------------------------------SS8------------------------------ */
+.screen2-5 .ss8{
+    margin-top: 150px;
+    margin-left:199px;
+}
+.screen2-5 .ss8 .text-left{
+    margin-top: 150px;
+}
+
 .screen2-5 .ss8 .text-left .text-1{
-    position: absolute;
     width: 690px;
     height: 112px;
-    left: 199px;
-    top: 7280px;
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
@@ -506,19 +454,16 @@ body{
     color: #000000;
 }
 .screen2-5 .ss8 .text-left .line{
-    position: absolute;
     width: 109px;
     height: 0px;
-    left: 199px;
-    top: 7422px;
+    margin-top: 30px;
+    margin-left: 0;
     border: 2px solid #000000;
 }
 .screen2-5 .ss8 .text-left .text-2{
-    position: absolute;
     width: 690px;
     height: 333px;
-    left: 199px;
-    top: 7492px;
+    margin-top: 60px;
     font-family: 'WorkSans-Medium';
     font-style: normal;
     font-weight: 500;
@@ -537,8 +482,7 @@ body{
     position: absolute;
     height: 76px;
     width: 291px;
-    left: 202px;
-    top: 7882px;
+    margin-top: 57px;
     border-radius: 5px;
     padding: 25px 31px 25px 31px;
     background: #0429B7;
@@ -561,11 +505,9 @@ body{
     flex-grow: 0;
 }
 .screen2-5 .ss8 .text-right{
-    position: absolute;
     width: 696px;
+    margin-top: 150px;
     height: 678px;
-    left: 1025px;
-    top: 7280px;
     background: url(/frontend/images/Rectangle-140.png);
 }
 
