@@ -83,16 +83,16 @@ Route::get('/roi-loan-xuat-tinh', function () {
 })->name('3-2');
 
 Route::get('/benh-ly-tinh-hoan', function () {
-  return view('user/page/testicular_disease');
-})->name('testicular_disease');
+  return view('user/page/3-3');
+})->name('3-3');
 
 Route::get('/vo-sinh-hiem-muon', function () {
-  return view('user/page/erectile_dysfunction');
-})->name('erectile-dysfunction');
+  return view('user/page/3-4');
+})->name('3-4');
 
 Route::get('/man-duc-nam-gioi', function () {
-  return view('user/page/menopause');
-})->name('menopause');
+  return view('user/page/3-5');
+})->name('3-5');
 
 Route::get('/benh-lay-qua-duong-tinh-duc', function () {
   return view('user/page/sexually_transmitted_diseases');
