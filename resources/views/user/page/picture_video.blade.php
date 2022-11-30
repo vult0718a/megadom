@@ -17,11 +17,11 @@
   </div>
   <p class="text-medium">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
   <div class="back"><a href=""><< Trở lại thư viện</a></div>
-  <div class="image d-flex justify-content-between">
-    <img src="/frontend/images/rectangle154.png">
-    <img src="/frontend/images/rectangle155.png">
-    <img src="/frontend/images/rectangle156.png">
-    <img src="/frontend/images/rectangle157.png">
+  <div class="image justify-content-between">
+    <img src="/frontend/images/rectangle154.png" class="col-xl-3 col-lg-3 col-sm-12 col-12">
+    <img src="/frontend/images/rectangle155.png" class="col-xl-3 col-lg-3 col-sm-12 col-12">
+    <img src="/frontend/images/rectangle156.png" class="col-xl-3 col-lg-3 col-sm-12 col-12">
+    <img src="/frontend/images/rectangle157.png" class="col-xl-3 col-lg-3 col-sm-12 col-12">
   </div>
   <div class="title-1">
     <p class="text-bold">QUYẾT ĐỊNH PHẪU THUẬT</p>
