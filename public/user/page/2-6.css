@@ -1,562 +1,319 @@
-body{
-    position: relative;
-    width: 1920px;
-    height: 10260px;
-    background: #FFFFFF;
-}
-.screen2-5{
-    width: 1920px;
-    height: 8291px;
-    background: #FFFFFF;
-}
-
-/* --------------------------Seccion 1------------------------------- */
-.screen2-5 .banner{
-    position: absolute;
+.text-medium {
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 170%;
+    text-align: justify;
+    color: #000000;
+  }
+    
+  .text-bold {
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 150%;
+    color: #000000;
+  }
+  
+  .container {
+    width: 80%;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  hr {
+    width: 109px;
+    border: 2px solid #000000;
+  }
+  
+  .left {
+    padding-left: 0px;
+    padding-right: 53px;
+  }
+  
+  .right {
+    padding-right: 0px;
+    padding-left: 53px;
+  }
+  
+  .block-content {
+    margin-top:100px;
+  }
+  
+  li {
+    margin-left: 22px;
+    margin-bottom: 6px;
+  }
+  
+  a {
+    color: #0062FF;
+  }
+  
+  .banner {
     height: 696px;
-    width: 1920px;
-    left: 0px;
-    top: 210px;
-    border-radius: 0px;
+    width: 100%;
     background: url(/frontend/images/2-6image-13.png);
-}
-
-.text-medium{
-    position: absolute;
-    left: 10.36%;
-    right: 51.88%;
-    top: 35.78%;
-    bottom: 60.2%;
+  }
+  
+  .text-banner {
+    padding-top: 242px;
+    margin-left: 199px;
+  }
+    
+  .text-banner .text-medium {
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
-}
-
-.text-bold{
-    position: absolute;
-    left: 10.36%;
-    right: 51.88%;
-    top: 42.53%;
-    bottom: 35.92%;
+  }
+    
+  .text-banner .text-bold {
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 75px;
     color: #FFFFFF;
-}
-
-
-/* --------------------------Seccion 1------------------------------- */
-.screen2-5 .ss1 .text-1{
-    position: absolute;
-    width: 577px;
-    height: 57px;
-    left: 672px;
-    top: 1024px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* identical to box height, or 57px */
+    width: 46%;
+  }
+  
+  .define .define-title,
+  .reason .reason-title {
     text-align: center;
-    color: #000000;
-}
-
-.screen2-5 .line{
-    position: absolute;
-    width: 109px;
-    height: 0px;
-    left: 905px;
-    top: 1111px;
-    border: 2px solid #000000;
-}
-
-.screen2-5 .ss1 .text-2{
-    position: absolute;
-    width: 1008px;
-    height: 222px;
-    left: 456px;
-    top: 1181px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 170%;
-    /* or 37px */
-    text-align: justify;
-    color: #000000;
-}
-
-.screen2-5 .ss1 .ss1-1 .text-left .text-1{
-    position: absolute;
-    width: 690px;
-    height: 57px;
-    left: -50px;
-    top: 1553px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* identical to box height, or 57px */
-    color: #000000;
-
-}
-
-.screen2-5 .ss1 .ss1-1 .text-left .line{
-    position: absolute;
-    width: 109px;
-    height: 0px;
-    left: 199px;
-    top: 1645px;
-    border: 2px solid #000000;
-}
-
-.screen2-5 .ss1 .ss1-1 .text-left .text-2{
-    position: absolute;
-    width: 690px;
-    height: 259px;
-    left: 199px;
-    top: 1690px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 170%;
-    /* or 37px */
-    text-align: justify;
-    color: #000000;
-}
-
-.screen2-5 .ss1 .ss1-1 .text-right{
-    position: absolute;
-    width: 690px;
-    height: 381px;
-    left: 1027px;
-    top: 1553px;
-    background: url(/frontend/images/2-6home-penile-11.png);
-}
-.screen2-5 .ss1 .ss1-1 .text-bot{
-    position: absolute;
-    width: 1522px;
-    height: 178px;
-    left: 199px;
-    top: 1984px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 170%;
-    /* or 37px */
-    text-align: justify;
-    color: #000000;
-}
-
-/* --------------------------SS2---------------------------------------------- */
-.screen2-5 .ss2 .img{
-    position: absolute;
+    margin-top: 100px;
+  }
+  
+  .define .text-medium-1 {
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+  .reason .text-medium-1 {
+    width: 100%;
+    margin: 40px auto;
+  }
+  
+  .hr-2 {
+    margin-left: 0px;
+  }
+  
+  .booking {
+    margin-top: 100px;
     height: 702px;
-    width: 1920px;
-    left: 0px;
-    top: 2329px;
-    border-radius: 0px;
-    background: url(/frontend/images/image-15.png);
-}
-
-.screen2-5 .ss2 .text-1{
-    position: absolute;
-    left: 17.03%;
-    right: 60.62%;
-    top: 39.32%;
-    bottom: 55.27%;
+    width: 100%;
+    background: url(/frontend/images/image15a.png);
+  }
+  
+  .booking .booking-title {
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    /* identical to box height */
+    margin-left: 327px;
+    padding-top: 276px;
     color: #FFFFFF;
-}
-
-.screen2-5 .ss2 .btn-tu-van{
-    outline: none;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+  }
+  
+  .booking .block-booking {
     padding: 25px 31px;
-    gap: 10px;
-    position: absolute;
-    left: 17.03%;
-    right: 67.34%;
-    top: 48.15%;
-    bottom: 39.32%;
     background: #0429B7;
     border-radius: 5px;
-    border-color: #0429B7;
-}
-
-.screen2-5 .ss2 .btn-tu-van .text-1{
-    width: 238px;
-    height: 38px;
-    height: 38px;
-    width: 238px;
-    left: 31px;
-    top: 25px;
-    border-radius: nullpx;
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    /* identical to box height */
     text-align: center;
     color: #FFFFFF;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-
-/* -----------------SS3------------------------------- */
-.screen2-5 .ss3 .text-left{
-    position: absolute;
-    width: 690px;
-    height: 678px;
-    left: 199px;
-    top: 3181px;
-    background: url(/frontend/images/2-6home-penile-1.png);
-}
-
-.screen2-5 .ss3 .text-right .text-1{
-    position: absolute;
-    width: 182px;
-    height: 57px;
-    left: 1031px;
-    top: 3181px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* identical to box height, or 57px */
-    color: #000000;
-}
-
-.screen2-5 .ss3 .text-right .line{
-    position: absolute;
-    width: 109px;
-    height: 0px;
-    left: 1031px;
-    top: 3268px;
-    border: 2px solid #000000;
-}
-
-.screen2-5 .ss3 .text-right .text-2{
-    position: absolute;
-    width: 690px;
-    height: 185px;
-    left: 1031px;
-    top: 3318px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 170%;
-    /* or 37px */
-    text-align: justify;
-    color: #000000;
-}
-
-/* --------------------SS4---------------------------- */
-.screen2-5 .ss4{
-    position: absolute;
-    width: 1920px;
+    margin-left: 327px;
+    width: 300px;
+  }
+  
+  .chose {
+    width: 100%;
     height: 674px;
-    left: 0px;
-    top: 4009px;
-    background: rgba(0, 0, 0, 0.4)
-}
-.screen2-5 .ss4 .img{
-    width: 1920px;
-    height: 674px;
-    left: 0px;
-    top: 4009px;
-    z-index: 100;
-    background: rgba(0, 0, 0, 0.4) url(/frontend/images/Rectangle-72.png);
-    background-blend-mode: darken;
-}
-
-.screen2-5 .ss4 .img .text-left .text-1{
+    background: url(/frontend/images/rectangle72a.png);
+    margin: auto;
+    margin-top: 65px;
+    padding-bottom: 38px;
+    position: relative;
+    background-size: cover;
+  }
+  
+  .chose::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #000;
     position: absolute;
-    width: 469px;
-    height: 129px;
-    left: 302px;
-    top: 272px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* or 57px */
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+  }
+  
+  .chose .text-bold {
     color: #FFFFFF;
-}
-.screen2-5 .ss4 .img .text-right .text-2{
-    position: absolute;
-    width: 690px;
-    height: 370px;
-    left: 1031px;
-    top: 152px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 170%;
-    z-index: 10;
-    /* or 37px */
-    text-align: justify;
+    z-index: 1;
+    padding: 300px 92px;
+  }
+  
+  .chose .text-medium {
     color: #FFFFFF;
-}
-/* ------------------------SS5-------------------------- */
-.screen2-5 .ss5 .text-left .text-1{
-    position: absolute;
-    width: 690px;
-    height: 112px;
-    left: 199px;
-    top: 4833px;
+    z-index: 1;
+    padding-top: 150px;
+  }
+  
+  .expression .row {
+    margin-top:100px;
+    margin-right: -14px;
+  
+  }
+  
+  .expression .text-medium {
+    margin-top: 28px;
+  }
+  
+  .expression li {
+    margin-left: -10px;
+    margin-bottom: 10px;
+  }
+  
+  .expression .row-2 .right{
+    padding-right: 15px;
+  }
+  
+  .block-contact {
+    padding: 25px 31px;
+    background: #0429B7;
+    border-radius: 5px;
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* or 57px */
-    color: #000000;
-}
-.screen2-5 .ss5 .text-left .line{
-    position: absolute;
-    width: 109px;
-    height: 0px;
-    left: 199px;
-    top: 4975px;
-    border: 2px solid #000000;
-}
-
-.screen2-5 .ss5 .text-left .text-2{
-    position: absolute;
-    width: 690px;
-    height: 259px;
-    left: 199px;
-    top: 5045px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
     font-size: 22px;
-    line-height: 170%;
-    /* or 37px */
-    text-align: justify;
-    color: #000000;
-
-}
-
-.screen2-5 .ss5 .text-right{
-    position: absolute;
-    width: 690px;
-    height: 762px;
-    left: 1031px;
-    top: 4833px;
-    background: url(/frontend/images/2-6Rectangle-105.png);
-}
-/* ---------------------SS6----------------------- */
-
-.screen2-5 .ss6 .text-left{
-    position: absolute;
-    width: 690px;
-    height: 762px;
-    left: 199px;
-    top: 5748px;
-    background: url(/frontend/images/Rectangle-106.png);
-}
-.screen2-5 .ss6 .text-right .text-1{
-    position: absolute;
-    width: 462px;
-    height: 57px;
-    left: 1025px;
-    top: 5745px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* identical to box height, or 57px */
+    line-height: 26px;
     text-align: center;
-    color: #000000;
-}
-
-.screen2-5 .ss6 .text-right .line{
-    position: absolute;
-    width: 109px;
-    height: 0px;
-    left: 1025px;
-    top: 5832px;
-    border: 2px solid #000000;
-}
-
-.screen2-5 .ss6 .text-right .text-2{
-    position: absolute;
-    width: 696px;
-    height: 37px;
-    left: 1025px;
-    top: 5902px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 170%;
-    /* or 37px */
-    text-align: justify;
-    color: #000000;
-}
-/* --------------------------ss7------------------------- */
-.screen2-5 .ss7{
-    position: absolute;
-    height: 860px;
-    width: 1920px;
-    left: 0px;
-    top: 6660px;
-    border-radius: 0px;
-}
-.screen2-5 .ss7 .img{
-    position: absolute;
-    height: 860px;
-    width: 1920px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 30px;
+  }
+  
+  .screen2-6 .library {
     background: url(/frontend/images/image6.png);
-}
-.screen2-5 .ss7 .text-1{
-    position: absolute;
-    height: 150px;
-    width: 539px;
-    left: 671px;
-    top: 294px;
-    border-radius: nullpx;
+    height: 860px;
+    margin-top: 100px;
+  }
+  
+  .screen2-6 .library .text {
+    text-align: right;
+    width: 82%;
+    padding: 294px;
+  }
+  
+  .screen2-6 .library .text .text-bold {
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 128px;
     line-height: 150px;
     color: #FFFFFF;
-}
-.screen2-5 .ss7 .text-2{
-    position: absolute;
-    height: 38px;
-    width: 156px;
-    left: 1051px;
-    top: 464px;
-    border-radius: nullpx;
-    font-family: 'WorkSans-Medium';
+  }
+  
+  .screen2-6 .library .text .text-medium {
+    font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    /* identical to box height */
-    /* #0062FF */
     color: #0062FF;
-}
-.screen2-5 .ss7 .line{
-    position: absolute;
-    height: 0px;
-    width: 156.0000000000006px;
-    left: 1051px;
-    top: 522px;
-    border-radius: nullpx;
-    /* #0062FF */
-    border: 5px solid #0062FF
-}
-/* -------------------------------SS8------------------------------ */
-.screen2-5 .ss8 .text-left .text-1{
-    position: absolute;
-    width: 690px;
-    height: 112px;
-    left: 199px;
-    top: 7670px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* or 57px */
-    color: #000000;
-}
-.screen2-5 .ss8 .text-left .line{
-    position: absolute;
-    width: 109px;
-    height: 0px;
-    left: 199px;
-    top: 7812px;
-    border: 2px solid #000000;
-}
-.screen2-5 .ss8 .text-left .text-2{
-    position: absolute;
-    width: 692px;
-    height: 222px;
-    left: 192px;
-    top: 7882px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 170%;
-    /* or 37px */
-    text-align: justify;
-    color: #000000;
-}
-.screen2-5 .ss8 .text-left .btn-contact{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 25px 31px;
-    gap: 10px;
-    position: absolute;
-    height: 76px;
-    width: 291px;
-    left: 198px;
-    top: 8174px;
-    border-radius: 5px;
-    padding: 25px 31px 25px 31px;
-    background: #0429B7;
-    border-radius: 5px;
-}
-.screen2-5 .ss8 .text-left .text-3{
-    height: 26px;
-    width: 229px;
-    left: 31px;
-    top: 25px;
-    border-radius: nullpx;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    /* identical to box height */
     text-align: right;
-    color: #FFFFFF;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.screen2-5 .ss8 .text-right{
-    position: absolute;
-    width: 696px;
-    height: 678px;
-    left: 1025px;
-    top: 7670px;
-    background: url(/frontend/images/2-6Rectangle-140.png);
-}
+  }
+  
+  .screen2-6 .library .text hr {
+    border: 5px solid #0062FF;
+    width: 156px;
+    margin-right: 0px;
+  }
+  
+  .qa {
+    margin: 100px auto;
+    padding: 0;
+  }
+  
+  .qa .text-medium{
+    margin-top: 50px;
+  }
 
+  .define .text-center {
+    display: inline-block;
+    margin-top:30px;
+  }
+
+  .qa li {
+    margin-left: 0px;
+    margin-bottom: 6px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .text-banner {
+      padding: 200px 15px 0 15px;
+      margin-left: 0;
+    }
+    .container {
+      width: 100%;
+    }
+    .define .text-medium-1 {
+      width: 100%;
+    }
+  
+    .left {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .right {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .booking .booking-title {
+      margin-left: 15px;
+    }
+    .booking .block-booking {
+      margin-left: 15px;
+    }
+    .chose .text-bold {
+      padding: 30px 0px;
+    }
+    .chose .text-medium {
+      padding-top: 0px;
+    }
+    .chose {
+      height: fit-content;
+    }
+    .expression .row {
+      margin-top: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .expression .row-2 .right {
+      padding-right: 0px;
+    }
+    .expression-title-2 {
+      margin-top: 30px;
+    }
+    .screen2-6 .library .text {
+      padding: 150px 0;
+    }
+    .screen2-6 .library {
+      background-position: bottom;
+    }
+    .text-banner .text-bold {
+        width: 100%;
+      }
+  }
