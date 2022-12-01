@@ -5,6 +5,7 @@
 @endsection
 
 @section('style')
+<link rel="stylesheet" type="text/css" href="/frontend/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="/user/page/2-6.css">
 @endsection
 

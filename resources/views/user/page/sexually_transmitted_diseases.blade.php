@@ -5,6 +5,7 @@
 @endsection
 
 @section('style')
+<link rel="stylesheet" type="text/css" href="/frontend/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="/user/page/sexually_transmitted_diseases.css">
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 @endsection

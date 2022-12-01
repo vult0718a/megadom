@@ -5,6 +5,7 @@
 @endsection
 
 @section('style')
+<link rel="stylesheet" type="text/css" href="/frontend/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="/user/page/post_detail.css">
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 @endsection
@@ -18,22 +19,21 @@
         </div>
     </div>
     <div class="content">
-        <div class="header-content col">
-            <div class="col-xl-3 col-lg-3 col-sm-12 col-12 text-center">
-                <button href="#" class="button-QA">
+    <div class="header-content col">
+            <div class="col-xl-3 col-lg-3 col-sm-12 col-12" style="padding: 0px;">
+                <button href="#" class="button-QA" style="width: 100%;">
                     <span>ĐẶT CÂU HỎI  CHO MEGADOM</span>
                 </button>
             </div>
             <div class="col-xl-6 col-lg-6 col-sm-12 col-12"></div>
-            <div class="col-xl-3 col-lg-3 col-sm-12 col-12 text-center">
-                <div class="input-group">
+            <div class="col-xl-3 col-lg-3 col-sm-12 col-12 text-right" style="padding: 0px;">
+                <div class="input-group" style="width: 100%;">
                     <input type="text" class="form-control input-search" placeholder="Tìm kiếm trong tin tức">
                     <div class="input-group-append btn-search">
                         <i class="fa fa-search icon-btn-search"></i>
                     </div>
                 </div>
             </div>
-           
         </div>
 
         <div class="body-content col">

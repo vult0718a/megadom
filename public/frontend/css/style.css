@@ -649,10 +649,10 @@ color: #FFFFFF;
 }
 
 .pager li>a, .pager li>span {
-  display: inline-block;
-  padding: 17px 25px 17px 25px;
+  display: inline-block !important;
+  padding: 17px 25px 17px 25px !important;
   background-color: #fff;
-  border: 2px solid #0062FF;
+  border: 2px solid #0062FF !important;
   color: #0062FF;
   font-family: 'WorkSans-Regular';
   font-style: normal;
@@ -660,7 +660,7 @@ color: #FFFFFF;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  border-radius: 0%;
+  border-radius: 0% !important;
 }
 
 .pager .active span{

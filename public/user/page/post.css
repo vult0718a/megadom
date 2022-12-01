@@ -28,15 +28,14 @@
 }
 
 .content {
-  margin-left: 199px;
-  margin-right: 199px;
+  display: grid;
 }
 
 .header-content {
-  margin-top: 124px;
-  margin-bottom: 79px;
-  display: flex;
-  justify-content: space-between;
+  max-width: 1920px;
+  width: 80%;
+  margin: auto;
+  margin-top: 150px;
 }
 
 .button-QA {
@@ -44,6 +43,7 @@
   border-radius: 5px;
   padding: 25px 31px 25px 31px;
   border: #0429B7;
+  margin-bottom: 50px;
 }
 
 .button-QA:hover {
@@ -70,7 +70,6 @@
 }
 
 .input-search {
-  width: 302.39px !important;
   height: 72px;
   padding: 25px 5px 25px 31px;
   font-family: 'WorkSans-Medium';
@@ -109,19 +108,17 @@
 }
 
 .body-content {
-  display: flex;
-  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 67px;
 }
 
 .post-content {
-  width: 1068px;
-  height: 950px;
   border: 1px solid #DDDDDD;
   margin-bottom: 80px;
 }
 
 .right-content {
-  width: 374.28px;
   border: 1px solid #DDDDDD;
   height: fit-content;
 }
@@ -148,7 +145,6 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 170%;
-  text-align: justify;
   color: #0062FF;
   border-bottom: 1px solid #DDDDDD;
 }
@@ -201,7 +197,74 @@
   line-height: 170%;
   text-align: justify;
   color: #000000;
-  height: 144px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
+/* new */
+.body-content {
+  max-width: 1920px;
+  margin: auto;
+}
 
+.main-wrapper {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.banner-text-small {
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+
+.banner-text-big {
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 113px;
+  color: #FFFFFF;
+}
+
+.banner-container {
+  background-image: url(/frontend/images/image-banner-post.jpg) !important;
+  padding: 261px 0px 326px 199px;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center right !important;
+}
+
+.content-body {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 969px) {
+  .banner-container {
+    padding: 20px;
+  }
+  .banner-content {
+    text-align: center;
+  }
+
+  .banner-text-small {
+    font-size: 16px;
+  }
+  
+  .banner-text-big {
+    font-size: 32px;
+  }
+
+  .float-right {
+    float: left!important;
+    margin-top: 30px;
+  }
+}

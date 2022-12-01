@@ -10,9 +10,6 @@
     <!-- link icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 
-    <!-- link bootstrap -->
-    <link rel="stylesheet" type="text/css" href="/frontend/bootstrap/css/bootstrap.min.css">
-
     <!-- link font -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 
