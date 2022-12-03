@@ -1,29 +1,18 @@
-.contact-screen {
-  position: relative;
-  width: 1920px;
-  height: 3816px;
-  background: #FFFFFF;
-  height: 1814px;
-}
-.contact-screen .banner {
-  position: absolute;
-  width: 1920px;
-  height: 696px;
-  background: url(/frontend/images/image13q.png);
+/* new */
+.body-content {
+  max-width: 1920px;
+  margin: auto;
 }
 
-.contact-screen .banner .text-banner {
-  position: absolute;
-  width: 542px;
-  height: 147px;  
-  left: 199px;
-  top: 244px;
+.main-wrapper {
+  width: 100%;
 }
 
-.contact-screen .banner .text-banner .text-small {
-  position: absolute;
-  width: 344px;
-  height: 113px;
+img {
+  max-width: 100%;
+}
+
+.banner-text-small {
   font-family: 'WorkSans-Bold';
   font-style: normal;
   font-weight: 700;
@@ -32,94 +21,37 @@
   color: #FFFFFF;
 }
 
-.contact-screen .banner .text-banner .text-bold {
-  position: absolute;
-  width: 661px;
-  height: 113px;
+.banner-text-big {
   font-family: 'WorkSans-Bold';
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
   line-height: 113px;
   color: #FFFFFF;
-  top: 34px;
 }
 
-.contact-screen .doctor-info .text-small {
+.banner-container {
+  background-image: url(/frontend/images/image13q.png) !important;
+  padding: 244px 149px;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center right !important;
+}
+
+.main-content {
+  width: 60%;
+  margin: auto;
+  background-color: #333333;
   position: absolute;
-  width: 690px;
-  height: 467px;
-  left: 198px;
-  top: 814px;
-  font-family: 'WorkSans-Medium';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 170%;
-  text-align: justify;
-  color: #000000;
+  left: 20%;
+  top: 525px;
 }
 
-.contact-screen .form-input {
-  position: absolute;
-  width: 1006px;
-  height: 1970px;
-  left: 456px;
-  top: 544px;
-  background: #333333;
-  z-index: 2;
+.main-content > div {
+  padding: 91px 74px 117px 74px;
 }
 
-.contact-screen .form-input .text-normal {
-  position: absolute;
-  width: 687px;
-  height: 57px;
-  left: 74px;
-  top: 91px;
-  font-family: 'WorkSans-Medium';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 38px;
-  line-height: 150%;
-  color: #FFFFFF;
-}
-
-.contact-screen .form-input .contact {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 7px;
-  position: absolute;
-  width: 167px;
-  height: 40px;
-  left: 74px;
-}
-
-.contact-screen .form-input .contact-1 {
-  top: 177px;
-}
-
-.contact-screen .form-input .contact-2 {
-  top: 231px;
-}
-
-.contact-screen .form-input .contact-3 {
-  top: 285px;
-}
-
-.contact-screen .form-input .contact img {
-  position: absolute;
-  left: 8px;
-  top: 8px;
-}
-
-.contact-screen .form-input .contact span {
-  width: 720px;
-  height: 31px;
-  position: absolute;
-  left: 47px;
-  top: 4.5px;
+.contact-text {
   font-family: 'WorkSans-Medium';
   font-style: normal;
   font-weight: 500;
@@ -130,53 +62,36 @@
   flex: none;
   order: 1;
   flex-grow: 0;
+  margin-bottom: 20px;
 }
 
-.contact-screen .form-input .input-block {
-  position: absolute;
-  width: 858px;
-  height: 1460px;
-  left: 74px;
-  top: 393px;
+.contact-text > span {
+  padding-left: 15px;
+  word-break: break-all;
+}
+
+.text-normal {
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-bottom: 33px;
+}
+
+.form-contact {
   background: #FFFFFF;
   border-radius: 30px;
+  margin-top: 72.5px;
 }
 
-.contact-screen .form-input .input-block .block {
-  position: absolute;
-  width: 752px;
-  height: 123px;
-  left: 58px;
+.form-contact > div {
+  padding: 56px 56px 0px 56px;
 }
 
-.contact-screen .form-input .input-block .block-1 {
-  top: 65px;
-}
-
-.contact-screen .form-input .input-block .block-2 {
-  top: 228px;
-}
-
-.contact-screen .form-input .input-block .block-3 {
-  top: 391px;
-}
-
-.contact-screen .form-input .input-block .block-4 {
-  top: 554px;
-}
-
-.contact-screen .form-input .input-block .block-5 {
-  top: 717px;
-}
-
-.contact-screen .form-input .input-block .block-6 {
-  top: 880px;
-}
-
-.form-input .input-block .block .text-small {
-  position: absolute;
-  top: 6px;
-  font-family: 'WorkSans-SemiBold';
+.title-form-contact {
+  font-family: 'WorkSans-Medium';
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -185,111 +100,73 @@
   color: #000000;
 }
 
-.form-input .input-block .block .text-small span,
-.contact-screen .form-input .rule-title span {
-  color: red;
-}
-
-.form-input .input-block .block input,
-.form-input .input-block .block select {
-  box-sizing: border-box;
-  position: absolute;
-  top: 48px;
+.input-form-contact {
+  font-family: 'WorkSans-Medium';
   background: #F1F1F1;
   border: 1px solid #D7D7D7;
   border-radius: 5px;
-  width: 752px;
   height: 75px;
-}
-
-.contact-screen .form-input .input-block .rule-title {
-  position: absolute;
-  width: 200px;
-  height: 34px;
-  left: 56px;
-  top: 1043px;
-  font-family: 'WorkSans-SemiBold';
-  font-style: normal;
-  font-weight: 600;
   font-size: 20px;
-  line-height: 170%;
-  text-align: justify;
-  color: #000000;
 }
 
-.contact-screen .form-input .input-block .rules-content {
-  box-sizing: border-box;
-  position: absolute;
-  width: 752px;
-  height: 98px;
-  left: 54px;
-  top: 1111px;
+.input-form-contact-polici {
   background: #FFFFFF;
   border: 1px solid #D7D7D7;
-  font-family: 'WorkSans-Regular';
   font-style: normal;
+  font-family: 'WorkSans-Medium';
   font-weight: 400;
   font-size: 16px;
   line-height: 170%;
   text-align: justify;
   color: #000000;
-  padding: 20px 23px 10px 24px;
-  overflow-y: scroll;
+  padding: 10px;
 }
 
-.contact-screen .form-input .input-block .rules-content span {
-  color: #051BE2;
-}
-
-.contact-screen .form-input .accept {
-  top: 1225px;
-  height: 24px;
-  position: absolute;
-  left: 54px;
-}
-
-.contact-screen .form-input .accept span {
-  font-family: 'WorkSans-Regular';
+.checkbox-form-contact {
+  padding-top: 16px !important;
+  padding-left: 75px !important;
+  font-family: 'WorkSans-Medium';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 170%;
   text-align: justify;
   color: #000000;
-  margin-left: 32px;
-  width: 240px;
-  height: 24px;
 }
 
-.contact-screen .form-input .input-block .accept input {
-  box-sizing: border-box;
-  position: absolute;
-  width: 24px;
-  height: 24px;
+.checkbox-form-contact > input {
   background: #FCFCFC;
   border: 1px solid #898989;
-  margin: 0;
+  border-radius: 5px;
 }
 
-.form-input .input-block .rules button {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 25px 275px;
-  gap: 10px;
-  position: absolute;
-  width: 735px;
-  height: 75px;
-  left: 54px;
-  top: 1319px;
+.checkbox-form-contact > span {
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
+}
+
+.button-QA {
+  margin-top: 20px;
+  margin-bottom: 66px;
   background: #0429B7;
   border-radius: 5px;
-  border-color: #0429B7;
+  padding: 25px 31px 25px 31px;
+  border: #0429B7;
+  width: 100%;
 }
 
-.form-input .input-block .rules .register {
-  width: 185px;
-  height: 26px;
+.button-QA:hover {
+  text-decoration: none;
+}
+
+.button-QA > span {
+  width: 265px;
+  height: 21px;
   font-family: 'WorkSans-Bold';
   font-style: normal;
   font-weight: 700;
@@ -300,13 +177,59 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  border: none;
 }
 
-.block-hide {
-  position: absolute;
-  background: white;
-  height: 708px;
-  z-index: 1;
-  width: 1920px;
+@media only screen and (max-width: 969px) {
+  .banner-container {
+    padding: 20px;
+  }
+  .banner-content {
+    text-align: center;
+  }
+
+  .banner-container-2 {
+    padding: 20px;
+  }
+  .banner-content-2 {
+    text-align: center;
+  }
+
+  .banner-container-3 {
+    padding: 20px;
+  }
+  .banner-content-3 {
+    text-align: center;
+  }
+
+  .banner-text-small {
+    font-size: 16px;
+  }
+
+  .banner-text-big-3 {
+    font-size: 65px;
+  }
+  
+  .banner-text-big {
+    font-size: 32px;
+  }
+
+  .float-right {
+    float: left!important;
+    margin-top: 30px;
+  }
+
+  .main-content {
+    width: 100%;
+    left: 0%;
+    top: 242px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-content > div {
+    padding: 20px;
+  }
+  .form-contact > div {
+    padding: 20px;
+}
 }
