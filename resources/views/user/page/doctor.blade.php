@@ -73,7 +73,7 @@
     </div>
 
     <div class='main-content-full'>
-      <div >
+      <div>
           <h3 class="title-body-content-full">BẰNG CẤP VÀ CHỨNG CHỈ QUỐC TẾ</h3>
           <hr class="line-header-content-center">
           <div class="slider">
