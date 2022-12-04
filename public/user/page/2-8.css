@@ -112,11 +112,10 @@
   }
   
   .banner-container-3 {
-    background-image: url(/frontend/images/image3-6-3.png) !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/frontend/images/image3-6-3.png);
     background-repeat: no-repeat !important;
     background-size: cover;
     background-position: center right !important;
-    filter: brightness(0.8);
   }
   
   .banner-container-3 > div {
