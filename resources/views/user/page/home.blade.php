@@ -120,8 +120,6 @@
     </div>
   </div>
 
-
-
   <div class='main-content'>
     <div class="row">
       <div class="col-xl-12 col-lg-12 col-sm-12 col-12 main-content-text">
@@ -144,7 +142,41 @@
                   <br><a href="#">Khám phá thêm</a>
                 </div>
               </div>
-              
+            </div>
+
+            <div class="row row-2 float-left">
+              <div class="col-xl-6 col-lg-6 col-sm-12 col-12 main-content-text">
+                <div style="width: 95%;" class="float-left">
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-sm-6 col-12">
+                      <span class="title-header-content">LỢI ÍCH CỦA PHƯƠNG PHÁP LÀM TO DƯƠNG VẬT BẰNG SILICONE</span>
+                      <br>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-sm-6 col-12">
+                      <span class="title-header-content"></span>
+                      <br>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-sm-6 col-12">
+                      <div style="margin-top: 60px">
+                        <span><b>Bền và có thể tháo dời dễ dàng</b><br>Nhìn <b>tự nhiên</b> và khó bị phát hiện<br>Được làm <b>silicone y tế, rất mềm</b><br>Chi phí <b>hợp lý</b><br>Phẫu thuật được bác sĩ <b>tùy chỉnh theo kích cỡ mong muốn</b> của bạn</span>
+                      </div>
+                      <br><a href="#">Khám phá thêm</a>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-sm-6 col-12">
+                      <div style="margin-top: 60px">
+                        <span>Làm to bằng silicon sẽ <b>tăng</b> chu vi dương vật lên từ <b>1-3cm</b> tuỳ thuộc vào kích cỡ của silicon và phụ thuộc vào độ giãn nở của da thân dương vật.<br><b>Tỷ lệ thành công của phương pháp silicon là 100%</b> (bất kỳ tác dụng phụ nào xảy ra thường là kết quả của việc bệnh nhân không tuân thủ hướng dẫn sau phẫu thuật, điều này sẽ được chuyên gia của Megadom giải thích đầy đủ trước khi làm thủ thuật).</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-6 col-lg-6 col-sm-12 col-12">
+                  <img src="/frontend/images/rectangle105g.png" width="95%" class="float-right">
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -152,6 +184,126 @@
     </div>
   </div>
 
+  <div class='main-wrapper-6'>
+    <div class="banner-container-6">
+      <div class="banner-content-6">
+        <p class="banner-text-big-6">Thư viện</p>
+        <p class="banner-text-under-6">khám phá</p>
+        <hr class="under-6">
+      </div>
+    </div>
+  </div>
 
+  <div class="vision container">
+    <p class="vision-title">CẢM NHẬN CỦA KHÁCH HÀNG</p>
+    <hr>
+    <div class="vision-contnet col">
+      <div class="vision-block vision-block-1 col-xl-4 col-lg-4 col-sm-12 col-12">
+        <p class="content">“Trước kia tôi còn ngần ngại khi nghĩ đến việc làm to "chỗ ấy". Nhưng để cải thiện chuyện chăn gối, tôi đã tìm hiểu từ nhiều nguồn thông tin.  Thật sự đã không lầm khi đặt niềm tin vào Megadom. Tôi đã tự tin hơn rất nhiều!”</p>
+      </div>
+      <div class="vision-block vision-block-2 col-xl-4 col-lg-4 col-sm-12 col-12">
+        <p class="content">Chỉ khi gặp Bác sĩ Đức, tôi mới thấy nhẹ người vì được "bắt đúng bênh". Không hề đau đơn hay khó khăn gì như tôi lo sợ, giờ thì vợ tôi còn thích hơn cả.</p>
+      </div>
+      <div class="vision-block vision-block-3 col-xl-4 col-lg-4 col-sm-12 col-12">
+        <p class="content">“Bác sĩ nhiệt tình và chu đáo nên tôi cảm thấy an tâm. Phẫu thuật cũng không đau đớn gì và hiệu quả rõ rệt. Tôi nghĩ mình đã chọn đúng.”</p>
+      </div>
+    </div>
+  </div>
+
+  <div class='main-content'>
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-sm-12 col-12 main-content-text">
+        <div>
+          <div>
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-sm-12 col-12">
+                <img src="/frontend/images/home-penile2.png" width="95%" class="float-left">
+              </div>
+
+              <div class="col-xl-6 col-lg-6 col-sm-12 col-12 main-content-text">
+                <div style="width: 95%;" class="float-right">
+                  <span class="title-header-content">PHẪU THUẬT KÉO DÀI DƯƠNG VẬT</span>
+                  <br>
+                  <hr class="line-header-content">
+                  <div style="margin-top: 60px">
+                    <span>Không phải tất cả đàn ông đều may mắn có được kích thước dương vật họ muốn - một số nam giới có dương vật rất ngắn, hay còn gọi là hội chứng dương vật nhỏ - micropenis. Đây là tình trạng chiều dài dương vật dưới 3 inch (7.62cm). Phẫu thuật kéo dài dương vật bằng phương pháp cắt dây chằng chéo tại Megadom có thể giúp bạn cải thiện chiều dài cũng như mang lại hình dáng và cấu trúc dương vật khiến bạn trở nên nam tính và tự tin hơn.</span>
+                    <br><br><br><span>Bạn sẽ không còn lo lắng về việc tham gia những hoạt động như đi bơi hay e ngại việc tiến xa hơn trong một mối quan hệ tình cảm. Bạn cũng không còn suy nghĩ quá nhiều liệu dương vật của mình có đạt chiều dài chuẩn hay không. Tại Megadom, bạn có thể lựa chọn chiều dài phù hợp nhất với bạn thân. Bác sĩ Đức là một trong những bác sĩ chuyên khoa Tiết niệu - Nam học hàng đầu tại Việt Nam và có thể giúp bạn trong hành trình lấy lại sự tự tin vào cơ thể của mình.</span>
+                  </div>
+                  <br><a href="#">Khám phá thêm</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row row-2 float-left">
+              <div class="col-xl-6 col-lg-6 col-sm-12 col-12 main-content-text">
+                <div style="width: 95%;" class="float-left">
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-sm-6 col-12">
+                      <span class="title-header-content">PHẪU THUẬT CẮT DÂY CHẰNG CHÉO KẾT HỢP LOẠI BỎ LỚP XƯƠNG MU</span>
+                      <br>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-sm-6 col-12">
+                      <span class="title-header-content">LÝ DO BẠN NÊN CHỌN MEGADOM</span>
+                      <br>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-sm-6 col-12">
+                      <div style="margin-top: 60px">
+                        <span>Dương vật dài ra trung bình 2-3 cm<br>Thời gian phẫu thuật nhanh chóng<br>Không gây rối loạn cương dương<br>Không ảnh hưởng gì đến sinh sản</span>
+                      </div>
+                      <br><a href="#">Khám phá thêm</a>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-sm-6 col-12">
+                      <div style="margin-top: 60px">
+                        <span>Bác sĩ chuyên môn đầu ngành. Công nghệ phẫu thuật và chất liệu phẫu thuật từ Hàn Quốc tiên phong và độc quyền sử dụng.<br><br><br>Đảm bảo phẫu thuật an toàn tuyệt đối, quy trình tiệt trùng theo tiêu chuẩn của Bộ Y tế.</span>
+                      </div>
+                      <br><a href="#">Khám phá thêm</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-6 col-lg-6 col-sm-12 col-12">
+                  <img src="/frontend/images/rectangle105h.png" width="95%" class="float-right">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="difference container">
+    <p class="difference-title-bold">CÂU HỎI THƯỜNG GẶP VỀ PHẪU THUẬT TĂNG KÍCH THƯỚC DƯƠNG VẬT</p>
+    <hr>
+    <div class="difference-content-block">
+      <div class="difference-block col-xl-4 col-lg-4 col-sm-12 col-12">
+        <p class="difference-title">(1) Phẫu thuật làm to dương vật có ảnh hưởng đến độ cương dương sau này không?</p>
+        <p class="difference-content">Phẫu thuật làm to Dương Vật không ảnh hưởng đến việc bơm máu vào dương vât, nó nằm ngoài thân dương vật. Độ cương dương trước phẫu thuật như thế nào thì sau vẫn vậy.</p>
+      </div>
+      <div class="difference-block col-xl-4 col-lg-4 col-sm-12 col-12">
+        <p class="difference-title">(2) Phẫu thuật làm to dương vật có ảnh hưởng gì đến sức khỏe không?</p>
+        <p class="difference-content">Hoàn toàn không ảnh hưởng gì nhiều đến sức khỏe. Phẫu thuật chỉ kéo dài 40 – 60p, sau khi làm xong người bệnh có thể tự đi về nhà. Người bệnh chỉ bị đau duy nhất ở 2 mũi tiêm gây tê gốc dương vât.</p>
+      </div>
+      <div class="difference-block col-xl-4 col-lg-4 col-sm-12 col-12">
+        <p class="difference-title">(3) Mức độ cải thiện sau khi làm to dương vật là như thế nào?</p>
+        <p class="difference-content">Tùy thuộc vào độ co giãn da của thân dương vật mà Dr. Megadom quyết định đặt tấm độn dày hay mỏng. Mức độ cải thiện về chu vi thấp nhất là 2cm, nhiều nhất là 5cm.</p>
+      </div>
+      <div class="difference-block col-xl-4 col-lg-4 col-sm-12 col-12">
+        <p class="difference-title">(4) Còn các phương pháp tăng kích cỡ dương vật không phẫu thuật thì sao?</p>
+        <p class="difference-content">Thật không may, không có phương pháp không phẫu thuật để mở rộng dương vật đã được chứng minh là hiệu quả. Các phương pháp không phẫu thuật để đạt được một dương vật lớn hơn có thể bao gồm bơm, thuốc viên hoặc jelqing, nhưng không có bằng chứng nào cho thấy những phương pháp này có hiệu quả và đôi khi có thể gây hại cho bệnh nhân..</p>
+      </div>
+      <div class="difference-block col-xl-4 col-lg-4 col-sm-12 col-12">
+        <p class="difference-title">(5) Các phương pháp tăng kích thước dương vật khác thì sao (tiêm mỡ tự thân, tiêm Filler)?</p>
+        <p class="difference-content">Một số phương pháp làm to dương vật khác như tiêm mỡ tự thân, tiêm Filler khoảng 10 năm về trước được áp dụng rất nhiều. Nhưng đến nay thì những nhược điểm của phương pháp này được bộc lộ rất rõ. Sau khi mỡ tự thân hoặc Filler được tiêm vào thì chúng không ổn định, sẽ di chuyển dần dần xuống phía dưới của thân dương vật. Làm cho hình dạng dương vật bị biến dạng. Hoặc lớp mỡ này tiêu đi không đồng đều và co nhỏ lại tạo thành những cục trên thân dương vật. Hậu quả là dương vật chỗ to chỗ nhỏ. Thời gian tác dụng của tiêm mỡ và Filler chỉ có tác dụng 4-6 tháng, và thường thì người bệnh sẽ phải làm 3-5 lần tiêm nhắc lại.</p>
+      </div>
+      <div class="difference-block col-xl-4 col-lg-4 col-sm-12 col-12">
+        <p class="difference-title">(6) Nếu trường hợp phẫu thuật xảy ra các biến chứng không mong muốn thì sao?</p>
+        <p class="difference-content">Phẫu thuật tăng kích thước dương vật bằng tấm độn sinh học Megaderm và miếng độn Silicon có tỷ lệ thành công là 100%, có một số trường hợp người bệnh bị kích ứng nhẹ tại chỗ và chỉ cần dùng thuốc là khỏi. Nếu xảy ra tình trạng đào thải hoặc những biến chứng khác sau phẫu thuật, Megadom cam kết sẽ trả lại bệnh nhân chi phí phẫu thuật, đồng thời tiến hành phẫu thuật tháo tấm độn miễn phí. Nếu có bất kỳ chi phí nào phát sinh thêm sau phẫu thuật thì Megadom sẽ chịu trách nhiệm chi trả toàn bộ</p>
+      </div>
+    </div>
+  </div>
 </div>
 @endsection
