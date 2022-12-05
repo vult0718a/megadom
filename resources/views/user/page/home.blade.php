@@ -275,6 +275,33 @@
     </div>
   </div>
 
+  <div class='main-wrapper-7'>
+    <div class="banner-container-7">
+      <div class="banner-content-7">
+        <p class="banner-text-big-7">Tin tức</p>
+        <p class="banner-text-small-7">xem tất cả tin tức</p>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-sm-12 col-12 img-wrapper-7">
+        <img src="/frontend/images/image16.png" width="100%">
+        <div>
+          <p>QUY TRÌNH PHẪU THUẬT TĂNG KÍCH THƯỚC DƯƠNG VẬT VÀ NHỮNG LƯU Ý HẬU PHẪU</p>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-sm-12 col-12 img-wrapper-7">
+        <img src="/frontend/images/image16a.png" width="100%">
+        <div>
+          <p>DƯƠNG VẬT VÀ NHỮNG LƯU Ý HẬU PHẪU</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+
   <div class="difference container">
     <p class="difference-title-bold">CÂU HỎI THƯỜNG GẶP VỀ PHẪU THUẬT TĂNG KÍCH THƯỚC DƯƠNG VẬT</p>
     <hr>
