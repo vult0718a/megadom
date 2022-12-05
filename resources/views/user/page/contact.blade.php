@@ -23,9 +23,9 @@
     <div class='main-content'>
       <div>
         <p class="text-normal">PHÒNG KHÁM NAM KHOA MEGADOM</p>
-        <div class="contact-text"><img id="icon" src="/frontend/images/phone.png"><span>098 534 2323</span></div>
-        <div class="contact-text"><img id="icon" src="/frontend/images/vector1a.png"><span>megaderm.vn@gmail.com</span></div>
-        <div class="contact-text"><img id="icon" src="/frontend/images/vector1b.png"><span>Tầng 2, Bệnh viện Đức Phúc- Số 48 P. Ô Đồng Lâm, Phương Liên, Đống Đa, Hà Nội</span></div>
+        <div class="contact-text"><img id="icon" src="/frontend/images/phone.png"><span>{{ $info->phone }}</span></div>
+        <div class="contact-text"><img id="icon" src="/frontend/images/vector1a.png"><span>{{ $info->email }}</span></div>
+        <div class="contact-text"><img id="icon" src="/frontend/images/vector1b.png"><span>{{ $info->address }}</span></div>
         <form class="form-contact">
           <div class="form-group">
             <label for="name" class="title-form-contact">Họ và tên<span style="color: red;">*</span></label>

@@ -31,10 +31,7 @@ Route::get('/thu-vien', function () {
   return view('user/page/library');
 })->name('library');
 
-Route::get('/lien-he', function () {
-  return view('user/page/contact');
-})->name('lien_he');
-
+Route::get('/lien-he', 'InfoController@viewIndex')->name('lien_he');
 Route::post('/lien-he', 'ContactController@store')->name('admin.contact.store');
 
 Route::get('/lam-to-megaderm', function () {

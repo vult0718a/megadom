@@ -42,6 +42,15 @@
                                 @enderror
                             </div><br>
                             <div class="form-group">
+                                <label for="email">Số điện thoại</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" value="{{ old('email', $info['email']) }}">
+                                @error('email')
+                                    <span class="mt-4 text-sm text-center" style="color:red">
+                                        <strong>{{ $message }}</strong>
+                                    </span><br>
+                                @enderror
+                            </div><br>
+                            <div class="form-group">
                                 <label for="address">Địa chỉ</label>
                                 <input type="text" class="form-control" id="address" name="address" placeholder="Địa chỉ" value="{{ old('address', $info['address']) }}">
                                 @error('address')

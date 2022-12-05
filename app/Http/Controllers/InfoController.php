@@ -21,9 +21,21 @@ class InfoController extends Controller
 				$info = [
 					'phone' => '',
 					'address' => '',
+          'email' => '',
 				];
 			}
       return view('admin.info.index', ['info' => $info]);
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function viewIndex()
+    {
+      $info = Info::first();
+      return view('user.page.contact', ['info' => $info]);
     }
 
     /**
@@ -49,6 +61,7 @@ class InfoController extends Controller
 				[
 						'phone' => ['required', 'numeric', 'digits:10'],
 						'address' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'email', 'max:255'],
 				],
 				[
 						'phone.digits' => 'Số điện thoại cần 10 ký tự',
@@ -56,11 +69,15 @@ class InfoController extends Controller
 						'phone.required' => 'Cần nhập số điện thoại',
 						'address.required' => 'Cần nhập địa chỉ',
 						'address.max' => 'Địa chỉ tối đa 255 ký tự!',
+            'email.required' => 'Cần nhập email',
+						'email.max' => 'Email tối đa 255 ký tự!',
+            'email.email' => 'Email không đúng định dạng!',
 				]
 			);
 			$data = [
 				'phone' => $request->get('phone'),
-				'address' => $request->get('address')
+				'address' => $request->get('address'),
+        'email' => $request->get('email')
 			];
 			
 			if ($info) {

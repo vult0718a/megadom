@@ -16,7 +16,7 @@ class Info extends Model
      */
     public $timestamps = false;
     protected $fillable = [
-        'phone', 'address'
+        'phone', 'address', 'email'
     ];
     
 }
