@@ -24,10 +24,10 @@
     width: 80%;
   }
   
-  img {
+  .screen2-6 img {
     width: 100%;
   }
-  
+
   hr {
     width: 109px;
     border: 2px solid #000000;
@@ -47,7 +47,7 @@
     margin-top:100px;
   }
   
-  li {
+  .screen2-5 li {
     margin-left: 22px;
     margin-bottom: 6px;
   }
@@ -193,7 +193,7 @@
     padding-right: 15px;
   }
   
-  .block-contact {
+  .screen2-6 .block-contact {
     padding: 25px 31px;
     background: #0429B7;
     border-radius: 5px;

@@ -24,7 +24,7 @@
   width: 80%;
 }
 
-img {
+.screen3-1 img {
   width: 100%;
 }
 
@@ -47,7 +47,7 @@ hr {
   margin-top:100px;
 }
 
-li {
+.screen3-1 li {
   margin-left: 22px;
   margin-bottom: 6px;
 }
@@ -192,7 +192,7 @@ a {
   padding-right: 15px;
 }
 
-.block-contact {
+.screen3-1 .block-contact {
   padding: 25px 31px;
   background: #0429B7;
   border-radius: 5px;

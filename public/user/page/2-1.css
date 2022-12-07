@@ -1,5 +1,6 @@
 .screen2-1 {
   display: grid;
+  float: left;
 }
 
 .banner {
