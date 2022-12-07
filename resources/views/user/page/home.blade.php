@@ -88,14 +88,14 @@
           <div class="col-xl-6 col-lg-6 col-sm-12 col-12 content-wrapper-4">
             <span class="title-text">PHẪU THUẬT TĂNG<br>KÍCH THƯỚC DƯƠNG VẬT</span>
             <hr class="hr-wrapper-4-left">
-            <span class="content-text">Phẫu thuật tăng kích thước dương vật ở Megadom không gây mê, không đau đớn và có thể duy trì kích thước dương vật lâu dài.</span>
+            <span class="content-text" style="display: inline-block;width: 68%;">Phẫu thuật tăng kích thước dương vật ở Megadom không gây mê, không đau đớn và có thể duy trì kích thước dương vật lâu dài.</span>
             <br><br><a href="#">Khám phá thêm</a> | <a href="#">Thư viện</a>
           </div>
 
           <div class="col-xl-6 col-lg-6 col-sm-12 col-12 content-wrapper-4" style="text-align: right;">
             <span class="title-text">PHẪU THUẬT<br>KÉO DÀI DƯƠNG VẬT</span>
             <hr class="hr-wrapper-4-right">
-            <span class="content-text">Lấy lại sự tự tin của bạn chỉ bằng phẫu thuật kéo dài dương vật. Duy nhất chúng tôi có thể làm dài tối đa dương vật của bạn.</span>
+            <span class="content-text" style="display: inline-block;width: 68%;text-align: right;">Lấy lại sự tự tin của bạn chỉ bằng phẫu thuật kéo dài dương vật. Duy nhất chúng tôi có thể làm dài tối đa dương vật của bạn.</span>
             <br><br><a href="#">Khám phá thêm</a> | <a href="#">Thư viện</a>
           </div>
         </div>
