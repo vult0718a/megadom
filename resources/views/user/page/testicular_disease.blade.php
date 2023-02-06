@@ -5,7 +5,7 @@
 @endsection
 
 @section('style')
-<link rel="stylesheet" type="text/css" href="/user/page/testicular_disease.css">
+<link rel="stylesheet" type="text/css" href="public/user/page/testicular_disease.css">
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 @endsection
 
@@ -89,7 +89,7 @@
             </div>
             <div class="image-content-part-1">
                 <div>
-                    <img src="/frontend/images/rectangle3-2-4.png" alt="home-penile" width="696px" height="744px">
+                    <img src="/public/frontend/images/rectangle3-2-4.png" alt="home-penile" width="696px" height="744px">
                 </div>
             </div>
         </div>
@@ -130,7 +130,7 @@
             </div>
             <div class="image-content-part-1">
                 <div>
-                    <img src="/frontend/images/rectangle3-3-5.png" alt="home-penile" width="690px" height="833px">
+                    <img src="/public/frontend/images/rectangle3-3-5.png" alt="home-penile" width="690px" height="833px">
                 </div>
             </div>
         </div>
@@ -138,7 +138,7 @@
         <div class="body-content">
             <div class="image-content-part-1">
                 <div>
-                    <img src="/frontend/images/rectangle3-3-6.png" alt="home-penile" width="696px" height="678px">
+                    <img src="/public/frontend/images/rectangle3-3-6.png" alt="home-penile" width="696px" height="678px">
                 </div>
             </div>
             <div class="body-content-4-part-1">

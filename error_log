@@ -1,0 +1,16 @@
+[17-Nov-2022 09:35:35 UTC] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/klvnvnip/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:853
+Stack trace:
+#0 /home/klvnvnip/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(853): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/klvnvnip/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(816): Illuminate\Container\Container->resolveDependencies()
+#2 /home/klvnvnip/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#3 /home/klvnvnip/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(265): Illuminate\Container\Container->resolve()
+#4 /home/klvnvnip/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(785): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/klvnvnip/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(667): Illuminate\Container\Container->build()
+#6 /home/klvnvnip/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(615): Illuminate\Container\Container->resolve()
+#7 /home/klvnvnip/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(767): Illuminate\Container\Container->make()
+#8 /home/klvnvnip/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(170): Illuminate\Foundation\Application->make()
+#9 /home/klvnvnip/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(123): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#10 /home/klvnvnip/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(100): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#12 {main}
+  thrown in /home/klvnvnip/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 853

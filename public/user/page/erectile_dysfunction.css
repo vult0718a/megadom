@@ -1,8 +1,7 @@
-
 .banner {
   height: 696px;
   width: 100%;
-  background: url(/frontend/images/image3-4-1.png);
+  background: url(/public/frontend/images/image3-4-1.png);
 }
 
 .text-banner {
@@ -89,7 +88,7 @@
   margin-top: 153px;
   height: 696px;
   width: 100%;
-  background: url(/frontend/images/image3-15.png);
+  background: url(/public/frontend/images/image3-15.png);
 }
 
 .text-banner-2 {
@@ -161,7 +160,7 @@
 .banner-4 {
   margin-top: 139px;
   height: 674px;
-  background: rgba(0, 0, 0, 0.4) url(/frontend/images/Rectangle3-73.png);
+  background: rgba(0, 0, 0, 0.4) url(/public/frontend/images/Rectangle3-73.png);
   background-blend-mode: darken;
 }
 
@@ -254,7 +253,7 @@
 .banner-5 {
   margin-top: 139px;
   height: 860px;
-  background: url(/frontend/images/image3-4-6.png);
+  background: url(/public/frontend/images/image3-4-6.png);
 }
 
 .text-banner-5 {

@@ -25,6 +25,7 @@
                             <tr>
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Số thứ tự</th>
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Tiêu đề</th>
+                                <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">thể loại</th>
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Ngày tạo</th>
                                 <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-center">Thao tác</th>
                             </tr>
@@ -45,12 +46,22 @@
                                         <span class="text-secondary font-weight-bold text-xs">{{ $post->title }}</span>
                                     </td>
                                     <td class="align-middle text-center">
+                                        <span class="text-secondary font-weight-bold text-xs">
+                                            @if ($post->type == 1)
+                                            Hỏi đáp chuyên gia
+                                            @elseif ($post->type == 2)
+                                            Thông tin sức khỏe
+                                            @elseif ($post->type == 3)
+                                            Câu chuyện khách hàng
+                                            @endif
+                                        </span>
+                                    </td>
+                                    <td class="align-middle text-center">
                                         <span class="text-secondary font-weight-bold text-xs">{{ date('Y-m-d H:i:s', strtotime($post->created_at)) }}</span>
                                     </td>
                                     <td class="text-center">
-                                        <a href="{{ route('admin.post.show', $post->id) }}" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
-                                            Edit
-                                        </a>
+                                        <a href="{{ route('admin.post.show', $post->id) }}" class="btn btn-info">Sửa</a>
+                                        <a onclick="return confirm('Are you sure?')" href="{{ route('admin.post.delete', $post->id) }}" class="btn btn-danger">Xóa</a>
                                     </td>
                                 </tr>
                             @endforeach

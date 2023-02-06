@@ -1,120 +1,303 @@
 @extends('user.layout.main')
 
+
+
 @section('title')
+
 <title>Liên hệ</title>
+
 @endsection
+
+
 
 @section('style')
-<link rel="stylesheet" type="text/css" href="/user/page/contact.css">
+
+<link rel="stylesheet" type="text/css" href="/public/frontend/bootstrap/css/bootstrap4.min.css">
+
+<link rel="stylesheet" type="text/css" href="public/user/page/contact.css">
+
 @endsection
+
+
 
 @section('content')
-  <div class="contact-screen">
+
+  <div class="body-content">
+
     <div class="banner">
       <div class="text-banner">
-        <p class="text-small">TRANG CHỦ. LIÊN HỆ</p>
-        <p class="text-bold">Liên hệ</p>
+        <p class="text-medium"><a style="text-decoration:none; color: white;" href="{{ route('home') }}">TRANG CHỦ.</a> <a style="text-decoration:none; color: white;" href="{{ route('lien_he') }}">LIÊN HỆ</a></p>
+        <p class="text-bold">Liên hệ</span></p>
       </div>
     </div>
-    <div class="form-input">
-      <p class="text-normal">PHÒNG KHÁM NAM KHOA MEGADOM</p>
-      <div class="contact contact-1"><img id="icon" src="/frontend/images/phone.png"><span>098 534 2323</span></div>
-      <div class="contact contact-2"><img id="icon" src="/frontend/images/vector1a.png"><span>megaderm.vn@gmail.com</span></div>
-      <div class="contact contact-3"><img id="icon" src="/frontend/images/vector1b.png"><span>Tầng 2, Bệnh viện Đức Phúc- Số 48 P. Ô Đồng Lâm, Phương Liên, Đống Đa, Hà Nội</span></div>
-      <form>
-        <div class="input-block">
-          <div class="block block-1">
-            <p class="text-small">Họ và tên<span>*</span></p>
-            <input type="text" name="name" id="name"value="{{ old('name') }}" require class="form-control">
+
+
+
+    <div class='main-content'>
+
+      <div>
+
+        <p class="text-normal set-font-size" data-font-size="38">PHÒNG KHÁM NAM KHOA MEGADOM</p>
+
+        <div class="contact-text set-font-size" data-font-size="18"><img id="icon" style="width: 24px" class="set-size-image" data-size-width="24" src="/public/frontend/images/phone.png"><span>{{ $info->phone }}</span></div>
+
+        <div class="contact-text set-font-size" data-font-size="18"><img id="icon" style="width: 24px" class="set-size-image" data-size-width="24" src="/public/frontend/images/vector1a.png"><span>{{ $info->email }}</span></div>
+
+        <form class="form-contact">
+
+          <div class="form-group">
+
+            <label for="name" class="title-form-contact set-font-size" data-font-size="20">Họ và tên<span style="color: red;">*</span></label>
+
+            <input type="text" class="form-control input-form-contact set-font-size" data-font-size="20" name="name" id="name"value="{{ old('name') }}" require>
+
           </div>
-          <div class="block block-2">
-            <p class="text-small">Điện thoại<span>*</span></p>
-            <input type="text" pattern="[0-9]{10}" name="phone" id="phone" require value="{{ old('phone') }}" class="form-control">
+
+          <div class="form-group">
+
+            <label for="phone" class="title-form-contact set-font-size" data-font-size="20">Điện thoại<span style="color: red;">*</span></label>
+
+            <input type="text" class="form-control input-form-contact set-font-size" data-font-size="20" pattern="[0-9]{10}" name="phone" id="phone" require value="{{ old('phone') }}">
+
           </div>
-          <div class="block block-3">
-            <p class="text-small">Email<span>*</span></p>
-            <input type="email" name="email" id="email" require value="{{ old('email') }}" class="form-control">
+
+          <div class="form-group">
+
+            <label for="email" class="title-form-contact set-font-size" data-font-size="20">Email<span style="color: red;">*</span></label>
+
+            <input type="email" class="form-control input-form-contact set-font-size" data-font-size="20" name="email" id="email" require value="{{ old('email') }}">
+
           </div>
-          <div class="block block-4">
-            <p class="text-small">Địa chỉ<span>*</span></p>
-            <select id="address" require name="address">
-              <option value="Hà Nội" selected>Hà Nội</option>
-              <option value="Hồ Chí Minh">Hồ Chí Minh</option>
-              <option value="Đà Nẵng">Đà Nẵng</option>
+
+          <div class="form-group">
+
+            <label for="address" class="title-form-contact set-font-size" data-font-size="20">Địa chỉ<span style="color: red;">*</span></label>
+
+            <select id="address" require name="address" class="form-control input-form-contact set-font-size" data-font-size="20">
+
+              <option value="Hà Nội">Tp.Hà Nội
+
+              <option value="Tp.Hồ chí Minh">Tp.Hồ chí Minh
+
+              <option value="An Giang">An Giang
+
+              <option value="Bà Rịa - Vũng Tàu">Bà Rịa - Vũng Tàu
+
+              <option value="Bắc Giang">Bắc Giang
+
+              <option value="Bắc Kạn">Bắc Kạn
+
+              <option value="Bạc Liêu">Bạc Liêu
+
+              <option value="Bắc Ninh">Bắc Ninh
+
+              <option value="Bến Tre">Bến Tre
+
+              <option value="Bình Định">Bình Định
+
+              <option value="Bình Dương">Bình Dương
+
+              <option value="Bình Phước">Bình Phước
+
+              <option value="Bình Thuận">Bình Thuận
+
+              <option value="Cà Mau">Cà Mau
+
+              <option value="Cao Bằng">Cao Bằng
+
+              <option value="Đắk Lắk">Đắk Lắk
+
+              <option value="Đắk Nông">Đắk Nông
+
+              <option value="Điện Biên">Điện Biên
+
+              <option value="Đồng Nai">Đồng Nai
+
+              <option value="Đồng Tháp">Đồng Tháp
+
+              <option value="Gia Lai">Gia Lai
+
+              <option value="Hà Giang">Hà Giang
+
+              <option value="Hà Nam">Hà Nam
+
+              <option value="Hà Tĩnh">Hà Tĩnh
+
+              <option value="Hải Dương">Hải Dương
+
+              <option value="Hậu Giang">Hậu Giang
+
+              <option value="Hòa Bình">Hòa Bình
+
+              <option value="Hưng Yên">Hưng Yên
+
+              <option value="Khánh Hòa">Khánh Hòa
+
+              <option value="Kiên Giang">Kiên Giang
+
+              <option value="Kon Tum">Kon Tum
+
+              <option value="Lai Châu">Lai Châu
+
+              <option value="Lâm Đồng">Lâm Đồng
+
+              <option value="Lạng Sơn">Lạng Sơn
+
+              <option value="Lào Cai">Lào Cai
+
+              <option value="Long An">Long An
+
+              <option value="Nam Định">Nam Định
+
+              <option value="Nghệ An">Nghệ An
+
+              <option value="Ninh Bình">Ninh Bình
+
+              <option value="Ninh Thuận">Ninh Thuận
+
+              <option value="Phú Thọ">Phú Thọ
+
+              <option value="Quảng Bình">Quảng Bình
+
+              <option value="Quảng Bình">Quảng Bình
+
+              <option value="Quảng Ngãi">Quảng Ngãi
+
+              <option value="Quảng Ninh">Quảng Ninh
+
+              <option value="Quảng Trị">Quảng Trị
+
+              <option value="Sóc Trăng">Sóc Trăng
+
+              <option value="Sơn La">Sơn La
+
+              <option value="Tây Ninh">Tây Ninh
+
+              <option value="Thái Bình">Thái Bình
+
+              <option value="Thái Nguyên">Thái Nguyên
+
+              <option value="Thanh Hóa">Thanh Hóa
+
+              <option value="Thừa Thiên Huế">Thừa Thiên Huế
+
+              <option value="Tiền Giang">Tiền Giang
+
+              <option value="Trà Vinh">Trà Vinh
+
+              <option value="Tuyên Quang">Tuyên Quang
+
+              <option value="Vĩnh Long">Vĩnh Long
+
+              <option value="Vĩnh Phúc">Vĩnh Phúc
+
+              <option value="Yên Bái">Yên Bái
+
+              <option value="Phú Yên">Phú Yên
+
+              <option value="Tp.Cần Thơ">Tp.Cần Thơ
+
+              <option value="Tp.Đà Nẵng">Tp.Đà Nẵng
+
+              <option value="Tp.Hải Phòng">Tp.Hải Phòng
+
             </select>
+
           </div>
-          <div class="block block-5">
-            <p class="text-small">Bạn đang quan tâm tới vấn đề gì?<span>*</span></p>
-            <input type="text" name="content" id="content" require value="{{ old('content') }}" class="form-control">
+
+          <div class="form-group">
+
+            <label for="content" class="title-form-contact set-font-size" data-font-size="20">Bạn đang quan tâm tới vấn đề gì?<span style="color: red;">*</span></label>
+
+            <input type="text" class="form-control input-form-contact set-font-size" data-font-size="20" name="content" id="content" require value="{{ old('content') }}">
+
           </div>
-          <div class="block block-6">
-            <p class="text-small">Bạn biết đến chúng tôi qua đâu?<span>*</span></p>
-            <select id="know" require name="know">
-              <option value="Mạng xã hội" selected>Mạng xã hội</option>
-              <option value="Người thân giới thiệu">Người thân giới thiệu</option>
-              <option value="Google">Google</option>
+
+          <div class="form-group">
+
+            <label for="know" class="title-form-contact set-font-size" data-font-size="20">Bạn biết đến chúng tôi qua đâu?<span style="color: red;">*</span></label>
+
+            <select id="know" require name="know" class="form-control input-form-contact set-font-size" data-font-size="20">
+
+              <option value="Website">Website</option>
+
+              <option value="Youtube">Youtube</option>
+
+              <option value="Facebook">Facebook</option>
+
+              <option value="Tiktok">Tiktok</option>
+
+              <option value="Khác">Khác</option>
+
             </select>
+
           </div>
-          <div class="rule-title">Điều khoản dịch vụ<span>*</span></div>
-          <div class="rules">
-            <div class="rules-content">By submitting this form I give Megadom, a Medical Corporation, Penuma, and its affiliates permission to contact me and agree to the terms of the <span>Privacy Policy</span>.</div>
-            <div class="accept"><input type="checkbox" require name="accept" id="accept"><span>I accept the Terms and Conditions.</span></div>
-            <button type="button" id="register"><span class="register">ĐĂNG KÝ TƯ VẤN</span></button>
+
+          <div>
+
+            <button type="button" id="register" class="button-QA">
+
+                <span class="set-font-size" data-font-size="20">ĐĂNG KÝ TƯ VẤN</span>
+
+            </button>
+
           </div>
-        </div>
-      </form>
+
+        </form>
+
       </div>
+
     </div>
-    <div class="block-hide"></div>
+
   </div>
+
 @endsection
 
+
+
 @section('script')
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
 <script>
   $('#register').click(function() {
-    if ($("#accept").is(":checked")) {
-      let name = $("#name").val();
-      let phone = $("#phone").val();
-      let email = $("#email").val();
-      let address = $("#address").val();
-      let content = $("#content").val();
-      let know = $("#know").val();
-      $.ajax({
-        type: "POST",
-        url: "{{ route('admin.contact.store') }}",
-        headers: {
-          'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-        },
-        data: {
-          name : name,
-          phone : phone,
-          email : email,
-          address : address,
-          content : content,
-          know : know
-        },
-        success: function (data) {
-          alert("Đăng ký thành công!");
-          location.reload();
-        },
-        error: function (e) {
-          let errors = e.responseJSON.errors;
-          if (errors) {
-            let message = '';
-            $.each( errors, function( key, value ) {
-              message += value + '\n';
-            });
-            alert(message);
-          } else {
-            alert("Đăng ký thất bại!");
-          }
-          
+    let name = $("#name").val();
+    let phone = $("#phone").val();
+    let email = $("#email").val();
+    let address = $("#address").val();
+    let content = $("#content").val();
+    let know = $("#know").val();
+    $.ajax({
+      type: "POST",
+      url: "{{ route('admin.contact.store') }}",
+      headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+      },
+      data: {
+        name : name,
+        phone : phone,
+        email : email,
+        address : address,
+        content : content,
+        know : know
+      },
+      success: function (data) {
+        window.location.href = "{{ route('success') }}";
+      },
+      error: function (e) {
+        let errors = e.responseJSON.errors;
+        if (errors) {
+          let message = '';
+          $.each( errors, function( key, value ) {
+            message += value + '\n';
+          });
+          alert(message);
+        } else {
+          alert("Đăng ký thất bại!");
         }
-      });
-    } else {
-      alert('Bạn cần đồng ý với điều khoản dịch vụ');
-      $("#accept").focus();
-    }
+      }
+    });
   });
 </script>
+
 @endsection

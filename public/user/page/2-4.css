@@ -1,0 +1,718 @@
+.screen2-4 {
+  padding-top: 85px;
+}img {max-width: 100%;}
+.text-medium {
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 170%;
+    text-align: justify;
+    color: #000000;
+  }
+    
+  .text-bold {
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 150%;
+    color: #000000;
+  }
+  
+  .container {
+    width: 80%;
+  }
+  
+  hr {
+    width: 109px;
+    border: 2px solid #000000;
+  }
+  
+  .left {
+    padding-left: 0px;
+    padding-right: 53px;
+  }
+  
+  .right {
+    padding-right: 0px;
+    padding-left: 53px;
+  }
+  
+  .block-content {
+    margin-top:100px;
+  }
+  
+  .screen2-4 li {
+    margin-left: -10px;
+    margin-bottom: 6px;
+  }
+  
+  a {
+    color: #0062FF;
+  }
+  
+  .banner {
+    height: 696px;
+    width: 100%;
+    background: url(/public/frontend/images/image-13.png);
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  
+  .text-banner {
+    padding-top: 242px;
+    margin-left: 199px;
+  }
+    
+  .text-banner .text-medium {
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+
+  .text-banner .text-medium > a{
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+    
+  .text-banner .text-bold {
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    width: 46%;
+  }
+  
+  .define .define-title,
+  .reason .reason-title {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .define .text-medium-1 {
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+  .reason .text-medium-1 {
+    width: 100%;
+    margin: 40px auto;
+  }
+  
+  .hr-2 {
+    margin-left: 0px;
+  }
+  
+  .booking {
+    margin-top: 100px;
+    height: 702px;
+    width: 100%;
+    background: url(/public/frontend/images/image15a.png);
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  
+  .booking .booking-title {
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-left: 327px;
+    padding-top: 276px;
+    color: #FFFFFF;
+  }
+  
+  .booking .block-booking {
+    padding: 25px 31px;
+    background: #0429B7;
+    border-radius: 5px;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 327px;
+    width: 300px;
+  }
+
+  .button-QA {
+    margin-top: 27px;
+    background: #0429B7;
+    border-radius: 5px;
+    padding: 25px 31px 25px 31px;
+    border: #0429B7;
+    margin-left: 327px;
+  
+  }
+  
+  
+  
+  .button-QA:hover {
+    text-decoration: none;
+  }
+  
+  
+  
+  .button-QA > span {
+    width: 265px;
+    height: 21px;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+
+  .booking .block-booking > span > a{
+    padding: 25px 31px;
+    background: #0429B7;
+    border-radius: 5px;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 327px;
+    width: 300px;
+  }
+  
+  .chose {
+    width: 100%;
+    background: url(/public/frontend/images/rectangle72a.png);
+    margin: auto;
+    margin-top: 65px;
+    padding-bottom: 38px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  
+  .chose::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+  }
+  
+  .chose .text-bold {
+    color: #FFFFFF;
+    z-index: 1;
+    padding: 300px 92px;
+  }
+  
+  .chose .text-medium {
+    color: #FFFFFF;
+    z-index: 1;
+    padding-top: 150px;
+  }
+  
+  .expression .row {
+    margin-top:100px;
+    margin-right: -14px;
+  
+  }
+  
+  .expression .text-medium {
+    margin-top: 28px;
+  }
+  
+  .expression li {
+    margin-left: -10px;
+    margin-bottom: 10px;
+  }
+  
+  .expression .row-2 .right{
+    padding-right: 15px;
+  }
+  
+  .screen2-4 .block-contact {
+    padding: 25px 31px;
+    background: #0429B7;
+    border-radius: 5px;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 30px;
+  }
+  
+  .banner-container-6 {
+    background-image: url(/public/frontend/images/image1-2-7.png) !important;
+    padding: 16%;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  .banner-container-6 {
+    background-image: url(/public/frontend/images/image1-2-7.png) !important;
+    padding: 16%;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  .banner-text-big-6 {
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 150px;
+    color: #FFFFFF;
+    text-align: end;
+  }
+  .banner-text-under-6 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: end;
+  }
+  .main-wrapper-6 {
+    margin-top:100px;
+  }
+  .banner-text-under-6 > a {
+    color: #0062FF;
+  }
+  .under-6 {
+    border: 5px solid #0062FF;
+    width: 141px;
+    margin-right: 0px;
+  }
+  
+  .qa {
+    margin: 100px auto;
+    padding: 0;
+  }
+  
+  .qa .text-medium{
+    margin-top: 28px;
+  }
+
+  .text .text-medium > a{
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: right;
+  }
+
+  @media only screen and (max-width: 1800px) {
+    .text-medium {
+    
+        font-size: 20px !important;
+    
+      }
+    
+        
+    
+      .text-bold {
+    
+        font-size: 28px;
+    
+      }
+    }
+    
+    
+    @media only screen and (max-width: 1536px) {
+    
+      .text-medium {
+    
+        font-size: 18px !important;
+    
+      }
+    
+        
+    
+      .text-bold {
+    
+        font-size: 28px;
+    
+      }
+    
+      .screen2-4 .block-contact{
+        font-size: 18px;
+      }
+    
+      .chose .text-bold {
+    
+        padding: 220px 92px;
+    
+      }
+    
+      .screen2-4 .library .text .text-bold {
+        font-size: 120px;
+    }
+    
+      .text-banner .text-bold {
+    
+        font-size: 61px;
+    
+      }
+      .screen2-4 .library .text {
+        width: 94%;
+    }
+    }
+    
+    
+    
+    @media only screen and (max-width: 1397px) {
+    
+      .text-medium {
+    
+        font-size: 14px !important;
+    
+      }
+    
+      .screen2-4 .library .text .text-bold {
+        font-size: 110px;
+    }
+    
+      .text-bold {
+    
+        font-size: 24px;
+    
+      }
+    
+      .text-banner .text-bold {
+    
+        font-size: 59px;
+    
+      }
+    
+      .chose .text-bold {
+    
+        padding: 200px 92px;
+    
+      }
+
+      .screen2-4 .block-contact{
+        font-size: 18px;
+        padding: 20px 20px;
+      }
+    
+    }
+    
+    
+    
+    @media only screen and (max-width: 1229px) {
+    
+      .text-medium {
+    
+        font-size: 14px;
+    
+      }
+    
+      .screen2-4 .library .text .text-bold {
+        font-size: 100px;
+    }
+    
+      .text-bold {
+    
+        font-size: 24px;
+    
+      }
+    
+      .text-banner .text-bold {
+    
+        font-size: 56px;
+    
+      }
+    
+      .chose .text-bold {
+    
+        padding: 126px 92px;
+    
+      }
+    
+      .chose .text-medium {
+    
+        padding-top: 90px;
+    
+      }
+      .screen2-4 .block-contact{
+        font-size: 15px;
+      }
+    }
+  @media only screen and (max-width: 1023px) {
+    .screen2-4 {
+      padding-top: 0px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .text-banner {
+      padding: 60px 15px;
+      margin-left: 0;
+    }
+    .container {
+      width: 100%;
+    }
+    .define .text-medium-1 {
+      width: 100%;
+    }
+  
+    .left {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .right {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .booking .booking-title {
+      margin-left: 15px;
+    }
+    .booking .block-booking {
+      margin-left: 15px;
+    }
+    .chose .text-bold {
+      padding: 30px 0px;
+      width: 70%;
+      line-height: 30px;
+    }
+    .chose .text-medium {
+      padding-top: 0px;
+    }
+    .chose {
+      margin-top: 30px;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+    }
+    .expression .row {
+      margin-top: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .expression .row-2 .right {
+      padding-right: 0px;
+    }
+    .expression-title-2 {
+      margin-top: 30px;
+    }
+    .screen2-4 .library .text {
+      padding: 150px 0;
+    }
+    .screen2-4 .library {
+      background-position: bottom;
+    }
+    .text-banner .text-bold {
+        width: 100%;
+    }
+    .screen2-4 img {
+      width: 100%;
+    }
+    .screen2-4 {
+      padding-top: 0px;
+    }
+    .text-banner .text-bold {
+      font-size: 24px;
+      line-height: inherit;
+    }
+    .text-banner .text-medium {
+      font-size: 10px !important;
+      line-height: inherit;
+    }
+    .banner {
+      background-repeat: no-repeat !important;
+      background-size: cover;
+      background-position: center !important;
+      height: 245px;
+    }
+    .banner .text-medium span {
+      display: block;
+    }
+    .banner .text-bold span {
+      display: block;
+    }
+    .define .define-title, .reason .reason-title {
+      margin-top: 40px;
+  }
+  hr {
+      width: 45px;
+      border: 2px solid #000000;
+      margin: 16px auto;
+  }
+  .text-bold {
+      font-size: 16px;
+  }
+  .define .text-medium-1 {
+      margin-top: 0;
+  }
+  .define  {
+      padding: 0;
+  }
+  .screen3-1 img {
+      padding: 0;
+  }
+  .define .text-medium-1 {
+      margin-top: 0;
+      padding: 0 15px;
+  }
+  .left {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  .booking {
+      margin-top: 30px;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      height: 245px;
+      background: url(/public/frontend/images/image15.png);
+      background-size: cover;
+  }
+  .block-content {
+      margin-top: 44px;
+  }
+  .booking .booking-title {
+    font-size: 12px;
+    padding-top: 65px;
+  }
+  .booking .block-booking {
+    padding: 0px 14px;
+    font-size: 16px;
+    display: inline-block;
+    width: auto;
+  }
+  .reason .text-medium-1 {
+    margin: 0;
+  }
+  .reason ul {
+    margin-top: 14px;
+    padding-left: 0px;
+  }
+  .expression-1 .left {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .expression-1 .right {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .expression-2 .left {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .expression-2 .right {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .expression .row {
+    padding: 0;
+  }
+  .expression .text-bold {
+    margin-top: 35px;
+  }
+  .define .block-content .text-bold {
+    margin-top: 35px;
+  }
+  .expression li {
+    margin-left: -15px;
+  }
+  .expression .text-medium {
+    margin-top: 0;
+  }
+  .expression .row-2 .left {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .expression .row-2 .right {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .screen2-4 .block-contact {
+    width: 92%;
+    display: block;
+    margin: 35px auto;
+  }
+  
+  .main-wrapper-6 {
+    margin-top: 120px;
+  }
+  .qa {
+    margin-top: 29px;
+    margin-bottom: 0px;
+    padding: 0;
+  }
+  .qa .right {
+    margin-top: 30px;
+  }
+  .qa .left {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 45px;
+  }
+  .qa .text-medium {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  .qa .text-bold  {
+    margin-top: 14px;
+    font-size: 14px;
+  }
+  .banner-container-6 {
+    background-image: url(/public/frontend/images/image1-2-7.png) !important;
+    padding: 16%;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  .banner-text-big-6 {
+    font-weight: 700;
+    font-size: 52.8461px;
+    line-height: 62px;
+  }
+  .banner-text-under-6 {
+    font-weight: 700;
+    font-size: 15.6437px;
+    line-height: 18px;
+  }
+  .banner-text-under-6 > a {
+    color: #0062FF;
+  }
+  .under-6 {
+    border: 2.44432px solid #0062FF;
+    background-color: #0062FF;
+    width: 77px;
+  }
+  .main-wrapper-6 {
+    margin-top: 30px;
+  }
+  .text-banner .text-medium > a{
+    font-size: 10px;
+    line-height: 12px;
+  }
+  }

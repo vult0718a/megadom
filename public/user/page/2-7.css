@@ -1,585 +1,718 @@
-body{
-    position: relative;
-    width: 1920px;
-    height: 10559px;
-    background: #FFFFFF;
-}
-.screen2-5{
-    width: 1920px;
-    height: 8590px;
-    background: #FFFFFF;
-}
-
-/* --------------------------Seccion 1------------------------------- */
-.screen2-5 .banner{
-    position: absolute;
+.screen2-7 {
+  padding-top: 85px;
+}img {max-width: 100%;}
+.text-medium {
+    font-family: 'WorkSans-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 170%;
+    text-align: justify;
+    color: #000000;
+  }
+    
+  .text-bold {
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 150%;
+    color: #000000;
+  }
+  
+  .container {
+    width: 80%;
+  }
+  
+  hr {
+    width: 109px;
+    border: 2px solid #000000;
+  }
+  
+  .left {
+    padding-left: 0px;
+    padding-right: 53px;
+  }
+  
+  .right {
+    padding-right: 0px;
+    padding-left: 53px;
+  }
+  
+  .block-content {
+    margin-top:100px;
+  }
+  
+  .screen2-7 li {
+    margin-left: -10px;
+    margin-bottom: 6px;
+  }
+  
+  a {
+    color: #0062FF;
+  }
+  
+  .banner {
     height: 696px;
-    width: 1920px;
-    left: 0px;
-    top: 210px;
-    border-radius: 0px;
-    background: url(/frontend/images/2-7image-13.png);
-}
-
-.text-medium{
-    position: absolute;
-    left: 10.36%;
-    right: 58.91%;
-    top: 32.9%;
-    bottom: 57.33%;
+    width: 100%;
+    background: url(/public/frontend/images/2-7image-13.png);
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  
+  .text-banner {
+    padding-top: 242px;
+    margin-left: 199px;
+  }
+    
+  .text-banner .text-medium {
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
-}
+  }
 
-.text-medium span {
-    display: block;
-}
-
-.text-bold{
-    position: absolute;
-    left: 10.36%;
-    right: 51.88%;
-    top: 45.4%;
-    bottom: 33.05%;
+  .text-banner .text-medium > a{
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+    
+  .text-banner .text-bold {
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 75px;
     color: #FFFFFF;
-}
-
-
-/* --------------------------Seccion 1------------------------------- */
-
-.screen2-5 .ss1 .text-1{
-    position: absolute;
-    width: 966px;
-    height: 57px;
-    left: 477px;
-    top: 1024px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* identical to box height, or 57px */
+    width: 46%;
+  }
+  
+  .define .define-title,
+  .reason .reason-title {
     text-align: center;
-    color: #000000;
-}
-
-.screen2-5 .line{
-    position: absolute;
-    width: 109px;
-    height: 0px;
-    left: 905px;
-    top: 1111px;
-    border: 2px solid #000000;
-}
-
-.screen2-5 .ss1 .text-2{
-    position: absolute;
-    width: 1008px;
-    height: 185px;
-    left: 456px;
-    top: 1161px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 170%;
-    /* or 37px */
-    text-align: justify;
-    color: #000000;
-}
-
-.screen2-5 .ss1 .ss1-1 .text-left .text-1{
-    position: absolute;
-    width: 690px;
-    height: 114px;
-    left: 199px;
-    top: 1496px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* identical to box height, or 57px */
-    color: #000000;
-
-}
-
-.screen2-5 .ss1 .ss1-1 .text-left .line{
-    position: absolute;
-    width: 109px;
-    height: 0px;
-    left: 199px;
-    top: 1640px;
-    border: 2px solid #000000;
-}
-
-.screen2-5 .ss1 .ss1-1 .text-left .text-2{
-    position: absolute;
-    width: 690px;
-    height: 185px;
-    left: 199px;
-    top: 1690px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 170%;
-    /* or 37px */
-    text-align: justify;
-    color: #000000;
-}
-
-.screen2-5 .ss1 .ss1-1 .text-right{
-    position: absolute;
-    width: 690px;
-    height: 600px;
-    left: 1031px;
-    top: 1496px;
-    background: url(/frontend/images/2-7home-penile-3.png);
-}
-
-/* --------------------------SS2---------------------------------------------- */
-.screen2-5 .ss2 .img{
-    position: absolute;
+    margin-top: 100px;
+  }
+  
+  .define .text-medium-1 {
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+  .reason .text-medium-1 {
+    width: 100%;
+    margin: 40px auto;
+  }
+  
+  .hr-2 {
+    margin-left: 0px;
+  }
+  
+  .booking {
+    margin-top: 100px;
     height: 702px;
-    width: 1920px;
-    left: 0px;
-    top: 2246px;
-    border-radius: 0px;
-    background: url(/frontend/images/image-15.png);
-}
-
-.screen2-5 .ss2 .text-1{
-    position: absolute;
-    left: 17.03%;
-    right: 60.62%;
-    top: 39.32%;
-    bottom: 55.27%;
+    width: 100%;
+    background: url(/public/frontend/images/image15a.png);
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  
+  .booking .booking-title {
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    /* identical to box height */
+    margin-left: 327px;
+    padding-top: 276px;
     color: #FFFFFF;
-}
-
-.screen2-5 .ss2 .btn-tu-van{
-    outline: none;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+  }
+  
+  .booking .block-booking {
     padding: 25px 31px;
-    gap: 10px;
-    position: absolute;
-    left: 17.03%;
-    right: 67.34%;
-    top: 48.15%;
-    bottom: 39.32%;
     background: #0429B7;
     border-radius: 5px;
-    border-color: #0429B7;
-}
-
-.screen2-5 .ss2 .btn-tu-van .text-1{
-    width: 238px;
-    height: 38px;
-    height: 38px;
-    width: 238px;
-    left: 31px;
-    top: 25px;
-    border-radius: nullpx;
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    /* identical to box height */
     text-align: center;
     color: #FFFFFF;
-    /* Inside auto layout */
+    margin-left: 327px;
+    width: 300px;
+  }
+
+  .button-QA {
+    margin-top: 27px;
+    background: #0429B7;
+    border-radius: 5px;
+    padding: 25px 31px 25px 31px;
+    border: #0429B7;
+    margin-left: 327px;
+  
+  }
+  
+  
+  
+  .button-QA:hover {
+    text-decoration: none;
+  }
+  
+  
+  
+  .button-QA > span {
+    width: 265px;
+    height: 21px;
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
     flex: none;
     order: 0;
     flex-grow: 0;
-}
+  }
+  
 
-/* -----------------SS3------------------------------- */
-.screen2-5 .ss3 .text-left{
-    position: absolute;
-    width: 690px;
-    height: 678px;
-    left: 201px;
-    top: 3098px;
-    background: url(/frontend/images/2-7home-penile-1.png);
-}
-
-.screen2-5 .ss3 .text-right .text-1{
-    position: absolute;
-    width: 182px;
-    height: 57px;
-    left: 1031px;
-    top: 3110px;
+  .booking .block-booking > span > a{
+    padding: 25px 31px;
+    background: #0429B7;
+    border-radius: 5px;
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* identical to box height, or 57px */
-    color: #000000;
-}
-
-.screen2-5 .ss3 .text-right .line{
-    position: absolute;
-    width: 109px;
-    height: 0px;
-    left: 1031px;
-    top: 3197px;
-    border: 2px solid #000000;
-}
-
-.screen2-5 .ss3 .text-right .text-2{
-    position: absolute;
-    width: 690px;
-    height: 393px;
-    left: 1031px;
-    top: 3240px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 170%;
-    /* or 37px */
-    text-align: justify;
-    color: #000000;
-}
-
-.screen2-5 .ss3 .text-right .text-2 p{
-    margin-top: 25px;
-}
-
-.screen2-5 .ss3 .text-right .text-2 .last-block{
-    margin-top: 50px;
-    display: block;
-}
-
-
-/* --------------------SS4---------------------------- */
-.screen2-5 .ss4{
-    position: absolute;
-    width: 1920px;
-    height: 674px;
-    left: 0px;
-    top: 3926px;
-    background: rgba(0, 0, 0, 0.4)
-}
-.screen2-5 .ss4 .img{
-    width: 1920px;
-    height: 674px;
-    left: 0px;
-    top: 4009px;
-    z-index: 100;
-    background: rgba(0, 0, 0, 0.4) url(/frontend/images/Rectangle-72.png);
-    background-blend-mode: darken;
-}
-
-.screen2-5 .ss4 .img .text-left .text-1{
-    position: absolute;
-    width: 469px;
-    height: 129px;
-    left: 302px;
-    top: 272px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* or 57px */
-    color: #FFFFFF;
-}
-.screen2-5 .ss4 .img .text-right .text-2{
-    position: absolute;
-    width: 690px;
-    height: 370px;
-    left: 1031px;
-    top: 152px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 170%;
-    z-index: 10;
-    /* or 37px */
-    text-align: justify;
-    color: #FFFFFF;
-}
-/* ------------------------SS5-------------------------- */
-.screen2-5 .ss5 .text-left .text-1{
-    position: absolute;
-    width: 628px;
-    height: 57px;
-    left: 199px;
-    top: 4750px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* or 57px */
-    color: #000000;
-}
-.screen2-5 .ss5 .text-left .line{
-    position: absolute;
-    width: 109px;
-    height: 0px;
-    left: 198px;
-    top: 4841px;
-    border: 2px solid #000000;
-}
-
-.screen2-5 .ss5 .text-left .text-2{
-    position: absolute;
-    width: 690px;
-    height: 526px;
-    left: 203px;
-    top: 4887px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 170%;
-    /* or 37px */
-    text-align: justify;
-    color: #000000;
-}
-
-.screen2-5 .ss5 .text-left .text-2 span {
-    display: block;
-    margin-bottom: 15px;
-}
-
-.screen2-5 .ss5 .text-right{
-    position: absolute;
-    width: 690px;
-    height: 762px;
-    left: 1031px;
-    top: 4750px;
-    background: url(/frontend/images/2-7Rectangle-105.png);
-}
-/* ---------------------SS6----------------------- */
-
-.screen2-5 .ss6 .text-left{
-    position: absolute;
-    width: 690px;
-    height: 762px;
-    left: 199px;
-    top: 5662px;
-    background: url(/frontend/images/Rectangle-106.png);
-}
-.screen2-5 .ss6 .text-right .text-1{
-    position: absolute;
-    width: 462px;
-    height: 57px;
-    left: 984px;
-    top: 5674px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* identical to box height, or 57px */
+    font-size: 32px;
+    line-height: 38px;
     text-align: center;
-    color: #000000;
-}
-
-.screen2-5 .ss6 .text-right .line{
+    color: #FFFFFF;
+    margin-left: 327px;
+    width: 300px;
+  }
+  
+  .chose {
+    width: 100%;
+    background: url(/public/frontend/images/rectangle72a.png);
+    margin: auto;
+    margin-top: 65px;
+    padding-bottom: 38px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  
+  .chose::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #000;
     position: absolute;
-    width: 109px;
-    height: 0px;
-    left: 1025px;
-    top: 5761px;
-    border: 2px solid #000000;
-}
-
-.screen2-5 .ss6 .text-right .text-2{
-    position: absolute;
-    width: 696px;
-    height: 994px;
-    left: 1025px;
-    top: 5816px;
-    font-family: 'WorkSans-Medium';
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+  }
+  
+  .chose .text-bold {
+    color: #FFFFFF;
+    z-index: 1;
+    padding: 300px 92px;
+  }
+  
+  .chose .text-medium {
+    color: #FFFFFF;
+    z-index: 1;
+    padding-top: 150px;
+  }
+  
+  .expression .row {
+    margin-top:100px;
+    margin-right: -14px;
+  
+  }
+  
+  .expression li {
+    margin-left: -10px;
+    margin-bottom: 10px;
+  }
+  
+  .expression .row-2 .right{
+    padding-right: 15px;
+  }
+  
+  .screen2-7 .block-contact {
+    padding: 25px 31px;
+    background: #0429B7;
+    border-radius: 5px;
+    font-family: 'WorkSans-Bold';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 22px;
-    line-height: 170%;
-    /* or 37px */
-    text-align: justify;
-    color: #000000;
-}
-
-.screen2-5 .ss6 .text-right .text-2 p {
-    margin-bottom: 20px;
-}
-
-.screen2-5 .ss6 .text-right .text-2 .title-step {
-    margin-bottom: 75px;
-    margin-top: 75px;
-}
-/* --------------------------ss7------------------------- */
-.screen2-5 .ss7{
-    position: absolute;
-    height: 860px;
-    width: 1920px;
-    left: 3px;
-    top: 6964px;
-    border-radius: 0px;
-}
-.screen2-5 .ss7 .img{
-    position: absolute;
-    height: 860px;
-    width: 1920px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    background: url(/frontend/images/image6.png);
-}
-.screen2-5 .ss7 .text-1{
-    position: absolute;
-    height: 150px;
-    width: 539px;
-    left: 671px;
-    top: 294px;
-    border-radius: nullpx;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 30px;
+  }
+  
+  .banner-container-6 {
+    background-image: url(/public/frontend/images/image1-2-7.png) !important;
+    padding: 16%;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  .banner-container-6 {
+    background-image: url(/public/frontend/images/image1-2-7.png) !important;
+    padding: 16%;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  .banner-text-big-6 {
     font-family: 'WorkSans-Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 128px;
     line-height: 150px;
     color: #FFFFFF;
-}
-.screen2-5 .ss7 .text-2{
-    position: absolute;
-    height: 38px;
-    width: 156px;
-    left: 1051px;
-    top: 464px;
-    border-radius: nullpx;
-    font-family: 'WorkSans-Medium';
+    text-align: end;
+  }
+  .banner-text-under-6 {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    /* identical to box height */
-    /* #0062FF */
-    color: #0062FF;
-}
-.screen2-5 .ss7 .line{
-    position: absolute;
-    height: 0px;
-    width: 156.0000000000006px;
-    left: 1051px;
-    top: 522px;
-    border-radius: nullpx;
-    /* #0062FF */
-    border: 5px solid #0062FF
-}
-/* -------------------------------SS8------------------------------ */
-.screen2-5 .ss8 .text-left .text-1{
-    position: absolute;
-    width: 690px;
-    height: 112px;
-    left: 199px;
-    top: 7974px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* or 57px */
-    color: #000000;
-}
-.screen2-5 .ss8 .text-left .line{
-    position: absolute;
-    width: 109px;
-    height: 0px;
-    left: 199px;
-    top: 8116px;
-    border: 2px solid #000000;
-}
-.screen2-5 .ss8 .text-left .text-2{
-    position: absolute;
-    width: 690px;
-    height: 341px;
-    left: 199px;
-    top: 8166px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 170%;
-    /* or 37px */
-    text-align: justify;
-    color: #000000;
-}
-
-.screen2-5 .ss8 .text-left .text-2 b {
-    margin-bottom: 15px;
-    display: block;
-}
-
-.screen2-5 .ss8 .text-left .text-2 ul {
-    margin-bottom: 15px;
-}
-
-.screen2-5 .ss8 .text-left .btn-contact{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 25px 31px;
-    gap: 10px;
-    position: absolute;
-    height: 76px;
-    width: 291px;
-    left: 198px;
-    top: 8576px;
-    border-radius: 5px;
-    padding: 25px 31px 25px 31px;
-    background: #0429B7;
-    border-radius: 5px;
-}
-.screen2-5 .ss8 .text-left .text-3{
-    height: 26px;
-    width: 229px;
-    left: 31px;
-    top: 25px;
-    border-radius: nullpx;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;
-    /* identical to box height */
-    text-align: right;
     color: #FFFFFF;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.screen2-5 .ss8 .text-right{
-    position: absolute;
-    width: 696px;
-    height: 678px;
-    left: 1025px;
-    top: 7974px;
-    background: url(/frontend/images/2-7Rectangle-140.png);
-}
+    text-align: end;
+  }
+  .main-wrapper-6 {
+    margin-top:100px;
+  }
+  .banner-text-under-6 > a {
+    color: #0062FF;
+  }
+  .under-6 {
+    border: 5px solid #0062FF;
+    width: 141px;
+    margin-right: 0px;
+  }
+  
+  .qa {
+    margin: 100px auto;
+    padding: 0;
+  }
+  
+  .qa .text-medium{
+    margin-top: 28px;
+  }
 
+  .text .text-medium > a{
+    font-family: 'WorkSans-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: right;
+  }
+
+  @media only screen and (max-width: 1800px) {
+    .text-medium {
+    
+        font-size: 20px !important;
+    
+      }
+    
+        
+    
+      .text-bold {
+    
+        font-size: 28px;
+    
+      }
+    }
+    
+    
+    @media only screen and (max-width: 1536px) {
+    
+      .text-medium {
+    
+        font-size: 18px !important;
+    
+      }
+    
+        
+    
+      .text-bold {
+    
+        font-size: 28px;
+    
+      }
+    
+      .screen2-7 .block-contact{
+        font-size: 18px;
+      }
+    
+      .chose .text-bold {
+    
+        padding: 220px 92px;
+    
+      }
+    
+      .screen2-7 .library .text .text-bold {
+        font-size: 120px;
+    }
+    
+      .text-banner .text-bold {
+    
+        font-size: 61px;
+    
+      }
+      .screen2-7 .library .text {
+        width: 94%;
+    }
+    }
+    
+    
+    
+    @media only screen and (max-width: 1397px) {
+    
+      .text-medium {
+    
+        font-size: 14px !important;
+    
+      }
+    
+      .screen2-7 .library .text .text-bold {
+        font-size: 110px;
+    }
+    
+      .text-bold {
+    
+        font-size: 24px;
+    
+      }
+    
+      .text-banner .text-bold {
+    
+        font-size: 59px;
+    
+      }
+    
+      .chose .text-bold {
+    
+        padding: 200px 92px;
+    
+      }
+
+      .screen2-7 .block-contact{
+        font-size: 18px;
+        padding: 20px 20px;
+      }
+    
+    }
+    
+    
+    
+    @media only screen and (max-width: 1229px) {
+    
+      .text-medium {
+    
+        font-size: 14px;
+    
+      }
+    
+      .screen2-7 .library .text .text-bold {
+        font-size: 100px;
+    }
+    
+      .text-bold {
+    
+        font-size: 24px;
+    
+      }
+    
+      .text-banner .text-bold {
+    
+        font-size: 56px;
+    
+      }
+    
+      .chose .text-bold {
+    
+        padding: 126px 92px;
+    
+      }
+    
+      .chose .text-medium {
+    
+        padding-top: 90px;
+    
+      }
+      .screen2-7 .block-contact{
+        font-size: 15px;
+      }
+    }
+    @media only screen and (max-width: 1023px) {
+      .screen2-7 {
+        padding-top: 0px;
+      }
+    }
+  @media only screen and (max-width: 768px) {
+    .text-banner {
+      padding: 60px 15px;
+      margin-left: 0;
+    }
+    .container {
+      width: 100%;
+    }
+    .define .text-medium-1 {
+      width: 100%;
+    }
+  
+    .left {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .right {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .booking .booking-title {
+      margin-left: 15px;
+    }
+    .booking .block-booking {
+      margin-left: 15px;
+    }
+    .chose .text-bold {
+      padding: 30px 0px;
+      width: 70%;
+      line-height: 30px;
+    }
+    .chose .text-medium {
+      padding-top: 0px;
+    }
+    .chose {
+      margin-top: 30px;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+    }
+    .expression .row {
+      margin-top: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .expression .row-2 .right {
+      padding-right: 0px;
+    }
+    .expression-title-2 {
+      margin-top: 30px;
+    }
+    .screen2-7 .library .text {
+      padding: 150px 0;
+    }
+    .screen2-7 .library {
+      background-position: bottom;
+    }
+    .text-banner .text-bold {
+        width: 100%;
+    }
+    .screen2-7 img {
+      width: 100%;
+    }
+    .screen2-7 {
+      padding-top: 0px;
+    }
+    .text-banner .text-bold {
+      font-size: 24px;
+      line-height: inherit;
+    }
+    .text-banner .text-medium {
+      font-size: 10px !important;
+      line-height: inherit;
+    }
+    .banner {
+      background-repeat: no-repeat !important;
+      background-size: cover;
+      background-position: center !important;
+      height: 245px;
+    }
+    .banner .text-medium span {
+      display: block;
+    }
+    .banner .text-bold span {
+      display: block;
+    }
+    .define .define-title, .reason .reason-title {
+      margin-top: 40px;
+  }
+  hr {
+      width: 45px;
+      border: 2px solid #000000;
+      margin: 16px auto;
+  }
+  .text-bold {
+      font-size: 16px;
+  }
+  .define .text-medium-1 {
+      margin-top: 0;
+  }
+  .define  {
+      padding: 0;
+  }
+  .screen3-1 img {
+      padding: 0;
+  }
+  .define .text-medium-1 {
+      margin-top: 0;
+      padding: 0 15px;
+  }
+  .left {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  .booking {
+      margin-top: 30px;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      height: 245px;
+      background: url(/public/frontend/images/image15.png);
+      background-size: cover;
+  }
+  .block-content {
+      margin-top: 44px;
+  }
+  .booking .booking-title {
+    font-size: 12px;
+    padding-top: 65px;
+  }
+  .booking .block-booking {
+    padding: 0px 14px;
+    font-size: 16px;
+    display: inline-block;
+    width: auto;
+  }
+  .reason .text-medium-1 {
+    margin: 0;
+  }
+  .reason ul {
+    margin-top: 14px;
+    padding-left: 0px;
+  }
+  .expression-1 .left {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .expression-1 .right {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .expression-2 .left {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .expression-2 .right {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .expression .row {
+    padding: 0;
+  }
+  .expression .text-bold {
+    margin-top: 35px;
+  }
+  .define .block-content .text-bold {
+    margin-top: 35px;
+  }
+  .expression li {
+    margin-left: -15px;
+  }
+  .expression .text-medium {
+    margin-top: 0;
+  }
+  .expression .row-2 .left {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .expression .row-2 .right {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .screen2-7 .block-contact {
+    width: 92%;
+    display: block;
+    margin: 35px auto;
+  }
+  
+  .main-wrapper-6 {
+    margin-top: 120px;
+  }
+  .qa {
+    margin-top: 29px;
+    margin-bottom: 0px;
+    padding: 0;
+  }
+  .qa .right {
+    margin-top: 30px;
+  }
+  .qa .left {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 45px;
+  }
+  .qa .text-medium {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  .qa .text-bold  {
+    margin-top: 14px;
+    font-size: 14px;
+  }
+  .banner-container-6 {
+    background-image: url(/public/frontend/images/image1-2-7.png) !important;
+    padding: 16%;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+  .banner-text-big-6 {
+    font-weight: 700;
+    font-size: 52.8461px;
+    line-height: 62px;
+  }
+  .banner-text-under-6 {
+    font-weight: 700;
+    font-size: 15.6437px;
+    line-height: 18px;
+  }
+  .banner-text-under-6 > a {
+    color: #0062FF;
+  }
+  .under-6 {
+    border: 2.44432px solid #0062FF;
+    background-color: #0062FF;
+    width: 77px;
+  }
+  .main-wrapper-6 {
+    margin-top: 30px;
+  }
+  .text-banner .text-medium > a{
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .define .define-title .text-1 {
+    width: 70%;
+    margin: auto;
+  }
+  }

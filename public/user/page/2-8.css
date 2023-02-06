@@ -1,285 +1,738 @@
-body{
-    position: relative;
-    width: 1920px;
-    height: 5443px;
-    background: #FFFFFF;
-
+.text-bold {
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  color: #000000;
 }
-.screen2-5{
-    width: 1920px;
-    height: 3474px;
-    background: #FFFFFF;
+.text-medium {
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #000000;
 }
-
-/* --------------------------Seccion 1------------------------------- */
-.screen2-5 .banner{
-    position: absolute; 
-    height: 696px;
-    width: 1920px;
-    left: 0px;
-    top: 210px;
-    border-radius: 0px;
-    background: url(/frontend/images/2-8image-13.png);
+.main-wrapper-banner-library {
+    margin-top: 0px;
 }
-
-.text-medium{
-    position: absolute;
-    left: 10.36%;
-    right: 56.72%;
-    top: 35.78%;
-    bottom: 60.2%;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    color: #FFFFFF;
+.right {
+  padding-right: 0px;
+  padding-left: 53px;
+}
+.body-content {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+  padding-top: 85px;
 }
 
-.text-bold{
-    position: absolute;
-    left: 10.36%;
-    right: 51.88%;
-    top: 42.53%;
-    bottom: 46.7%;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 75px;
-    color: #FFFFFF;
+.main-wrapper {
+  width: 100%;
+  padding-top: 210px;
 }
 
-
-/* --------------------------Seccion 1------------------------------- */
-.screen2-5 .ss1 .text-1{
-    position: absolute;
-    width: 623px;
-    height: 111px;
-    left: 327px;
-    top: 1056px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 150%;
-    /* or 48px */
-    /* #0062FF */
-    color: #0062FF;
+img {
+  max-width: 100%;
 }
 
-.screen2-5 .ss1 .text-2{
-    position: absolute;
-    width: 623px;
-    height: 111px;
-    left: 1099px;
-    top: 1056px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 150%;
-    /* or 48px */
-    /* #0062FF */
-    color: #0062FF;
+.banner {
+  height: 696px;
+  width: 100%;
+  background: url(/public/frontend/images/image2-8-1.png);
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center !important;
+}
+
+.text-banner {
+  padding-top: 242px;
+  margin-left: 199px;
+}
+
+.text-banner .text-medium {
+
+  font-family: 'WorkSans-Bold';
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 24px;
+
+  line-height: 28px;
+
+  color: #FFFFFF;
 
 }
 
-.screen2-5 .line{
-    position: absolute;
-    width: 623px;
-    height: 0px;
-    left: 327px;
-    top: 1230px;
-    border: 1px solid #A0A0A0;
+  
+
+.text-banner .text-bold {
+
+  font-family: 'WorkSans-Bold';
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 64px;
+
+  line-height: 75px;
+
+  color: #FFFFFF;
+
+}
+.content-body {
+  max-width: 1920px;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
 }
 
-.screen2-5 .ss1 .text-3{
-    position: absolute;
-    width: 623px;
-    height: 48px;
-    left: 327px;
-    top: 1253px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 150%;
-    /* identical to box height, or 48px */
-    /* #0062FF */
-    color: #0062FF;
+.content-body>div>div>p {
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #0062FF;
+}
+
+.content-body>div>div>hr {
+  margin-top: 63px;
+  margin-bottom: 63px;
+  border: 1px solid #A0A0A0;
+  width: 80%;
+  margin-left: 0px;
+}
+
+.main-wrapper-2 {
+  margin-top: 150px;
+}
+
+.banner-container-2 {
+  background-image: url(/public/frontend/images/image3-6-2.png) !important;
+  padding: 276px 327px;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center right !important;
+}
+
+.banner-text-big-2 {
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.button-QA {
+  margin-top: 27px;
+  background: #0429B7;
+  border-radius: 5px;
+  padding: 25px 31px 25px 31px;
+  border: #0429B7;
+}
+
+.button-QA:hover {
+  text-decoration: none;
+}
+
+.button-QA>span {
+  width: 265px;
+  height: 21px;
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.banner-container-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/public/frontend/images/image3-6-3.png);
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center right !important;
+}
+
+.banner-container-3>div {
+  width: 80%;
+  margin: auto;
+  padding-top: 152px;
+  padding-bottom: 152px;
+}
+
+.banner-text-big-3 {
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 150%;
+  color: #FFFFFF;
+  padding-top: 7%;
+}
+
+.banner-text-small-3 {
+  font-family: 'WorkSans-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 170%;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.banner-container-4 {
+  background-image: url(/public/frontend/images/image1-2-7.png) !important;
+  padding: 16%;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center right !important;
+}
+
+.banner-text-big-4 {
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 150px;
+  color: #FFFFFF;
+  text-align: end;
+}
+
+.banner-text-under-4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #0062FF;
+  text-align: end;
+}
+
+.under-4 {
+  border: 5px solid #0062FF;
+  width: 141px;
+  margin-right: 0px;
+}
+.banner .text-medium span {
+  display: block;
+}
+.banner .text-bold span {
+  display: block;
+}
+
+.booking {
+  margin-top: 100px;
+  height: 702px;
+  width: 100%;
+  background: url(/public/frontend/images/image15a.png);
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center !important;
 }
 
 
 
-/* --------------------------SS2---------------------------------------------- */
-.screen2-5 .ss2 .img{
-    position: absolute;
-    height: 702px;
-    width: 1920px;
-    left: 0px;
-    top: 1451px;
-    border-radius: 0px;
-    background: url(/frontend/images/image-15.png);
+.booking .booking-title {
+
+  font-family: 'WorkSans-Bold';
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 32px;
+
+  line-height: 38px;
+
+  margin-left: 327px;
+
+  padding-top: 276px;
+
+  color: #FFFFFF;
+
 }
 
-.screen2-5 .ss2 .text-1{
-    position: absolute;
-    left: 17.03%;
-    right: 60.62%;
-    top: 39.32%;
-    bottom: 55.27%;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    /* identical to box height */
-    color: #FFFFFF;
+
+
+.booking .block-booking {
+
+  padding: 25px 31px;
+
+  background: #0429B7;
+
+  border-radius: 5px;
+
+  font-family: 'WorkSans-Bold';
+
+  font-style: normal;
+
+  font-weight: 700;
+
+  font-size: 32px;
+
+  line-height: 38px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+  margin-left: 327px;
+
+  width: 300px;
+
+}
+.chose {
+  width: 100%;
+  background: url(/public/frontend/images/rectangle72a.png);
+  margin: auto;
+  padding-bottom: 38px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center !important;
 }
 
-.screen2-5 .ss2 .btn-tu-van{
-    outline: none;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 25px 31px;
-    gap: 10px;
-    position: absolute;
-    left: 17.03%;
-    right: 67.34%;
-    top: 48.15%;
-    bottom: 39.32%;
-    background: #0429B7;
-    border-radius: 5px;
+
+
+.chose::after{
+
+  content: "";
+
+  width: 100%;
+
+  height: 100%;
+
+  background-color: #000;
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  opacity: 0.6;
+
 }
 
-.screen2-5 .ss2 .btn-tu-van .text-1{
-    width: 238px;
-    height: 38px;
-    height: 38px;
-    width: 238px;
-    left: 31px;
-    top: 25px;
-    border-radius: nullpx;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    /* identical to box height */
+
+
+.chose .text-bold {
+
+  color: #FFFFFF;
+
+  z-index: 1;
+
+  padding: 300px 92px;
+
+}
+
+
+
+.chose .text-medium {
+
+  color: #FFFFFF;
+
+  z-index: 1;
+
+  padding-top: 150px;
+
+}
+.banner-container-6 {
+  background-image: url(/public/frontend/images/image1-2-7.png) !important;
+  padding: 16%;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center !important;
+}
+.banner-container-6 {
+  background-image: url(/public/frontend/images/image1-2-7.png) !important;
+  padding: 16%;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center !important;
+}
+.banner-text-big-6 {
+  font-family: 'WorkSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 150px;
+  color: #FFFFFF;
+  text-align: end;
+}
+.banner-text-under-6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
+  text-align: end;
+}
+.banner-text-under-6 > a {
+  color: #0062FF;
+}
+.under-6 {
+  border: 5px solid #0062FF;
+  width: 141px;
+  margin-right: 0px;
+}
+@media only screen and (max-width: 1536px) {
+  .text-banner .text-bold {
+    font-size: 61px;
+  }
+  .text-bold {
+    font-size: 28px;
+  }
+
+.chose .text-bold {
+  padding: 220px 92px;
+}
+.text-medium {
+
+  font-size: 18px !important;
+
+}
+}
+
+@media only screen and (max-width: 1397px) {
+  .text-banner .text-bold {
+    font-size: 59px;
+  }
+  .chose .text-bold {
+
+    padding: 200px 92px;
+
+  }
+  .text-medium {
+    font-size: 14px !important;
+}
+}
+
+
+
+@media only screen and (max-width: 1229px) {
+  .text-banner .text-bold {
+    font-size: 56px;
+  }
+  .chose .text-bold {
+
+    padding: 126px 92px;
+
+  }
+
+  .chose .text-medium {
+
+    padding-top: 90px;
+
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .body-content {
+    padding-top: 0px;
+  }
+}
+@media only screen and (max-width: 969px) {
+  .banner-container {
+    padding: 20px;
+  }
+
+  .banner-content {
     text-align: center;
-    color: #FFFFFF;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
+  }
 
-/* --------------------SS4---------------------------- */
-.screen2-5 .ss4{
-    position: absolute;
-    width: 1920px;
-    height: 674px;
-    left: 0px;
-    top: 2153px;
-    background: rgba(0, 0, 0, 0.4)
-}
-.screen2-5 .ss4 .img{
-    width: 1920px;
-    height: 674px;
-    left: 0px;
-    top: 4009px;
-    z-index: 100;
-    background: url(/frontend/images/Rectangle-72.png)
-}
+  .banner-text-small {
+    font-size: 16px;
+  }
 
-.screen2-5 .ss4 .img .text-left .text-1{
-    position: absolute;
-    width: 469px;
-    height: 129px;
-    left: 302px;
-    top: 272px;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 150%;
-    /* or 57px */
-    color: #FFFFFF;
-}
-.screen2-5 .ss4 .img .text-right .text-2{
-    position: absolute;
-    width: 690px;
-    height: 370px;
-    left: 1031px;
-    top: 152px;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 170%;
-    z-index: 10;
-    /* or 37px */
-    text-align: justify;
-    color: #FFFFFF;
-}
-
-/* --------------------------ss7------------------------- */
-.screen2-5 .ss7{
-    position: absolute;
-    height: 860px;
-    width: 1920px;
-    left: 0px;
-    top: 2827px;
-    border-radius: 0px;
-}
-.screen2-5 .ss7 .img{
-    position: absolute;
-    height: 860px;
-    width: 1920px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    background: url(/frontend/images/image6.png);
-}
-.screen2-5 .ss7 .text-1{
-    position: absolute;
-    height: 150px;
-    width: 539px;
-    left: 671px;
-    top: 294px;
-    border-radius: nullpx;
-    font-family: 'WorkSans-Bold';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 128px;
-    line-height: 150px;
-    color: #FFFFFF;
-}
-.screen2-5 .ss7 .text-2{
-    position: absolute;
-    height: 38px;
-    width: 156px;
-    left: 1051px;
-    top: 464px;
-    border-radius: nullpx;
-    font-family: 'WorkSans-Medium';
-    font-style: normal;
-    font-weight: 700;
+  .banner-text-big {
     font-size: 32px;
-    line-height: 38px;
-    /* identical to box height */
-    /* #0062FF */
-    color: #0062FF;
+  }
+
+  .banner-content-2 {
+    text-align: center;
+  }
+
+  .banner-container-2 {
+    padding: 20px;
+  }
+
+  .banner-content-3 {
+    text-align: center;
+  }
+
+  .banner-container-3 {
+    padding: 20px;
+  }
+
+
+  .banner-container-4 {
+    padding: 20px;
+  }
+
+  .banner-content-4 {
+    text-align: center;
+  }
+
+  .banner-text-big-4 {
+    font-size: 65px;
+  }
+
+  .main-wrapper {
+    padding-top: 100px;
+  }
 }
-.screen2-5 .ss7 .line{
-    position: absolute;
-    height: 0px;
-    width: 156.0000000000006px;
-    left: 1051px;
-    top: 522px;
-    border-radius: nullpx;
-    /* #0062FF */
-    border: 5px solid #0062FF
+
+/** 768 px mobile*/
+@media only screen and (max-width: 768px) {
+  .banner-container {
+    background-position: center !important;
+    padding: 50px 20px;
+  }
+
+  .banner-content {
+    text-align: left;
+  }
+
+  .banner-text-small {
+    font-size: 10px;
+    line-height: inherit;
+  }
+
+  .banner-text-big {
+    font-size: 24px;
+    line-height: inherit;
+  }
+
+  .banner-container-4 {
+    background-image: url(/public/frontend/images/image1-2-7.png) !important;
+    padding: 16%;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+  }
+
+  .banner-text-big-4 {
+    font-weight: 700;
+    font-size: 52.8461px;
+    line-height: 62px;
+  }
+
+  .banner-text-under-4 {
+    font-weight: 700;
+    font-size: 15.6437px;
+    line-height: 18px;
+  }
+
+  .banner-text-under-4>a {
+    color: #FFFFFF;
+  }
+
+  .under-4 {
+    border: 2.44432px solid #0062FF;
+    background-color: #0062FF;
+    width: 77px;
+  }
+
+  .banner-container-2 {
+    padding: 50px 20px;
+  }
+
+  .banner-content-2 {
+    text-align: left;
+  }
+
+  .banner-content-2>button>span {
+    font-size: 16px;
+  }
+
+  .banner-text-big-2 {
+    font-size: 12px;
+    padding-top: 0;
+  }
+
+  .button-QA {
+    padding: 0px 14px;
+    margin-top: 0;
+  }
+
+  .banner-container-3 {
+    background-position: center !important;
+  }
+
+  .banner-container-3>div {
+    width: auto;
+    padding: 0;
+  }
+
+  .banner-text-big-3 {
+    font-size: 16px;
+    display: block;
+    padding: 0;
+  }
+
+  .banner-text-small-3 {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  /* .content-body>div {
+    display: flex;
+    flex-wrap: wrap;
+  } */
+
+  .content-body {
+    margin-top: 29px;
+  }
+
+  .content-body>div>div {
+    width: 100%;
+  }
+
+  .content-body>div>div>p {
+    font-size: 16px !important;
+    line-height: 24px;
+  }
+
+  .content-body>div>div>hr {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .main-wrapper-2 {
+    margin-top: 40px;
+  }
+  .text-banner .text-bold {
+    font-size: 24px;
+    line-height: inherit;
+  }
+  .text-banner .text-medium {
+    font-size: 10px !important;
+    line-height: inherit;
+  }
+  .banner {
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: center !important;
+    height: 245px;
+  }
+  .banner .text-medium span {
+    display: block;
+  }
+  .banner .text-bold span {
+    display: block;
+  }
+  .booking .booking-title {
+
+    margin-left: 15px;
+
+  }
+
+  .booking .block-booking {
+
+    margin-left: 15px;
+
+  }
+  .booking {
+    margin-top: 30px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 245px;
+    background: url(/public/frontend/images/image15.png);
+    background-size: cover;
 }
+.booking .booking-title {
+  font-size: 12px;
+  padding-top: 65px;
+}
+.booking .block-booking {
+  padding: 0px 14px;
+  font-size: 16px;
+  display: inline-block;
+  width: auto;
+}
+.chose .text-bold {
+  padding: 30px 0px;
+  width: 70%;
+  line-height: 30px;
+}
+
+.chose .text-medium {
+
+  padding-top: 0px;
+
+}
+
+.chose {
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+.banner-container-6 {
+  background-image: url(/public/frontend/images/image1-2-7.png) !important;
+  padding: 16%;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: center !important;
+}
+.banner-text-big-6 {
+  font-weight: 700;
+  font-size: 52.8461px;
+  line-height: 62px;
+}
+.banner-text-under-6 {
+  font-weight: 700;
+  font-size: 15.6437px;
+  line-height: 18px;
+}
+.banner-text-under-6 > a {
+  color: #0062FF;
+}
+.under-6 {
+  border: 2.44432px solid #0062FF;
+  background-color: #0062FF;
+  width: 77px;
+}
+.main-wrapper-6 {
+  margin-top: 0px;
+}
+.body-content {
+  padding-top: 0px;
+}
+.text-banner {
+
+  padding: 60px 15px;
+
+  margin-left: 0;
+
+}
+.chose .text-bold {
+  padding: 30px 0px;
+  width: 70%;
+  line-height: 30px;
+}
+.right {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.text-bold {
+  font-size: 16px;
+}
+.footer .footer-top .contact {
+  margin-top: -35px!important;
+}
+}
+
+.content-body .row{width:83%;margin:auto;}
+.content-body .row div:first-child{width:63%;}
+.content-body .row div:nth-child(2){width:37%;}

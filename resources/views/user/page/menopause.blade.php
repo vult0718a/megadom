@@ -5,7 +5,7 @@
 @endsection
 
 @section('style')
-<link rel="stylesheet" type="text/css" href="/user/page/menopause.css">
+<link rel="stylesheet" type="text/css" href="public/user/page/menopause.css">
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 @endsection
 
@@ -44,7 +44,7 @@
             </div>
             <div class="image-content-part-1">
                 <div>
-                    <img src="/frontend/images/home-penile3-5-2.png" alt="home-penile" width="690px" height="398px">
+                    <img src="/public/frontend/images/home-penile3-5-2.png" alt="home-penile" width="690px" height="398px">
                 </div>
             </div>
         </div>
@@ -133,7 +133,7 @@
             </div>
             <div class="image-content-part-1">
                 <div>
-                    <img src="/frontend/images/rectangle3-5-3.png" alt="home-penile" width="690px" height="948px">
+                    <img src="/public/frontend/images/rectangle3-5-3.png" alt="home-penile" width="690px" height="948px">
                 </div>
             </div>
         </div>
@@ -141,7 +141,7 @@
         <div class="body-content">
             <div class="image-content-part-1">
                 <div>
-                    <img src="/frontend/images/rectangle3-5-4.png" alt="home-penile" width="696px" height="678px">
+                    <img src="/public/frontend/images/rectangle3-5-4.png" alt="home-penile" width="696px" height="678px">
                 </div>
             </div>
             <div class="body-content-4-part-1">

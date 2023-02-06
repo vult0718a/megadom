@@ -29,7 +29,7 @@
             </div>
             <div class="card-body px-0 pb-2">
                 <div class="table-responsive p-0">
-                    <div class="card-body" style="width: 50%">
+                    <div class="card-body">
                         <form method="POST" action="{{ route('admin.store') }}">
                             @csrf
                             <div class="form-group">

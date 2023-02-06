@@ -4,15 +4,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('admins/assets/img/apple-icon.png') }}">
-  <link rel="icon" type="image/png" href="{{ asset('admins/assets/img/favicon.png') }}">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('public/admins/assets/img/apple-icon.png') }}">
+  <link rel="icon" type="image/png" href="{{ asset('public/admins/assets/img/favicon.png') }}">
   @yield('title')
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
-  <link href="{{ asset('admins/assets/css/nucleo-icons.css') }}" rel="stylesheet" />
-  <link href="{{ asset('admins/assets/css/nucleo-svg.css') }}" rel="stylesheet" />
+  <link href="{{ asset('public/admins/assets/css/nucleo-icons.css') }}" rel="stylesheet" />
+  <link href="{{ asset('public/admins/assets/css/nucleo-svg.css') }}" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-  <link id="pagestyle" href="{{ asset('admins/assets/css/material-dashboard.css?v=3.0.4') }}" rel="stylesheet" />
+  <link id="pagestyle" href="{{ asset('public/admins/assets/css/material-dashboard.css?v=3.0.4') }}" rel="stylesheet" />
+  <style>
+    .cke_contents {
+      height: 700px !important;
+    }
+  </style>
   @yield('style')
 </head>
 
@@ -36,21 +42,62 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white @if(Route::is('admin.post') || Route::is('admin.post.create') || Route::is('admin.post.show')) active bg-gradient-primary @endif" href="{{ route('admin.post') }}">
-            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">receipt_long</i>
-            </div>
-            <span class="nav-link-text ms-1">Bài viết</span>
-          </a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link text-white @if(Route::is('admin.contact') || Route::is('admin.contact.show')) active bg-gradient-primary @endif" href="{{ route('admin.contact') }}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">receipt_long</i>
+              <i class="material-icons opacity-10">article</i>
             </div>
             <span class="nav-link-text ms-1">Đặt lịch tư vấn</span>
           </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link text-white @if(Route::is('admin.info') || Route::is('admin.info.show')) active bg-gradient-primary @endif" href="{{ route('admin.info') }}">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">store</i>
+            </div>
+            <span class="nav-link-text ms-1">Thông tin</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white @if(Route::is('admin.category') || Route::is('admin.category.create')) active bg-gradient-primary @endif" href="{{ route('admin.category') }}">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">category</i>
+            </div>
+            <span class="nav-link-text ms-1">Danh mục</span>
+            </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white @if(Route::is('admin.testimonial') || Route::is('admin.testimonial.create')) active bg-gradient-primary @endif" href="{{ route('admin.testimonial') }}">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">image</i>
+            </div>
+            <span class="nav-link-text ms-1">Lời chứng thực</span>
+            </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white @if(Route::is('admin.image_video') || Route::is('admin.image_video.create')) active bg-gradient-primary @endif" href="{{ route('admin.image_video') }}">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">image</i>
+            </div>
+            <span class="nav-link-text ms-1">Thư viện hình ảnh</span>
+            </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white @if(Route::is('admin.post') || Route::is('admin.post.create') || Route::is('admin.post.show')) active bg-gradient-primary @endif" href="{{ route('admin.post') }}">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">receipt_long</i>
+            </div>
+            <span class="nav-link-text ms-1">Tin tức</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white @if(Route::is('admin.newspaper') || Route::is('admin.newspaper.create') || Route::is('admin.newspaper.show')) active bg-gradient-primary @endif" href="{{ route('admin.newspaper') }}">
+            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="material-icons opacity-10">receipt_long</i>
+            </div>
+            <span class="nav-link-text ms-1">Báo chí về Megadom</span>
+          </a>
+        </li>
+      
       </ul>
     </div>
   </aside>
@@ -216,10 +263,10 @@
   </div>
 
   <!--   Core JS Files   -->
-  <script src="{{ asset('admins/assets/js/core/popper.min.js') }}"></script>
-  <script src="{{ asset('admins/assets/js/core/bootstrap.min.js') }}"></script>
-  <script src="{{ asset('admins/assets/js/plugins/perfect-scrollbar.min.js') }}"></script>
-  <script src="{{ asset('admins/assets/js/plugins/smooth-scrollbar.min.js') }}"></script>
+  <script src="{{ asset('public/admins/assets/js/core/popper.min.js') }}"></script>
+  <script src="{{ asset('public/admins/assets/js/core/bootstrap.min.js') }}"></script>
+  <script src="{{ asset('public/admins/assets/js/plugins/perfect-scrollbar.min.js') }}"></script>
+  <script src="{{ asset('public/admins/assets/js/plugins/smooth-scrollbar.min.js') }}"></script>
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
@@ -230,7 +277,8 @@
     }
   </script>
   <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <script src="{{ asset('admins/assets/js/material-dashboard.min.js?v=3.0.4') }}"></script>
+  <script src="{{ asset('public/admins/assets/js/material-dashboard.min.js?v=3.0.4') }}"></script>
+  <script src="{{ asset('public/ckeditor/ckeditor.js') }}"></script>
   @yield('script')
 </body>
 

@@ -63,7 +63,7 @@ class ContactController extends Controller
         $data = $request->all();
         Contact::create($data);
 
-        return redirect()->route('lien_he');
+        return redirect()->route('success');
     }
 
     /**

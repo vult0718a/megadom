@@ -5,7 +5,7 @@
 @endsection
 
 @section('style')
-<link rel="stylesheet" type="text/css" href="/user/page/erectile_dysfunction.css">
+<link rel="stylesheet" type="text/css" href="public/user/page/erectile_dysfunction.css">
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 @endsection
 
@@ -44,7 +44,7 @@
             </div>
             <div class="image-content-part-1">
                 <div>
-                    <img src="/frontend/images/home-penile3-4-2.png" alt="home-penile" width="690px" height="381px">
+                    <img src="/public/frontend/images/home-penile3-4-2.png" alt="home-penile" width="690px" height="381px">
                 </div>
             </div>
         </div>
@@ -120,7 +120,7 @@
             </div>
             <div class="image-content-part-1">
                 <div>
-                    <img src="/frontend/images/rectangle105-3-4-3.png" alt="home-penile" width="690px" height="833px">
+                    <img src="/public/frontend/images/rectangle105-3-4-3.png" alt="home-penile" width="690px" height="833px">
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@
         <div class="body-content">
             <div class="image-content-part-1">
                 <div>
-                    <img src="/frontend/images/rectangle105-3-4-4.png" alt="home-penile" width="696px" height="678px">
+                    <img src="/public/frontend/images/rectangle105-3-4-4.png" alt="home-penile" width="696px" height="678px">
                 </div>
             </div>
             <div class="body-content-4-part-1">
